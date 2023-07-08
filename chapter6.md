@@ -149,3 +149,11 @@ _If you cared about your partner, whether it be:_
 Then the payoffs and outcome could be different, affecting the results.
 
 **Conclusion:** Even though an average of 90 each is the better outcome for both people it cannot be achieved by rational play.
+
+### A Related Story: The Prisoner's Dilemma
+Figure 6.2. Prisoner's Dilema
+|         |                | **Suspect 2** |        |
+|---------|----------------|------------------|--------|
+|         |                | _NC_   | _C_ |
+| **Suspect 1** | _NC_ | -1,-1            | -10,0  |
+|         | _C_         | 0,-10            | -4,-4  |
