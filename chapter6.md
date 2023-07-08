@@ -32,7 +32,6 @@ Players: set of participants
 # Python
 players = {"You","Your partner"}
 ```
-
 For each player, they have options on how to behave (strategies)
 ```mermaid
 graph TD;
@@ -56,7 +55,6 @@ graph LR;
     Prepare_for_presentation -->Exam:80
     Exam:80 -->|you_+_partner| Average:90
     Presentation:100 -->|you_+_partner| Average:90
-
     Study_for_exam --> Exam:92
     Study_for_exam. -.-> Exam:92
     Study_for_exam --> Presentation:84
