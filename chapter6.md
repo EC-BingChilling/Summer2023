@@ -42,7 +42,7 @@ graph TD;
 **For each choice of strategies, each player recieves a payoff that can depend on the strategies selected by everyone**
 ###### a less brain intensive way to look at the 2x2 table (for me at least), also chapter had these numbers p141:
 
-Results of both studying for the exam or both preparing the presentation:
+_Results of both studying for the exam or both preparing the presentation:_
 ```mermaid
 graph LR;
     You -.-> Prepare_for_presentation.;
@@ -63,7 +63,7 @@ graph LR;
     Presentation:84 -->|you_+_partner| Average:88
 ```
 
-One person studies for the exam while the other prepares for the presentation:
+_One person studies for the exam while the other prepares for the presentation:_
 ```mermaid
 graph LR;
     You -.-> Prepare_for_presentation;
@@ -94,7 +94,7 @@ Assumptions:
 
 Players aren't required to only care about personal rewards. They can also be altruistic and think about both their own and their partner's benefit. 
 
-Suppose that each individual chooses a trategy to maximize their own payoff given her beliefs about the strategy used by the other player.
+Suppose that each individual chooses a strategy to maximize their own payoff given her beliefs about the strategy used by the other player.
 
 Rationality:
 - each player wants to maximize their own payoff
@@ -105,3 +105,47 @@ In simple settings or with experienced players, the strategy seems reasonable. W
 ###### This section reminded me of a series of youtube videos i watched with blobs. 
 ###### [Simulating the Evolution of Aggression - Primer](https://youtu.be/YNMkADpvO4w)
 ###### The author talked about the choices the blobs made, the impacts and how the changes affect the overall simulation. They had a choice of either being altruistic or consuming more balls to lengthen their survival. 
+
+### Reasoning about Behavior in the Exam-or-Presentation Game
+
+_If you knew your partner was going to study for the exam:_
+```mermaid
+graph LR;
+    You -.-> Study
+    Study -.-> You_Average:88
+    You -.-> Prepare_for_presentation
+    Prepare_for_presentation -.-> You_Average:86
+    Partner --> Study.
+```
+In this case, you should study for the exam.
+
+_If you knew your partner was going to prepare for the presentation:_
+
+```mermaid
+graph LR;
+    You -.-> Study
+    Study -.-> You_Average:92
+    You -.-> Prepare_for_presentation
+    Prepare_for_presentation -.-> You_Average:90
+    Partner --> Prepare_for_presentation.
+``````
+In this case, you should also study for the exam.
+
+_If we assume that you and your player only care about maximizing your own grades:_   
+Therefore, no matter what your partner does, you should study for the exam.
+
+You have a strategy that is strictly better than all other options regardless of what the other player does, we refer to this as a _strictly dominant strategy_.
+
+We should expect that this player would definitely play this strategy if it is strictly dominant. 
+
+However, if you and your partner could somehow agree that you would both prepare for the presentation, you would each get an average grade of 90 so you would be better off.
+
+This can't be achieved by rational play since each person would still have an incentive to study for the exam to get a boost to 92 because the other person is doing the presentation.
+
+_If you cared about your partner, whether it be:_
+- angry partner for not contributing
+- you cared about their grade
+
+Then the payoffs and outcome could be different, affecting the results.
+
+**Conclusion:** Even though an average of 90 each is the better outcome for both people it cannot be achieved by rational play.
