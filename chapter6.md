@@ -86,7 +86,7 @@ As part of your decision, you have to think about what your partner is likely to
 Description of a game consists of players, strategies and payoffs.
 
 A player's behavior is determined by their strategy selection
-
+### Underlying Assumptions
 Assumptions:
 - Players' preferences are summarized in their payoffs
 - Each player knows the game's structure, including strategies available to others and their payoffs
@@ -102,9 +102,6 @@ Rationality:
 
 In simple settings or with experienced players, the strategy seems reasonable. With complex games or with inexperienced players, it is less reasonable. 
 
-----------
-Playoffs provide a complete description of each player's evaluation of game outcomes.
-
-Rationality combines the ideas of maximizing individual payoff and selecting the best strategy. 
-
-Rationality in simple games or for experienced players is reasonable and unreasonable in complex games or for inexperienced players. 
+###### This section reminded me of a series of youtube videos i watched with blobs. 
+###### [Simulating the Evolution of Aggression - Primer](https://youtu.be/YNMkADpvO4w)
+###### The author talked about the choices the blobs made, the impacts and how the changes affect the overall simulation. They had a choice of either being altruistic or consuming more balls to lengthen their survival. 
