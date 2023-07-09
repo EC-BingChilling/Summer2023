@@ -157,3 +157,4 @@ Figure 6.2. Prisoner's Dilema
 |         |                | _NC_   | _C_ |
 | **Suspect 1** | _NC_ | -1,-1            | -10,0  |
 |         | _C_         | 0,-10            | -4,-4  |
+
