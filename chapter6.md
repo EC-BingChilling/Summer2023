@@ -184,3 +184,26 @@ graph LR;
     Suspect_2 --> Confess
     Confess -->|Suspect1_+_Suspect2| 4y
 ```
+
+Suspect_1's reasoning for their options:
+```mermaid
+graph LR;
+Suspect_2 --> Confess.
+Suspect_1 -.-> Confess --> 4y
+Suspect_1 -.-> Don't_Confess --> 10y
+```
+
+```mermaid
+graph LR;
+Suspect_2 --> Don't_Confess.
+Suspect_1 -.-> Confess --> 0y
+Suspect_1 -.-> Don't_Confess --> 1y
+```
+
+The dominant strategy here is to confess regardless of what the other player chooses.
+
+Therefore we should expect both suspects to confess, with a payoff of being convicted for 4 years each. 
+
+This is another outcome where the suspects know the option that is the best for both of them (not confessing for both) but under rational play there's no way for them to achieve this outcome. They end up with an outcome that is worse for both of them. 
+
+Like the exam or presentation example, the payoffs reflect everything and if the suspects threaten each other for confessing and make confessing a less desirable choice this would affect the payoffs and the outcome. 
