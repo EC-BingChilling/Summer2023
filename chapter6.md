@@ -158,3 +158,29 @@ Figure 6.2. Prisoner's Dilema
 | **Suspect 1** | _NC_ | -1,-1            | -10,0  |
 |         | _C_         | 0,-10            | -4,-4  |
 
+Default: Both can be charged with that lesser crime and carry a 1 year sentence
+```mermaid
+graph LR;
+    Suspect_1 -.-> Don't_Confess
+    Suspect_2 --> Don't_Confess
+    Don't_Confess -->|Suspect1_+_Suspect2| 1y
+```
+
+If one person confesses and the other doesn't the one that doesn't will be charged and convicted for 10 years
+
+```mermaid
+graph LR;
+    Suspect_1 -.-> Confess
+    Suspect_2 --> Don't_Confess
+    Confess -.-> Suspect1_0y
+    Don't_Confess --> Suspect2_10y
+```
+
+Both confess means each will be charged with 4 years
+
+```mermaid
+graph LR;
+    Suspect_1 -.-> Confess
+    Suspect_2 --> Confess
+    Confess -->|Suspect1_+_Suspect2| 4y
+```
