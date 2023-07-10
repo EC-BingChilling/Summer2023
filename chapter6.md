@@ -98,7 +98,7 @@ Suppose that each individual chooses a strategy to maximize their own payoff giv
 
 Rationality:
 - each player wants to maximize their own payoff
-- each player actually succeds in selecting the optimal strategy
+- each player actually succeeds in selecting the optimal strategy
 
 In simple settings or with experienced players, the strategy seems reasonable. With complex games or with inexperienced players, it is less reasonable. 
 
