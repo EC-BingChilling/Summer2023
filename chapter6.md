@@ -218,3 +218,6 @@ Figure 6.3 Performance-enhancing drugs
 |         |                | Don't Use Drugs   | Use Drugs |
 | **Athlete 1** | Don't Use Drugs | 3,3            | 1,4  |
 |         | Use Drugs         | 4,1            | 2,2  |
+
+_arms races_ : Situations where two competitors use an increasingly dangerous arsenal of weapons to remain evenly matched
+
