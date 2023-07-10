@@ -241,3 +241,9 @@ Figure 6.4 Exam or Presentation with an easier Exam
 |         | Exam         | 96,94            | 92,92  |
 
 With these new payoffs, preparing for the presentation will be the dominant strategy so we can expect both players to play this strategy and both benefit from this decision. The downsides of the previous scenarios no longer appear. 
+
+## Best Responses and Dominant Strategies
+
+Previous Fundimental Concepts:
+- best response: best choice of one player, given what the other player will do
+
