@@ -221,3 +221,8 @@ Figure 6.3 Performance-enhancing drugs
 
 _arms races_ : Situations where two competitors use an increasingly dangerous arsenal of weapons to remain evenly matched
 
+```mermaid
+graph TD;
+    You -.-> Use_Drugs -.-> Advantage_in_competition,but_Long_Term_Harm
+    Opponent --> Doesn't_Use_Drugs
+```
