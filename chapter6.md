@@ -207,3 +207,14 @@ Therefore we should expect both suspects to confess, with a payoff of being conv
 This is another outcome where the suspects know the option that is the best for both of them (not confessing for both) but under rational play there's no way for them to achieve this outcome. They end up with an outcome that is worse for both of them. 
 
 Like the exam or presentation example, the payoffs reflect everything and if the suspects threaten each other for confessing and make confessing a less desirable choice this would affect the payoffs and the outcome. 
+
+### Interpretations of the Prisoner's Dilema
+
+The Prisoner's Dilema has been used for many real world situations.
+
+Figure 6.3 Performance-enhancing drugs
+|         |                | **Athlete 2** |        |
+|---------|----------------|------------------|--------|
+|         |                | Don't Use Drugs   | Use Drugs |
+| **Athlete 1** | Don't Use Drugs | 3,3            | 1,4  |
+|         | Use Drugs         | 4,1            | 2,2  |
