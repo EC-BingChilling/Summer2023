@@ -226,3 +226,17 @@ graph TD;
     You -.-> Use_Drugs -.-> Advantage_in_competition,but_Long_Term_Harm
     Opponent --> Doesn't_Use_Drugs
 ```
+
+Looking at the table, the best outcome is to use drugs when your opponent doesn't to maximize your chances of winning
+
+Simple changes to a game can change the format from Prisoner's Dilema to something more benign
+- Referring back to the exam or presentation game, we keep everything the exact same but the exam be much easier so 100 if you study and 96 if you don't, then the payoff matrix becomes:
+
+Figure 6.4 Exam or Presentation with an easier Exam
+
+|         |                | **Your Partner** |        |
+|---------|----------------|------------------|--------|
+|         |                | Presentation   | Exam |
+| **You** | Presentation | 98,98            | 94,96  |
+|         | Exam         | 96,94            | 92,92  |
+
