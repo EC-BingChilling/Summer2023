@@ -257,5 +257,9 @@ _P<sub>1</sub>(S,T)_ : Payoff to player 1 as a result of combo of strategies (S,
 
 _P<sub>2</sub>(S,T)_ : Payoff to player 2 as a result of combo of strategies (S,T)
 
+_S'_ : For all other strategies of player 1
+
 _P<sub>1</sub>(S,T) &ge; P<sub>1</sub>(S',T)_ : a strategy S for Player 1 is a best response to a strategy T for Player 2 if S
 produces at least as good a payoff as any other strategy paired with T
+
+There is also a symmetric definition for player 2
