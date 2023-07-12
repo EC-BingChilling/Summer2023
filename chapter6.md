@@ -244,8 +244,9 @@ With these new payoffs, preparing for the presentation will be the dominant stra
 
 ## Best Responses and Dominant Strategies
 
-Previous Fundimental Concepts:
-- best response: best choice of one player, given what the other player will do
+Previous Fundimental Concepts:  
+**Concept 1**  
+- Best response: best choice of one player, given what the other player will do
 
 _S_ : When player 1 chooses a strategy  
 
@@ -262,4 +263,27 @@ _S'_ : For all other strategies of player 1
 _P<sub>1</sub>(S,T) &ge; P<sub>1</sub>(S',T)_ : a strategy S for Player 1 is a best response to a strategy T for Player 2 if S
 produces at least as good a payoff as any other strategy paired with T
 
-There is also a symmetric definition for player 2
+###### There is also a symmetric definition for player 2
+
+Multiple best responses: 
+- Player 1 may have multiple strategies that can be considered as best responses to player 2's strategy denoted as T
+- These strategies may have the same papyoff, making it difficult to predict which one Player 1 will choose
+
+Therefore, to address the ambiguity of multiple best responses, we introduce...
+
+_Strict Best Response_
+- Used to identify a strategy that is uniquely the best choice for a player when facing a specific strategy from their opponent
+
+If player 1's S produces a higher payoff than any other strategy paired with T then it is the uniquely best response
+
+_P<sub>1</sub>(S,T) &ge; P<sub>1</sub>(S',T)_
+
+**Concept 2**  
+- Strictly Dominant Strategy
+
+Player 1  
+_Dominant Strategy_ : a best response to every strategy of Player 2 (Refer to Figure 6.1. Exam or presentation?)
+
+_Strictly Dominant Strategy_ : strict best response for every strategy of Player 2 (Refer to Figure 6.4 Exam or Presentation with an easier Exam)
+
+We can expect player 1 to use a strict dominant strategy if they have that available since dominant strategies depend more on the opponent. 
