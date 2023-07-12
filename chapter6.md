@@ -247,3 +247,15 @@ With these new payoffs, preparing for the presentation will be the dominant stra
 Previous Fundimental Concepts:
 - best response: best choice of one player, given what the other player will do
 
+S: When player 1 chooses a strategy  
+
+T: When player 2 chooses a strategy  
+
+(S,T): Payoff matrix, a table that shows the outcomes for each combination of strategies  
+
+P<sub>1</sub>(S,T): Payoff to player 1 as a result of combo of strategies (S,T)
+
+P<sub>2</sub>(S,T): Payoff to player 2 as a result of combo of strategies (S,T)
+
+P<sub>1</sub>(S,T) &ge; P<sub>1</sub>(S',T): a strategy S for Player 1 is a best response to a strategy T for Player 2 if S
+produces at least as good a payoff as any other strategy paired with T
