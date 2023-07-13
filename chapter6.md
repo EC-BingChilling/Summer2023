@@ -313,9 +313,11 @@ figure 6.5 marketing startegy
 ## Nash Equilibrium
 
 **What Is Nash Equilibrium**
+
 The whole point of Nash Equilibrium is for both of the sides to be at some point of equlaity. Meaning if i pick an option that is best for me your pick should be the best answer for you but for me at the same time 
 
 **Example: The Three Client Game.**
+
 In the three client game we are to assume that there are two firms that want to do business with one of the three clients, A, B, and C. The firms choices are as follows 
 
 - If both firms pick the same client the payout is cut in half 
@@ -336,9 +338,11 @@ The best action for Firm 1 is to choose the same client as Firm 2 but if Firm 1 
 ## Multiple Equilibria: Coordination Game
 
 **Troubling Thought** 
+
 There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be dont next.
 
 **A Coordination Game**
+
 The situation of this game is that you and a partner are making a project and you dont know how you should make the presentation. You both only have two choices one being Powerpoint and the other being Keynote. The reason for it being called the coodination game is because you and your partner have the same objective which is to pick the same software. 
 
 figure 6.8 unbalanced coordination game 
@@ -350,7 +354,9 @@ figure 6.8 unbalanced coordination game
 |         | Keynote        | 0,0              | 2,2    |
 
 **variations of the Basic Coordination game**
-There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
+
+- There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. 
+- For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
 
 ###### I tried to use a different example instead of the one in the writing.
 
@@ -362,7 +368,8 @@ figure of my own inturpritation of the Battle of Sexes
 | **You** | oranges        | 2,1              | 0,0    |
 |         | grapes         | 0,0              | 1,2    |
 
-The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
+- The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. 
+- This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
 
 figure 6.10 Stag hunt game
 
@@ -379,7 +386,8 @@ In the stag hunt game both hunters wont have a lower payoff. In this case its on
 ## Multiple Equailibria: The Hawk Dove game 
 
 **Hawk Dove**
-In the hawk dove game we are to assume that two animals are thinking of how to split their food. There are two options one is to act like a hawk which is to be aggresive and the other is to be a dove and be passive. The payoffs are as follows 
+
+In the hawk dove game we are to assume that two animals are thinking of how to split their food. There are two options one is to act like a hawk which is to be aggresive and the other is to be a dove and be passive. The payoffs are as follows: 
 - If animal 1 picks hawk and the animal 2 picks dove animal 1's food payoff would be 5 to 1 and vise versa
 - If animal 1 picks dove and so does animal 2 they payoff is 3 to 3
 - If both animals pick hawk the payoff is 0 to 0 with a posibility of becoming injured which is the pick with the most risk
@@ -394,15 +402,18 @@ figure 6.12 Hawk-Dove game
 
 
 **After note**
-There are two points of nash equilibria one being Dove,Hawk and the other being Hawk,Dove. Most of the time one side is going to pick to be agressive while the other tries to find a way to be passive. 
+
+There are two points of nash equilibria one being Dove,Hawk and the other being Hawk,Dove. In most cases one side is going to pick to be agressive while the other tries to find a way to be passive. 
 ###### this can even be seen in TV shows where one side wants peace while the other wants war. 
 
 ## Mixed strategies 
+
 ###### this is  what I was waiting for when they over lap
 
 In mixed startegies there can be cases where nash equilibria does not exist. When you allow randomization to be allowed then there is going to be a form of equalibria that can be found according to John Nash's main results. 
 
 **Matching Pennies**
+
 The matching pennies game is played by 2 players. Each player recieves one penny. Then they are to pick what their penny will land on (HEads or tails). 
 - Player 1 loses their penny to Player 2 if they match 
 - Player 1 wins Player 2's penny if they dont match
@@ -419,13 +430,18 @@ Figure 6.14 Matching Pennies game
 The way in which the matching pennies game is played it is also a zero sum game which is when one of the players sums becomes 0 after each turn. 
 
 **Mixed Strategies Payoffs**
-In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: (-1)(q)+(1)(1-q) = 1-2q. 
-For the case that player 1 plays a full T strategy the payoff is: (1)(q)+(-1)(1-q) = 2q-1 
+
+In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
+- (-1)(q)+(1)(1-q) = 1-2q. 
+For the case that player 1 plays a full T strategy the payoff is: 
+- (1)(q)+(-1)(1-q) = 2q-1 
 The q stand for the choice of player 2 meaning it can be 1 or 0 (1 and 0 reffering to heads and tails). In the end -1 results in a lose and 1 resulting in a win. 
 
 **Equilibrium With Mixed Strategies**
 
-Games with probablilities that are not equal to eachother can not reach an equilibrium. To make the Matching Pennies game (1-2q = 2p-1) be equal you would need to have q = 1/2. Which is impossible for the game considering your only imputs are 1 or 0. Meaning matching pennies is not a Nash Equalilbrium 
+- Games with probablilities that are not equal to eachother can not reach an equilibrium. 
+- To make the Matching Pennies game (1-2q = 2p-1) be equal you would need to have q = 1/2. 
+- Which is impossible for the game considering your only imputs are 1 or 0. Meaning matching pennies is not a Nash Equalilbrium 
 
 **Interpreting the Mixed strategy Equilibrium for Match Pennies**
 
