@@ -445,4 +445,5 @@ The q stand for the choice of player 2 meaning it can be 1 or 0 (1 and 0 refferi
 
 **Interpreting the Mixed strategy Equilibrium for Match Pennies**
 
-In a way all games can be turned into a form of a Mixed strategy game. Just because there is a way to have an equilibria does not mean all participants are working to reach that equalibria. More often than not when meeting a new person/ player they are going to play for them and not for equilibria 
+- In a way all games can be turned into a form of a Mixed strategy game. Just because there is a way to have an equilibria does not mean all participants are working to reach that equalibria. 
+- More often than not when meeting a new person/ player they are going to play for them and not for equilibria 
