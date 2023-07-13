@@ -287,3 +287,68 @@ _Dominant Strategy_ : a best response to every strategy of Player 2 (Refer to Fi
 _Strictly Dominant Strategy_ : strict best response for every strategy of Player 2 (Refer to Figure 6.4 Exam or Presentation with an easier Exam)
 
 We can expect player 1 to use a strict dominant strategy if they have that available since dominant strategies depend more on the opponent. 
+
+## Nash Equilibrium
+
+**What Is Nash Equilibrium**
+The whole point of Nash Equilibrium is for both of the sides to be at some point of equlaity. Meaning if i pick an option that is best for me your pick should be the best answer for you but for me at the same time 
+
+**Example: The Three Client Game.**
+In the three client game we are to assume that there are two firms that want to do business with one of the three clients, A, B, and C. The firms choices are as follows 
+
+- If both firms pick the same client the payout is cut in half 
+- If firm 1 does not pick the same client as firm 2 firm 1 does not get anything because it is a smaller firm
+- If firm 2 picks client B or C alone they will recieve all of the money but if they pick A alone they will not recieve anything because client A is only willing to work with both firms 
+
+Figure 6.6 Three Client Game
+|              |         |**Firm 2**|        |       |
+|              |         | **A**    |  **B** |**C**  |
+|--------------|---------|----------|--------|-------|
+|              |**A**    | 4,4      | 0,2    | 0,2   |
+|  **Firm 1**  |**B**    | 0,0      | 1,1    | 0,2   |
+|              |**C**    | 0,0      | 0,2    | 1,1   |
+
+The best action for Firm 1 is to choose the same client as Firm 2 but if Firm 1 and 2 both choose A then they have the biggest payoff. The whole point is to try and play to the best of both sides. Choosing B or C would not make any sense because Firm 2 would earn less. So playing towards making more they could pick Firm A.
+
+## Multiple Equilibria: Coordination Game
+
+**Troubling Thought** 
+There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be dont next.
+
+**A Coordination Game**
+The situation of this game is that you and a partner are making a project and you dont know how you should make the presentation. You both only have two choices one being Powerpoint and the other being Keynote. The reason for it being called the coodination game is because you and your partner have the same objective which is to pick the same software. 
+
+figure 6.8 unbalanced coordination game 
+|         |                | **Your Partner** |        |
+|---------|----------------|------------------|--------|
+|         |                | Powerpoint       | Keynote|
+| **You** | Powerpoint     | 1,1              | 0,0    |
+|         | Keynote        | 0,0              | 2,2    |
+
+**variations of the Basic Coordination game**
+There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
+
+##### I tried to use a different example instead of the one in the writing.
+
+figure of my own inturpritation of the Battle of Sexes
+|         |                | **Your Partner** |        |
+|---------|----------------|------------------|--------|
+|         |                | oranges          | grapes |
+| **You** | oranges        | 2,1              | 0,0    |
+|         | grapes         | 0,0              | 1,2    |
+
+The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
+
+figure 6.10 Stag hunt game
+|              |                | **hunter 2**     |         |
+|--------------|----------------|------------------|---------|
+|              |                | hunt stag        |hunt hare|
+| **Hunter 1** | hunt stag      | 4,4              | 0,3     |
+|              | hunt hare      | 3,0              | 3,3     |
+
+In the stag hunt game both hunters wont have a lower payoff. In this case its only one. But what if there were more animals to hunt? How would the situation vary say there was an animal that needed 3 hunters to take down? That can happen to any of these coordinate games. There could be more options where the rewards are more risky but have a bigger payoff. 
+
+##### me questioning and trying to figure out a way to mess things up
+
+## Multiple Equailibria: The Hawk Dove game 
+
