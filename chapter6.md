@@ -295,6 +295,7 @@ We can expect player 1 to use a strict dominant strategy if they have that avail
 |------------|-------------|---------------|-----------|
 |            |**Low price**| .48, .12      | .60, .40  |
 |  **Firm 1**|**Upscale**  | .40, .60      | .32, .08  | 
+
  figure 6.5 marketing startegy 
 
  - Assume people who only buy low priced items and people who only buy upscale items can be clearly devided 
@@ -320,6 +321,7 @@ In the three client game we are to assume that there are two firms that want to 
 - If firm 2 picks client B or C alone they will recieve all of the money but if they pick A alone they will not recieve anything because client A is only willing to work with both firms 
 
 Figure 6.6 Three Client Game
+
 |              |         |**Firm 2**|        |       |
 |              |         | **A**    |  **B** |**C**  |
 |--------------|---------|----------|--------|-------|
@@ -338,6 +340,7 @@ There can be scenarios where there is more than one point of equilibrium. Which 
 The situation of this game is that you and a partner are making a project and you dont know how you should make the presentation. You both only have two choices one being Powerpoint and the other being Keynote. The reason for it being called the coodination game is because you and your partner have the same objective which is to pick the same software. 
 
 figure 6.8 unbalanced coordination game 
+
 |         |                | **Your Partner** |        |
 |---------|----------------|------------------|--------|
 |         |                | Powerpoint       | Keynote|
@@ -347,9 +350,10 @@ figure 6.8 unbalanced coordination game
 **variations of the Basic Coordination game**
 There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
 
-##### I tried to use a different example instead of the one in the writing.
+###### I tried to use a different example instead of the one in the writing.
 
 figure of my own inturpritation of the Battle of Sexes
+
 |         |                | **Your Partner** |        |
 |---------|----------------|------------------|--------|
 |         |                | oranges          | grapes |
@@ -359,6 +363,7 @@ figure of my own inturpritation of the Battle of Sexes
 The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
 
 figure 6.10 Stag hunt game
+
 |              |                | **hunter 2**     |         |
 |--------------|----------------|------------------|---------|
 |              |                | hunt stag        |hunt hare|
@@ -367,7 +372,7 @@ figure 6.10 Stag hunt game
 
 In the stag hunt game both hunters wont have a lower payoff. In this case its only one. But what if there were more animals to hunt? How would the situation vary say there was an animal that needed 3 hunters to take down? That can happen to any of these coordinate games. There could be more options where the rewards are more risky but have a bigger payoff. 
 
-##### me questioning and trying to figure out a way to mess things up
+###### me questioning and trying to figure out a way to mess things up
 
 ## Multiple Equailibria: The Hawk Dove game 
 
@@ -382,14 +387,15 @@ In the hawk dove game we are to assume that two animals are thinking of how to s
 |            |     | D            | H      |
 |**Animal 1**| D   | 3,3          | 1,5    |
 |            | H   | 5,1          | 0,0    |
-fighure 6.12 Hawk-Dove game
+
+figure 6.12 Hawk-Dove game
 
 **After note**
 There are two points of nash equilibria one being Dove,Hawk and the other being Hawk,Dove. Most of the time one side is going to pick to be agressive while the other tries to find a way to be passive. 
-##### this can even be seen in TV shows where one side wants peace while the other wants war. 
+###### this can even be seen in TV shows where one side wants peace while the other wants war. 
 
 ## Mixed strategies 
-##### this is  what I was waiting for when they over lap
+###### this is  what I was waiting for when they over lap
 
 In mixed startegies there can be cases where nash equilibria does not exist. When you allow randomization to be allowed then there is going to be a form of equalibria that can be found according to John Nash's main results. 
 
