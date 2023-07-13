@@ -290,13 +290,15 @@ We can expect player 1 to use a strict dominant strategy if they have that avail
 
 ### A game which only One player Has a strictly Dominate Strategy
 
+figure 6.5 marketing startegy 
+
 |            |             |**Firm 2**     |           |
-|            |             | **low priced**|**Upscale**| 
 |------------|-------------|---------------|-----------|
+|            |             | **low priced**|**Upscale**| 
 |            |**Low price**| .48, .12      | .60, .40  |
 |  **Firm 1**|**Upscale**  | .40, .60      | .32, .08  | 
 
- figure 6.5 marketing startegy 
+
 
  - Assume people who only buy low priced items and people who only buy upscale items can be clearly devided 
  - People who prefer low priced versions account for 60% of the population and upscale for 40% population
@@ -323,8 +325,8 @@ In the three client game we are to assume that there are two firms that want to 
 Figure 6.6 Three Client Game
 
 |              |         |**Firm 2**|        |       |
-|              |         | **A**    |  **B** |**C**  |
 |--------------|---------|----------|--------|-------|
+|              |         | **A**    |  **B** |**C**  |
 |              |**A**    | 4,4      | 0,2    | 0,2   |
 |  **Firm 1**  |**B**    | 0,0      | 1,1    | 0,2   |
 |              |**C**    | 0,0      | 0,2    | 1,1   |
@@ -382,13 +384,14 @@ In the hawk dove game we are to assume that two animals are thinking of how to s
 - If animal 1 picks dove and so does animal 2 they payoff is 3 to 3
 - If both animals pick hawk the payoff is 0 to 0 with a posibility of becoming injured which is the pick with the most risk
 
+figure 6.12 Hawk-Dove game
+
 |            |     | **Animal 2** |        |
 |------------|-----|--------------|--------|
 |            |     | D            | H      |
 |**Animal 1**| D   | 3,3          | 1,5    |
 |            | H   | 5,1          | 0,0    |
 
-figure 6.12 Hawk-Dove game
 
 **After note**
 There are two points of nash equilibria one being Dove,Hawk and the other being Hawk,Dove. Most of the time one side is going to pick to be agressive while the other tries to find a way to be passive. 
@@ -404,12 +407,14 @@ The matching pennies game is played by 2 players. Each player recieves one penny
 - Player 1 loses their penny to Player 2 if they match 
 - Player 1 wins Player 2's penny if they dont match
 
+Figure 6.14 Matching Pennies game
+
 |            |     | **Player 2**    |           |
 |------------|-----|-----------------|-----------|
 |            |     | H               | T         |
 |**player 1**| H   | -1, +1          | +1, -1    |
 |            | T   | +1, -1          | -1, +1    |
-Figure 6.14 Matching Pennies game
+
 
 The way in which the matching pennies game is played it is also a zero sum game which is when one of the players sums becomes 0 after each turn. 
 
