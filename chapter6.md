@@ -158,6 +158,20 @@ Figure 6.2. Prisoner's Dilema
 | **Suspect 1** | _NC_ | -1,-1            | -10,0  |
 |         | _C_         | 0,-10            | -4,-4  |
 
+Looking at Suspect 2's options for play, we see that they will be better off confessing than not doing so.
+
+| NC        | C       |
+|-----------|---------|
+| -1 or -10 | 0 or -4 |
+
+For Suspect 1, they get a higher payout also to confess than not confess.
+
+| NC        | C       |
+|-----------|---------|
+| -1 or -10 | 0 or -4 |
+
+As we can see from this table, even though the best option is to Not Confess (NC) it is not possible to reach this point because the **dominant strategy** for both players is to confess.
+
 Default: Both can be charged with that lesser crime and carry a 1 year sentence
 ```mermaid
 graph LR;
@@ -166,7 +180,7 @@ graph LR;
     Don't_Confess -->|Suspect1_+_Suspect2| 1y
 ```
 
-If one person confesses and the other doesn't the one that doesn't will be charged and convicted for 10 years
+If one person confesses and the other doesn't the one that doesn't will be charged and convicted for 10 years. Therefore the **dominant strategy** for that person is to confess.
 
 ```mermaid
 graph LR;
@@ -176,7 +190,7 @@ graph LR;
     Don't_Confess --> Suspect2_10y
 ```
 
-Both confess means each will be charged with 4 years
+Both confess means each will be charged with 4 years.
 
 ```mermaid
 graph LR;
@@ -200,7 +214,7 @@ Suspect_1 -.-> Confess --> 0y
 Suspect_1 -.-> Don't_Confess --> 1y
 ```
 
-The dominant strategy here is to confess regardless of what the other player chooses.
+The dominant strategy here is to confess regardless of what the other player chooses.  We can see from the table that if we are Suspect 1 for example, if we move to "Not confess" from "Confess" it doesn't mean that Suspect 2 will also move for my benefit. Suspect 2 still has a higher payout from "Confess". **Keep in mind that these are selfish games, players want the best outcome for themselves without considering what's good for both.**
 
 Therefore we should expect both suspects to confess, with a payoff of being convicted for 4 years each. 
 
