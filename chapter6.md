@@ -152,24 +152,24 @@ Then the payoffs and outcome could be different, affecting the results.
 ### A Related Story: The Prisoner's Dilemma
 Figure 6.2. Prisoner's Dilema
 
-_Suspect 2 payoff is right side, Suspect 1 payoff is left side_
 |         |                | **Suspect 2** |        |
 |---------|----------------|------------------|--------|
 |         |                | _NC_   | _C_ |
 | **Suspect 1** | _NC_ | -1,-1            | -10,0  |
 |         | _C_         | 0,-10            | -4,-4  |
 
-Looking at Suspect 2's options for play, we see that they will be better off confessing than not doing so.
+For Suspect 1, they get a higher payout also to confess than not confess. [Left Side]
 
-| NC        | C       |
-|-----------|---------|
-| -1 or -10 | 0 or -4 |
+| NC | -1 | -10 |
+|----|----|-----|
+| C  | 0  | -4  |
 
-For Suspect 1, they get a higher payout also to confess than not confess.
+Looking at Suspect 2's options for play, we see that they will be better off confessing than not doing so. [Right Side]
 
-| NC        | C       |
-|-----------|---------|
-| -1 or -10 | 0 or -4 |
+| NC  | C  |
+|-----|----|
+| -1  | 0  |
+| -10 | -4 |
 
 As we can see from this table, even though the best option is to Not Confess (NC) it is not possible to reach this point because the **dominant strategy** for both players is to confess.
 
@@ -227,12 +227,15 @@ Like the exam or presentation example, the payoffs reflect everything and if the
 
 The Prisoner's Dilema has been used for many real world situations.
 
+_Athlete 2 payoff is right side, Athlete 1 payoff is left side_
 Figure 6.3 Performance-enhancing drugs
 |         |                | **Athlete 2** |        |
 |---------|----------------|------------------|--------|
 |         |                | Don't Use Drugs   | Use Drugs |
 | **Athlete 1** | Don't Use Drugs | 3,3            | 1,4  |
 |         | Use Drugs         | 4,1            | 2,2  |
+
+
 
 _arms races_ : Situations where two competitors use an increasingly dangerous arsenal of weapons to remain evenly matched
 
