@@ -152,13 +152,31 @@ Then the payoffs and outcome could be different, affecting the results.
 
 ### A Related Story: The Prisoner's Dilemma
 Figure 6.2. Prisoner's Dilema
-|         |                | **Suspect 2** |        |
+|         |                | <span style="color:red">**Suspect 2**</span> |        |
 |---------|----------------|------------------|--------|
-|         |                | _NC_   | _C_ |
-| **Suspect 1** | _NC_ | -1,-1            | -10,0  |
-|         | _C_         | 0,-10            | -4,-4  |
+|         |                | <span style="color:red">_NC_</span>   | <span style="color:red">_C_</span> |
+| <span style="color:blue">**Suspect 1**</span> | <span style="color:blue">_NC_</span> | <span style="color:blue">-1</span>,<span style="color:red">-1            | <span style="color:blue">-10</span>,<span style="color:red">0</span>  |
+|         | <span style="color:blue">_C_</span>         | <span style="color:blue">0</span>,<span style="color:red">-10</span>            | <span style="color:blue">-4</span>,<span style="color:red">-4</span>  |
 
-Default: Both can be charged with that lesser crime and carry a 1 year sentence
+<span style="color:red">Looking at Suspect 2's options for play, we see that they will be better off confessing than not doing so.
+
+| <span style="color:red">NC</span>        | <span style="color:red">C</span>       |
+|-----------|---------|
+| <span style="color:red">-1 or -10</span> | <span style="color:red">0 or -4</span> |
+
+</span>
+
+<span style="color:blue">
+For Suspect 1, it is also better for them to confess than not confess.
+</span>
+
+| <span style="color:blue">NC</span>        | <span style="color:blue">C</span>       |
+|-----------|---------|
+| <span style="color:blue">-1 or -10</span> | <span style="color:blue">0 or -4</span> |
+
+<span style="color:purple">As we can see from this table, even though the best option is to Not Confess (NC) it is not possible to reach this point because the most dominant strategy for both players is to confess.</span>
+
+Both can be charged with that lesser crime and carry a 1 year sentence
 ```mermaid
 graph LR;
     Suspect_1 -.-> Don't_Confess
@@ -166,7 +184,7 @@ graph LR;
     Don't_Confess -->|Suspect1_+_Suspect2| 1y
 ```
 
-If one person confesses and the other doesn't the one that doesn't will be charged and convicted for 10 years
+If one person confesses and the other doesn't the one that doesn't will be charged and convicted for 10 years. Therefore the <span style="color:purple">dominant strategy</span> here is to confess.
 
 ```mermaid
 graph LR;
@@ -176,7 +194,7 @@ graph LR;
     Don't_Confess --> Suspect2_10y
 ```
 
-Both confess means each will be charged with 4 years
+Both confess means each will be charged with 4 years. 
 
 ```mermaid
 graph LR;
@@ -200,7 +218,7 @@ Suspect_1 -.-> Confess --> 0y
 Suspect_1 -.-> Don't_Confess --> 1y
 ```
 
-The dominant strategy here is to confess regardless of what the other player chooses.
+The dominant strategy here is to confess regardless of what the other player chooses. We can see from the table that if we are Suspect 1 for example, if we move to "Not confess" from "Confess" it doesn't mean that Suspect 2 will also move for my benefit. Suspect 2 still has a higher payout from "Confess". **Keep in mind that these are selfish games, players want the best outcome for themselves without considering what's good for both.**
 
 Therefore we should expect both suspects to confess, with a payoff of being convicted for 4 years each. 
 
@@ -287,163 +305,3 @@ _Dominant Strategy_ : a best response to every strategy of Player 2 (Refer to Fi
 _Strictly Dominant Strategy_ : strict best response for every strategy of Player 2 (Refer to Figure 6.4 Exam or Presentation with an easier Exam)
 
 We can expect player 1 to use a strict dominant strategy if they have that available since dominant strategies depend more on the opponent. 
-
-### A game which only One player Has a strictly Dominate Strategy
-
-figure 6.5 marketing startegy 
-
-|            |             |**Firm 2**     |           |
-|------------|-------------|---------------|-----------|
-|            |             | **low priced**|**Upscale**| 
-|            |**Low price**| .48, .12      | .60, .40  |
-|  **Firm 1**|**Upscale**  | .40, .60      | .32, .08  | 
-
-
-
- - Assume people who only buy low priced items and people who only buy upscale items can be clearly devided 
- - People who prefer low priced versions account for 60% of the population and upscale for 40% population
- - Firm 1 is the more popular brand
- - Firm 1 gets 80% of the sales and firm2 get 20% of the sales
- - If the firms target different market segments they each get a segment. Low price segment gets .60 and up scale segment gets .40
- - If both firms target the low price Firm 1 gets 80% (.48) and firm 2 gets 20% (.12)
- - If both firms target the upscale Firm 1 gets (.8)(.4) = .32 and Firm 2 (.2)(.4)= .08
-
- We know that Firm 1 is going to try and maximize the amount of money they earn. With this information Firm 2 can take a better approach to this situation. The best choice for them is to stay out of firm 1's way because they are the more popular brand.
-
-## Nash Equilibrium
-
-**What Is Nash Equilibrium**
-
-The whole point of Nash Equilibrium is for both of the sides to be at some point of equlaity. Meaning if i pick an option that is best for me your pick should be the best answer for you but for me at the same time 
-
-**Example: The Three Client Game.**
-
-In the three client game we are to assume that there are two firms that want to do business with one of the three clients, A, B, and C. The firms choices are as follows 
-
-- If both firms pick the same client the payout is cut in half 
-- If firm 1 does not pick the same client as firm 2 firm 1 does not get anything because it is a smaller firm
-- If firm 2 picks client B or C alone they will recieve all of the money but if they pick A alone they will not recieve anything because client A is only willing to work with both firms 
-
-Figure 6.6 Three Client Game
-
-|              |         |**Firm 2**|        |       |
-|--------------|---------|----------|--------|-------|
-|              |         | **A**    |  **B** |**C**  |
-|              |**A**    | 4,4      | 0,2    | 0,2   |
-|  **Firm 1**  |**B**    | 0,0      | 1,1    | 0,2   |
-|              |**C**    | 0,0      | 0,2    | 1,1   |
-
-The best action for Firm 1 is to choose the same client as Firm 2 but if Firm 1 and 2 both choose A then they have the biggest payoff. The whole point is to try and play to the best of both sides. Choosing B or C would not make any sense because Firm 2 would earn less. So playing towards making more they could pick Firm A.
-
-## Multiple Equilibria: Coordination Game
-
-**Troubling Thought** 
-
-There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be dont next.
-
-**A Coordination Game**
-
-The situation of this game is that you and a partner are making a project and you dont know how you should make the presentation. You both only have two choices one being Powerpoint and the other being Keynote. The reason for it being called the coodination game is because you and your partner have the same objective which is to pick the same software. 
-
-figure 6.8 unbalanced coordination game 
-
-|         |                | **Your Partner** |        |
-|---------|----------------|------------------|--------|
-|         |                | Powerpoint       | Keynote|
-| **You** | Powerpoint     | 1,1              | 0,0    |
-|         | Keynote        | 0,0              | 2,2    |
-
-**variations of the Basic Coordination game**
-
-- There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. 
-- For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
-
-###### I tried to use a different example instead of the one in the writing.
-
-figure of my own inturpritation of the Battle of Sexes
-
-|         |                | **Your Partner** |        |
-|---------|----------------|------------------|--------|
-|         |                | oranges          | grapes |
-| **You** | oranges        | 2,1              | 0,0    |
-|         | grapes         | 0,0              | 1,2    |
-
-- The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. 
-- This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
-
-figure 6.10 Stag hunt game
-
-|              |                | **hunter 2**     |         |
-|--------------|----------------|------------------|---------|
-|              |                | hunt stag        |hunt hare|
-| **Hunter 1** | hunt stag      | 4,4              | 0,3     |
-|              | hunt hare      | 3,0              | 3,3     |
-
-In the stag hunt game both hunters wont have a lower payoff. In this case its only one. But what if there were more animals to hunt? How would the situation vary say there was an animal that needed 3 hunters to take down? That can happen to any of these coordinate games. There could be more options where the rewards are more risky but have a bigger payoff. 
-
-###### me questioning and trying to figure out a way to mess things up
-
-## Multiple Equailibria: The Hawk Dove game 
-
-**Hawk Dove**
-
-In the hawk dove game we are to assume that two animals are thinking of how to split their food. There are two options one is to act like a hawk which is to be aggresive and the other is to be a dove and be passive. The payoffs are as follows: 
-- If animal 1 picks hawk and the animal 2 picks dove animal 1's food payoff would be 5 to 1 and vise versa
-- If animal 1 picks dove and so does animal 2 they payoff is 3 to 3
-- If both animals pick hawk the payoff is 0 to 0 with a posibility of becoming injured which is the pick with the most risk
-
-figure 6.12 Hawk-Dove game
-
-|            |     | **Animal 2** |        |
-|------------|-----|--------------|--------|
-|            |     | D            | H      |
-|**Animal 1**| D   | 3,3          | 1,5    |
-|            | H   | 5,1          | 0,0    |
-
-
-**After note**
-
-There are two points of nash equilibria one being Dove,Hawk and the other being Hawk,Dove. In most cases one side is going to pick to be agressive while the other tries to find a way to be passive. 
-###### this can even be seen in TV shows where one side wants peace while the other wants war. 
-
-## Mixed strategies 
-
-###### this is  what I was waiting for when they over lap
-
-In mixed startegies there can be cases where nash equilibria does not exist. When you allow randomization to be allowed then there is going to be a form of equalibria that can be found according to John Nash's main results. 
-
-**Matching Pennies**
-
-The matching pennies game is played by 2 players. Each player recieves one penny. Then they are to pick what their penny will land on (HEads or tails). 
-- Player 1 loses their penny to Player 2 if they match 
-- Player 1 wins Player 2's penny if they dont match
-
-Figure 6.14 Matching Pennies game
-
-|            |     | **Player 2**    |           |
-|------------|-----|-----------------|-----------|
-|            |     | H               | T         |
-|**player 1**| H   | -1, +1          | +1, -1    |
-|            | T   | +1, -1          | -1, +1    |
-
-
-The way in which the matching pennies game is played it is also a zero sum game which is when one of the players sums becomes 0 after each turn. 
-
-**Mixed Strategies Payoffs**
-
-In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
-- (-1)(q)+(1)(1-q) = 1-2q. 
-For the case that player 1 plays a full T strategy the payoff is: 
-- (1)(q)+(-1)(1-q) = 2q-1 
-The q stand for the choice of player 2 meaning it can be 1 or 0 (1 and 0 reffering to heads and tails). In the end -1 results in a lose and 1 resulting in a win. 
-
-**Equilibrium With Mixed Strategies**
-
-- Games with probablilities that are not equal to eachother can not reach an equilibrium. 
-- To make the Matching Pennies game (1-2q = 2p-1) be equal you would need to have q = 1/2. 
-- Which is impossible for the game considering your only imputs are 1 or 0. Meaning matching pennies is not a Nash Equalilbrium 
-
-**Interpreting the Mixed strategy Equilibrium for Match Pennies**
-
-- In a way all games can be turned into a form of a Mixed strategy game. Just because there is a way to have an equilibria does not mean all participants are working to reach that equalibria. 
-- More often than not when meeting a new person/ player they are going to play for them and not for equilibria 
