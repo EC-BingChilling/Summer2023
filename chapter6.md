@@ -24,7 +24,6 @@ Figure 6.1. Exam or presentation?
 | **You** | _Presentation_ | 90,90            | 86,92  |
 |         | _Exam_         | 92,86            | 88,88  |
 
-
 ### Basic Ingredients of a Game
 
 Players: set of participants  
@@ -152,6 +151,8 @@ Then the payoffs and outcome could be different, affecting the results.
 
 ### A Related Story: The Prisoner's Dilemma
 Figure 6.2. Prisoner's Dilema
+
+_Suspect 2 payoff is right side, Suspect 1 payoff is left side_
 |         |                | **Suspect 2** |        |
 |---------|----------------|------------------|--------|
 |         |                | _NC_   | _C_ |
