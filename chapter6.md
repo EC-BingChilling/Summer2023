@@ -389,24 +389,28 @@ Firm 2 - No dominant strategy.
 
 If things do go Firm 2's way, then:
 - Firm 1 Payoff: .40
--  Firm 2 Payoff: .60
+-  Firm 2 Payoff: .60  
+
 .60 > .40
 
 As shown in the payoff breakdown.
+
+Remember: Firm 1 is always going to pick Low-Priced because it is strictly dominant.
 
 ## 6.4 Nash Equilibrium
 
 Nash Equilibrium - When both players have the best option for each of them and any other move would cause them a worse off payoff. (Still Selfish Game so they still only care about their own payoff)
 
-### Example: The Three Client Game.
+A pair of strategies (S,T), where S is the best response to T and T is the best response to S.
 
-In the three client game we are to assume that there are two firms that want to do business with one of the three clients, A, B, and C. The firms choices are as follows 
+### Example: The Three Client Game.
+- Two firms want to do business with one of three clients (A,B,C)
 
 - If both firms pick the same client the payout is cut in half 
-- If firm 1 does not pick the same client as firm 2 firm 1 does not get anything because it is a smaller firm
+- If firm 1 does not pick the same client as firm 2 firm 1 does not get anything because it is a smaller firm. Firm 1 payoff - 0
 - If firm 2 picks client B or C alone they will recieve all of the money but if they pick A alone they will not recieve anything because client A is only willing to work with both firms 
 
-Figure 6.6 Three Client Game
+Figure 6.6 Three Client Game - Higher number better + remember the firms are selfish
 
 |              |         |**Firm 2**|        |       |
 |--------------|---------|----------|--------|-------|
@@ -415,7 +419,47 @@ Figure 6.6 Three Client Game
 |  **Firm 1**  |**B**    | 0,0      | 1,1    | 0,2   |
 |              |**C**    | 0,0      | 0,2    | 1,1   |
 
-The best action for Firm 1 is to choose the same client as Firm 2 but if Firm 1 and 2 both choose A then they have the biggest payoff. The whole point is to try and play to the best of both sides. Choosing B or C would not make any sense because Firm 2 would earn less. So playing towards making more they could pick Firm A.
+Neither firm has a **dominant strategy** each action of 1 firm is a strict best response to a strategy made by another firm. 
+
+Firm 1:
+- A is a **strict best response** to Firm 2 choosing A.  
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 4,4    |
+
+- B is a **strict best response** to Firm 2 choosing B.
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 1,1    |
+
+- C is a **strict best response** to Firm 2 choosing C.
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 1,1    |
+
+Firm 2:
+- A is a **strict best response** to Firm 1 choosing A.  
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 4,4    |
+
+- B is a **strict best response** to Firm 1 choosing C.  
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 0,2    |
+
+- C is a **strict best response** to Firm 1 choosing B.
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 2,0    |
+
+The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A because if Firm 2 moves to B or C then the payoffs would decrease for Firm 2. Similarly, if Firm 1 moves to B or C then the payoffs would also decrease for Firm 1. They still want their own gains without regard to the other because they are selfish but they are forced to both choose A because of the bigger payout.
 
 ## Multiple Equilibria: Coordination Game
 
