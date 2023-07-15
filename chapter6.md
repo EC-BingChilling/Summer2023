@@ -459,7 +459,8 @@ Firm 2:
 |--------|--------|
 | Firm 1 | 2,0    |
 
-The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A because if Firm 2 moves to B or C then the payoffs would decrease for Firm 2. Similarly, if Firm 1 moves to B or C then the payoffs would also decrease for Firm 1. They still want their own gains without regard to the other because they are selfish but they are forced to both choose A because of the bigger payout.
+The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A. 
+##### If Firm 2 moves to B or C then the payoffs would decrease for Firm 2. Similarly, if Firm 1 moves to B or C then the payoffs would also decrease for Firm 1. They still want their own gains without regard to the other because they are selfish but they are forced to both choose A because of the bigger payout.
 
 ## Multiple Equilibria: Coordination Game
 
