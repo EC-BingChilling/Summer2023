@@ -401,6 +401,10 @@ Remember: Firm 1 is always going to pick Low-Priced because it is strictly domin
 
 Nash Equilibrium - When both players have the best option for each of them and any other move would cause them a worse off payoff. (Still Selfish Game so they still only care about their own payoff)
 
+Equilibrium in beliefs. If each player believes that the other player will actually play a strategy that
+is part of a Nash equilibrium, then she has an incentive to play her part of the Nash
+equilibrium.
+
 A pair of strategies (S,T), where S is the best response to T and T is the best response to S.
 
 ### Example: The Three Client Game.
