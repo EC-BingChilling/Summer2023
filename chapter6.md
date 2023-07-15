@@ -479,6 +479,9 @@ There can be scenarios where there is more than one point of equilibrium. Which 
 
 **A Coordination Game**
 
+**Coordination Game** - "the two players’ shared goal is really
+to coordinate on the same strategy"
+
 The situation of this game is that you and a partner are making a project and you dont know how you should make the presentation. You both only have two choices one being Powerpoint and the other being Keynote. The reason for it being called the coodination game is because you and your partner have the same objective which is to pick the same software. 
 
 figure 6.8 unbalanced coordination game 
