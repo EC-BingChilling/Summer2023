@@ -511,8 +511,10 @@ figure of my own interpretation of the Battle of Sexes
 
 Both players recieve higher payoffs for coordinating on (Oranges,Oranges) or (Grapes,Grapes) even though the payoff isn't equal.
 
-- The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. 
-- This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
+- The Final Version of the coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. 
+- If the strategies are mismatched, the one who is trying for the higher payoff gets penalized. 
+
+**Pure Strategy Nash Equilibrium** - where each player has chosen a strategy and no player can benefit by changing their strategy while the other players keep theirs unchanged
 
 Figure 6.10 Stag Hunt game
 
@@ -521,6 +523,8 @@ Figure 6.10 Stag Hunt game
 |              |                | hunt stag        |hunt hare|
 | **Hunter 1** | hunt stag      | 4,4              | 0,3     |
 |              | hunt hare      | 3,0              | 3,3     |
+
+Two pure strategy Nash equilibria are when both hunters choose to hunt stag (cooperate) or when both hunters choose to hunt hare (defect)
 
 In the stag hunt game both hunters wont have a lower payoff. In this case its only one. But what if there were more animals to hunt? How would the situation vary say there was an animal that needed 3 hunters to take down? That can happen to any of these coordinate games. There could be more options where the rewards are more risky but have a bigger payoff. 
 
