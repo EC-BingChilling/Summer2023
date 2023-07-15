@@ -344,10 +344,14 @@ Figure 6.5 Marketing Strategy
 
 
 
- - Assume people who only buy low priced items and people who only buy upscale items can be clearly devided 
- - People who prefer low priced versions account for 60% of the population and upscale for 40% population
- - Firm 1 is the more popular brand
- - Firm 1 gets 80% of the sales and firm2 get 20% of the sales
+ Assumptions: 
+ - People who buy Low-Priced + Upscale can be cleanly split
+ - Low priced: 60% of population
+ - Upscale: 40% of population
+
+ Firm 1 - more popular
+ - Firm 1 - 80% sales
+ - Firm 2 - 20% sales
  - If the firms target different market segments they each get a segment. Low price segment gets .60 and up scale segment gets .40
  - If both firms target the low price Firm 1 gets 80% (.48) and firm 2 gets 20% (.12)
  - If both firms target the upscale Firm 1 gets (.8)(.4) = .32 and Firm 2 (.2)(.4)= .08
