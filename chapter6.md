@@ -150,7 +150,7 @@ Then the payoffs and outcome could be different, affecting the results.
 **Conclusion:** Even though an average of 90 each is the better outcome for both people it cannot be achieved by rational play.
 
 ### A Related Story: The Prisoner's Dilemma
-Figure 6.2. Prisoner's Dilema
+Figure 6.2. Prisoner's Dilema - numbers represent years
 
 |         |                | **Suspect 2** |        |
 |---------|----------------|------------------|--------|
@@ -245,7 +245,20 @@ graph TD;
     Opponent --> Doesn't_Use_Drugs
 ```
 
-Looking at the table, the best outcome is to use drugs when your opponent doesn't to maximize your chances of winning
+Athlete 1 - Left Side
+
+| Don't Use Drugs | 3 | 1 |
+|----|----|-----|
+| Use Drugs  | 4  | 2  |
+
+Athlete 2 - Right Side
+
+| Don't Use Drugs  | Use Drugs  |
+|-----|----|
+| 3  | 4  |
+| 1 | 2 |
+
+Looking at the table, the best outcome is to use drugs when your opponent doesn't to maximize your chances of winning (You get a higher score)
 
 Simple changes to a game can change the format from Prisoner's Dilema to something more benign
 - Referring back to the exam or presentation game, we keep everything the exact same but the exam be much easier so 100 if you study and 96 if you don't, then the payoff matrix becomes:
