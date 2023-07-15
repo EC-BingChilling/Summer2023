@@ -394,7 +394,7 @@ If things do go Firm 2's way, then:
 
 As shown in the payoff breakdown.
 
-## Nash Equilibrium
+## 6.4 Nash Equilibrium
 
 **What Is Nash Equilibrium**
 
