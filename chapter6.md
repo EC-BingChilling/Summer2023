@@ -492,7 +492,7 @@ Figure 6.8 Unbalanced coordination game
 
 You have to pick the same software to get any payoff at all. **Nash Equilibrium** for this would be Powerpoint + Powerpoint or Keynote + Keynote.
 
-**variations of the Basic Coordination game**
+### Variations of the Basic Coordination Game
 
 - There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. 
 - For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
