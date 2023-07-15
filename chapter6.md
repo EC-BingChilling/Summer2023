@@ -381,7 +381,7 @@ Firm 2 - No dominant strategy.
 |------------------|---------------------|
 | Firm 1 - Upscale | .40,.60             |
 
-- Upscale: Best response when Firm 1 plays Low-Priced 
+- Upscale: Best response when Firm 1 plays Low-Priced [**Nash Equilibrium**]
 
 |                     | Firm 2 - Upscale |
 |---------------------|------------------|
@@ -426,7 +426,7 @@ Figure 6.6 Three Client Game - Higher number better + remember the firms are sel
 Neither firm has a **dominant strategy** each action of 1 firm is a strict best response to a strategy made by another firm. 
 
 Firm 1:
-- A is a **strict best response** to Firm 2 choosing A.  
+- A is a **strict best response** to Firm 2 choosing A. 
 
 |        | Firm 2 |
 |--------|--------|
@@ -464,6 +464,11 @@ Firm 2:
 | Firm 1 | 2,0    |
 
 The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A. 
+
+|        | Firm 2 |
+|--------|--------|
+| Firm 1 | 4,4    |
+
 ##### If Firm 2 moves to B or C then the payoffs would decrease for Firm 2. Similarly, if Firm 1 moves to B or C then the payoffs would also decrease for Firm 1. They still want their own gains without regard to the other because they are selfish but they are forced to both choose A because of the bigger payout.
 
 ## Multiple Equilibria: Coordination Game
