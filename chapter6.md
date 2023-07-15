@@ -332,14 +332,14 @@ _Strictly Dominant Strategy_ : strict best response for every strategy of Player
 
 We can expect player 1 to use a strict dominant strategy if they have that available since dominant strategies depend more on the opponent. 
 
-### A game which only One player Has a strictly Dominate Strategy
+### A Game in Which Only One Player Has a Strictly Dominant Strategy
 
-figure 6.5 marketing startegy 
+Figure 6.5 Marketing Strategy 
 
 |            |             |**Firm 2**     |           |
 |------------|-------------|---------------|-----------|
-|            |             | **low priced**|**Upscale**| 
-|            |**Low price**| .48, .12      | .60, .40  |
+|            |             | **Low-Priced**|**Upscale**| 
+|            |**Low-Priced**| .48, .12      | .60, .40  |
 |  **Firm 1**|**Upscale**  | .40, .60      | .32, .08  | 
 
 
