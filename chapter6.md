@@ -499,7 +499,7 @@ You have to pick the same software to get any payoff at all. **Nash Equilibrium*
 
 ###### Using a different example instead of the one in the writing
 
-figure of my own inturpritation of the Battle of Sexes
+figure of my own interpretation of the Battle of Sexes
 
 |         |                | **Your Partner** |        |
 |---------|----------------|------------------|--------|
@@ -507,7 +507,7 @@ figure of my own inturpritation of the Battle of Sexes
 | **You** | oranges        | 2,1              | 0,0    |
 |         | grapes         | 0,0              | 1,2    |
 
-##### dude forgot to add an explanation when he made his own interpretation so I'm adding it here
+##### he forgot to add an explanation when he made his own interpretation so I'm adding it here
 
 Both players recieve higher payoffs for coordinating on (Oranges,Oranges) or (Grapes,Grapes) even though the payoff isn't equal.
 
