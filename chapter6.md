@@ -150,7 +150,7 @@ Then the payoffs and outcome could be different, affecting the results.
 **Conclusion:** Even though an average of 90 each is the better outcome for both people it cannot be achieved by rational play.
 
 ### A Related Story: The Prisoner's Dilemma
-Figure 6.2. Prisoner's Dilema - numbers represent years
+Figure 6.2. Prisoner's Dilema - numbers represent years - lower number is better
 
 |         |                | **Suspect 2** |        |
 |---------|----------------|------------------|--------|
@@ -227,8 +227,8 @@ Like the exam or presentation example, the payoffs reflect everything and if the
 
 The Prisoner's Dilema has been used for many real world situations.
 
-_Athlete 2 payoff is right side, Athlete 1 payoff is left side_
-Figure 6.3 Performance-enhancing drugs
+_Athlete 2 payoff is right side, Athlete 1 payoff is left side_  
+Figure 6.3 Performance-enhancing drugs - higher number is better
 |         |                | **Athlete 2** |        |
 |---------|----------------|------------------|--------|
 |         |                | Don't Use Drugs   | Use Drugs |
@@ -334,7 +334,7 @@ We can expect player 1 to use a strict dominant strategy if they have that avail
 
 ### A Game in Which Only One Player Has a Strictly Dominant Strategy
 
-Figure 6.5 Marketing Strategy 
+Figure 6.5 Marketing Strategy - Higher number is better
 
 |            |             |**Firm 2**     |           |
 |------------|-------------|---------------|-----------|
@@ -350,13 +350,49 @@ Figure 6.5 Marketing Strategy
  - Upscale: 40% of population
 
  Firm 1 - more popular
- - Firm 1 - 80% sales
- - Firm 2 - 20% sales
- - If the firms target different market segments they each get a segment. Low price segment gets .60 and up scale segment gets .40
- - If both firms target the low price Firm 1 gets 80% (.48) and firm 2 gets 20% (.12)
- - If both firms target the upscale Firm 1 gets (.8)(.4) = .32 and Firm 2 (.2)(.4)= .08
+ - Firm 1 - gets 80% sales
+ - Firm 2 - gets 20% sales
 
- We know that Firm 1 is going to try and maximize the amount of money they earn. With this information Firm 2 can take a better approach to this situation. The best choice for them is to stay out of firm 1's way because they are the more popular brand.
+Firm 1's Payoffs [Left Side]
+| Low-Priced | .48 | .60 |
+|------------|-----|-----|
+| Upscale    | .40 | .32 |
+
+Firm 2's Payoffs [Right Side]
+| Low-Priced | Upscale |
+|------------|---------|
+| .12        | .40     |
+| .60        | .08     |
+
+Two firms target low priced segment:  
+Low-Priced - .60  
+High Priced - .40
+
+Both firms target:
+ - Low-Priced: Firm 1 gets 80% (.48) and Firm 2 gets 20% (.12)
+ - Upscale: Firm 1 gets (.8)(.4) = .32 and Firm 2 (.2)(.4)= .08
+
+Firm 1 - **Strictly Dominant Strategy**. Low priced [higher number]  
+- ##### Strictly Dominant Strategy - the best outcome no matter what the opponent plays.
+Firm 2 - No dominant strategy.   
+- Low-Priced: Best response when Firm 1 plays Upscale
+
+|                  | Firm 2 - Low Priced |
+|------------------|---------------------|
+| Firm 1 - Upscale | .40,.60             |
+
+- Upscale: Best response when Firm 1 plays Low-Priced 
+
+|                     | Firm 2 - Upscale |
+|---------------------|------------------|
+| Firm 1 - Low-Priced | .60,.40          |
+
+If things do go Firm 2's way, then:
+- Firm 1 Payoff: .40
+-  Firm 2 Payoff: .60
+.60 > .40
+
+As shown in the payoff breakdown.
 
 ## Nash Equilibrium
 
