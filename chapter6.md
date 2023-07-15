@@ -526,9 +526,7 @@ Figure 6.10 Stag Hunt game
 
 Two pure strategy Nash equilibria are when both hunters choose to hunt stag (cooperate) or when both hunters choose to hunt hare (defect)
 
-In the stag hunt game both hunters wont have a lower payoff. In this case its only one. But what if there were more animals to hunt? How would the situation vary say there was an animal that needed 3 hunters to take down? That can happen to any of these coordinate games. There could be more options where the rewards are more risky but have a bigger payoff. 
-
-###### me questioning and trying to figure out a way to mess things up
+In the stag hunt game both hunters wont have a lower payoff. 
 
 ## 6.6 Multiple Equailibria: The Hawk Dove game 
 
