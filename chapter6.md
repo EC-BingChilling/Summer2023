@@ -490,7 +490,7 @@ Figure 6.8 Unbalanced coordination game
 | **You** | Powerpoint     | 1,1              | 0,0    |
 |         | Keynote        | 0,0              | 2,2    |
 
-You have to pick the same software to get any payoff at all. **Nash Equilibrium for this would be Powerpoint + Powerpoint or Keynote + Keynote.
+You have to pick the same software to get any payoff at all. **Nash Equilibrium** for this would be Powerpoint + Powerpoint or Keynote + Keynote.
 
 **variations of the Basic Coordination game**
 
