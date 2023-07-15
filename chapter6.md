@@ -286,7 +286,7 @@ With these new payoffs, preparing for the presentation will be the dominant stra
 
 Choosing presentation gets both people a higher grade.
 
-## Best Responses and Dominant Strategies
+### Best Responses and Dominant Strategies
 
 Previous Fundimental Concepts:  
 **Concept 1**  
@@ -473,8 +473,6 @@ The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A.
 
 ## 6.5 Multiple Equilibria: Coordination Game
 
-**Troubling Thought** 
-
 There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be done next.
 
 **A Coordination Game**
@@ -484,7 +482,7 @@ to coordinate on the same strategy"
 
 The situation of this game is that you and a partner are making a project and you dont know how you should make the presentation. You both only have two choices one being Powerpoint and the other being Keynote. The reason for it being called the coodination game is because you and your partner have the same objective which is to pick the same software. 
 
-figure 6.8 unbalanced coordination game 
+Figure 6.8 Unbalanced coordination game 
 
 |         |                | **Your Partner** |        |
 |---------|----------------|------------------|--------|
