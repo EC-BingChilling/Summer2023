@@ -497,7 +497,7 @@ You have to pick the same software to get any payoff at all. **Nash Equilibrium*
 - There are different ways that the coordination game can be seen one of them being the unbalanced version but then there is also one called the Battle of Sexes which is When one payoff is higher for you and the other higher for your partner. 
 - For instance take it that you want oranges more than grapes but grapes are also a valid choice for you. Youd still be in the equilibrium but not as much as if it was oranges. 
 
-###### I tried to use a different example instead of the one in the writing.
+###### Using a different example instead of the one in the writing
 
 figure of my own inturpritation of the Battle of Sexes
 
@@ -506,6 +506,10 @@ figure of my own inturpritation of the Battle of Sexes
 |         |                | oranges          | grapes |
 | **You** | oranges        | 2,1              | 0,0    |
 |         | grapes         | 0,0              | 1,2    |
+
+##### dude forgot to add an explanation when he made his own interpretation so I'm adding it here
+
+Both players recieve higher payoffs for coordinating on (Oranges,Oranges) or (Grapes,Grapes) even though the payoff isn't equal.
 
 - The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. 
 - This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
