@@ -514,7 +514,7 @@ Both players recieve higher payoffs for coordinating on (Oranges,Oranges) or (Gr
 - The other way to see the Coordination game is by the Stag hunt game which is when hunter 1 and hunter 2 can either go out together and hunt down a stag, hunter 1 tries to hunt a stag while hunter 2 hunts a hare vice versa and when they both hunt a hare. 
 - This can be broken down into a simple way of there is one choice that can be done alone, there is another choice that requires 2 hunters or one hunter can be smart while the other tries the impossible.
 
-figure 6.10 Stag hunt game
+Figure 6.10 Stag Hunt game
 
 |              |                | **hunter 2**     |         |
 |--------------|----------------|------------------|---------|
