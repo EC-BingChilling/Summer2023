@@ -475,7 +475,7 @@ The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A.
 
 **Troubling Thought** 
 
-There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be dont next.
+There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be done next.
 
 **A Coordination Game**
 
