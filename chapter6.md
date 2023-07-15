@@ -271,7 +271,20 @@ Figure 6.4 Exam or Presentation with an easier Exam
 | **You** | Presentation | 98,98            | 94,96  |
 |         | Exam         | 96,94            | 92,92  |
 
+You - Left Side
+| Presentation | 98 | 94 |
+|--------------|----|----|
+| Exam         | 96 | 92 |
+
+Your Partner - Right Side
+| Presentation | Exam |
+|--------------|------|
+| 98           | 96   |
+| 94           | 92   |
+
 With these new payoffs, preparing for the presentation will be the dominant strategy so we can expect both players to play this strategy and both benefit from this decision. The downsides of the previous scenarios no longer appear. 
+
+Choosing presentation gets both people a higher grade.
 
 ## Best Responses and Dominant Strategies
 
