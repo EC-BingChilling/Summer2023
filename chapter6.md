@@ -311,7 +311,7 @@ produces at least as good a payoff as any other strategy paired with T
 
 Multiple best responses: 
 - Player 1 may have multiple strategies that can be considered as best responses to player 2's strategy denoted as T
-- These strategies may have the same papyoff, making it difficult to predict which one Player 1 will choose
+- These strategies may have the same payoff, making it difficult to predict which one Player 1 will choose
 
 Therefore, to address the ambiguity of multiple best responses, we introduce...
 
