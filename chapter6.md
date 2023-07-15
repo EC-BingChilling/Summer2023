@@ -475,7 +475,7 @@ The **Nash Equilibrium** would be Firm 1 - A, Firm 2 - A.
 
 There can be scenarios where there is more than one point of equilibrium. Which in turn makes it harder to read what action would be done next.
 
-**A Coordination Game**
+### A Coordination Game
 
 **Coordination Game** - "the two players’ shared goal is really
 to coordinate on the same strategy"
