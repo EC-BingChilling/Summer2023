@@ -398,7 +398,7 @@ As shown in the payoff breakdown.
 
 Nash Equilibrium - When both players have the best option for each of them and any other move would cause them a worse off payoff. (Still Selfish Game so they still only care about their own payoff)
 
-**Example: The Three Client Game.**
+### Example: The Three Client Game.
 
 In the three client game we are to assume that there are two firms that want to do business with one of the three clients, A, B, and C. The firms choices are as follows 
 
