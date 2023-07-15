@@ -396,9 +396,7 @@ As shown in the payoff breakdown.
 
 ## 6.4 Nash Equilibrium
 
-**What Is Nash Equilibrium**
-
-The whole point of Nash Equilibrium is for both of the sides to be at some point of equlaity. Meaning if i pick an option that is best for me your pick should be the best answer for you but for me at the same time 
+Nash Equilibrium - When both players have the best option for each of them and any other move would cause them a worse off payoff. (Still Selfish Game so they still only care about their own payoff)
 
 **Example: The Three Client Game.**
 
