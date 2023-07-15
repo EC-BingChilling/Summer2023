@@ -514,7 +514,7 @@ In the stag hunt game both hunters wont have a lower payoff. In this case its on
 
 ###### me questioning and trying to figure out a way to mess things up
 
-## Multiple Equailibria: The Hawk Dove game 
+## 6.5 Multiple Equailibria: The Hawk Dove game 
 
 **Hawk Dove**
 
