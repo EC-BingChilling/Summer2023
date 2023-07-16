@@ -387,11 +387,8 @@ Firm 2 - No dominant strategy.
 |---------------------|------------------|
 | Firm 1 - Low-Priced | .60,.40          |
 
-If things do go Firm 2's way, then:
-- Firm 1 Payoff: .40
--  Firm 2 Payoff: .60  
-
-.60 > .40
+- Firm 1 Payoff: .60
+-  Firm 2 Payoff: .40  
 
 As shown in the payoff breakdown.
 
