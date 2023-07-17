@@ -573,6 +573,8 @@ Figure 6.14 Matching Pennies game
 
 **Zero-Sum Game** - A game in which players' interests are in direct conflict. One player's gain is equilvalent to an equivalent loss for another. 
 
+There is no Nash Equilibrium here as the players don't have any advantageous strategy to the other.
+
 ### Mixed Strategies Payoffs
 
 In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
