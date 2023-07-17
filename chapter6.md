@@ -571,7 +571,7 @@ Figure 6.14 Matching Pennies game
 |            | T   | +1, -1          | -1, +1    |
 
 
-The way in which the matching pennies game is played it is also a zero sum game which is when one of the players sums becomes 0 after each turn. 
+**Zero-Sum Game** - A game in which players' interests are in direct conflict. One player's gain is equilvalent to an equivalent loss for another. 
 
 ### Mixed Strategies Payoffs
 
