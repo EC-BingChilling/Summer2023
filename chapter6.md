@@ -550,15 +550,15 @@ There are two points of nash equilibria one being Dove,Hawk and the other being 
 
 (D,H) and (H,D) are Nash Equilibria as neither can improve the payoff by changing their strategy. 
 
-## Mixed strategies 
+## 6.7 Mixed strategies 
 
 ###### this is  what I was waiting for when they over lap
 
 In mixed startegies there can be cases where nash equilibria does not exist. When you allow randomization to be allowed then there is going to be a form of equalibria that can be found according to John Nash's main results. 
 
-**Matching Pennies**
+### Matching Pennies
 
-The matching pennies game is played by 2 players. Each player recieves one penny. Then they are to pick what their penny will land on (HEads or tails). 
+The matching pennies game is played by 2 players. Each player recieves one penny. Then they are to pick what their penny will land on (Heads or tails). 
 - Player 1 loses their penny to Player 2 if they match 
 - Player 1 wins Player 2's penny if they dont match
 
@@ -567,13 +567,13 @@ Figure 6.14 Matching Pennies game
 |            |     | **Player 2**    |           |
 |------------|-----|-----------------|-----------|
 |            |     | H               | T         |
-|**player 1**| H   | -1, +1          | +1, -1    |
+|**Player 1**| H   | -1, +1          | +1, -1    |
 |            | T   | +1, -1          | -1, +1    |
 
 
 The way in which the matching pennies game is played it is also a zero sum game which is when one of the players sums becomes 0 after each turn. 
 
-**Mixed Strategies Payoffs**
+### Mixed Strategies Payoffs
 
 In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
 - (-1)(q)+(1)(1-q) = 1-2q. 
@@ -581,13 +581,13 @@ For the case that player 1 plays a full T strategy the payoff is:
 - (1)(q)+(-1)(1-q) = 2q-1 
 The q stand for the choice of player 2 meaning it can be 1 or 0 (1 and 0 reffering to heads and tails). In the end -1 results in a lose and 1 resulting in a win. 
 
-**Equilibrium With Mixed Strategies**
+### Equilibrium With Mixed Strategies
 
 - Games with probablilities that are not equal to eachother can not reach an equilibrium. 
 - To make the Matching Pennies game (1-2q = 2p-1) be equal you would need to have q = 1/2. 
 - Which is impossible for the game considering your only imputs are 1 or 0. Meaning matching pennies is not a Nash Equalilbrium 
 
-**Interpreting the Mixed strategy Equilibrium for Match Pennies**
+### Interpreting the Mixed strategy Equilibrium for Match Pennies
 
 - In a way all games can be turned into a form of a Mixed strategy game. Just because there is a way to have an equilibria does not mean all participants are working to reach that equalibria. 
 - More often than not when meeting a new person/ player they are going to play for them and not for equilibria 
