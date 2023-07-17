@@ -583,9 +583,18 @@ Ex: Player 1 chooses a probability of 0.7
 - Play H with 70% chance
 - Play T with 30% chance
 
-The game has changed since now the players have way more strategies to choose from, anything from probability of 0 to 1. This is called "Mixed Strategies" because you are mixing between the options of H and T. 
+The game has changed since now the players have way more strategies to choose from. 
 
-The original strategies of choosing H or T are still available, but they are called "pure strategies". Choosing H is like choosing a probability of 1, and choosing T is the same as choosing a probability of 0.
+Strategies for Player 1:
+- Numbers _p_ with a probability from 0 to 1
+- Player commits to play H with a probability of p and playing T with a probability of 1 - p
+
+Similarly, Strategies for Player 2:
+- Numbers q between 0 and 1 representing the probability that Player 2 will play H
+
+This is called "Mixed Strategies" because you are mixing between the options of H and T. 
+
+The original strategies of choosing H or T are still available, but they are called "pure strategies". Choosing H is like choosing a probability of 1 (p = 1, "pure strategy H"), and similarily for p=0 or q = 0 or 1.
 
 ### Mixed Strategies Payoffs
 
