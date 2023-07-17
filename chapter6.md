@@ -575,6 +575,18 @@ Figure 6.14 Matching Pennies game
 
 There is no Nash Equilibrium here as the players don't have any advantageous strategy to the other.
 
+### Mixed Strategies
+Two players can choose between two options: H or T.
+Instead of choosing one option directly, each player chooses the probability of choosing a certain choice. 
+
+Ex: Player 1 chooses a probability of 0.7
+- Play H with 70% chance
+- Play T with 30% chance
+
+The game has changed since now the players have way more strategies to choose from, anything from probability of 0 to 1. This is called "Mixed Strategies" because you are mixing between the options of H and T. 
+
+The original strategies of choosing H or T are still available, but they are called "pure strategies". Choosing H is like choosing a probability of 1, and choosing T is the same as choosing a probability of 0.
+
 ### Mixed Strategies Payoffs
 
 In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
