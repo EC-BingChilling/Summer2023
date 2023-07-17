@@ -528,16 +528,16 @@ Two pure strategy Nash equilibria are when both hunters choose to hunt stag (coo
 
 In the stag hunt game both hunters wont have a lower payoff. 
 
-## 6.6 Multiple Equailibria: The Hawk Dove game 
+## 6.6 Multiple Equailibria: The Hawk Dove Game 
 
 **Hawk Dove**
 
 In the hawk dove game we are to assume that two animals are thinking of how to split their food. There are two options one is to act like a hawk which is to be aggresive and the other is to be a dove and be passive. The payoffs are as follows: 
 - If animal 1 picks hawk and the animal 2 picks dove animal 1's food payoff would be 5 to 1 and vise versa
 - If animal 1 picks dove and so does animal 2 they payoff is 3 to 3
-- If both animals pick hawk the payoff is 0 to 0 with a posibility of becoming injured which is the pick with the most risk
+- If both animals pick hawk the payoff is 0 to 0 with a posibility of becoming injured which is the pick 
 
-figure 6.12 Hawk-Dove game
+Figure 6.12 Hawk-Dove Game
 
 |            |     | **Animal 2** |        |
 |------------|-----|--------------|--------|
@@ -550,6 +550,8 @@ figure 6.12 Hawk-Dove game
 
 There are two points of nash equilibria one being Dove,Hawk and the other being Hawk,Dove. In most cases one side is going to pick to be agressive while the other tries to find a way to be passive. 
 ###### this can even be seen in TV shows where one side wants peace while the other wants war. 
+
+(D,H) and (H,D) are Nash Equilibria as neither can improve the payoff by changing their strategy. 
 
 ## Mixed strategies 
 
