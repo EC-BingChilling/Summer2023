@@ -627,13 +627,15 @@ Player 2 chooses "q", Player 1 chooses "H":
 |   | Player 1 (H) |
 |---|--------------|
 | q | 1 - 2q       |
+-  When evaluating the probability and chances of winning from player 1 with a pure H while player 2 chooses q strategy the payoff is: 
 - (−1)(q) + (1)(1 − q) = 1 − 2q
 
 Player 2 chooses "q", and Player 1 chooses "T":
 |   | Player 1 (T) |
 |---|--------------|
 | q | 2q - 1       |
-- (1)(q) + (−1)(1 − q) = 2q − 1.
+- For the case that player 1 plays a full T strategy when player 2 chooses q the payoff is: 
+- (1)(q)+(-1)(1-q) = 2q-1 
 
 Player 2 chooses "1-q", and Player 1 chooses "H":
 |       | Player 1 (H) |
@@ -646,12 +648,6 @@ Player 2 chooses "1-q" and Player 1 chooses "T":
 | 1 - q | 2(1 - q) - 1 |
 
 Therefore, we can conclude that the payoffs for Player 1 would still be random because of Player 2 choosing a probability. The payoffs depend on the probabilities assigned to each pure strategy.
-
- When evaluating the probability and chances of winning from player 1 with a pure H while player 2 chooses q strategy the payoff is: 
-- (-1)(q)+(1)(1-q) = 1-2q. 
-For the case that player 1 plays a full T strategy when player 2 chooses q the payoff is: 
-- (1)(q)+(-1)(1-q) = 2q-1 
-
 ### Equilibrium With Mixed Strategies
 
 - Games with probablilities that are not equal to eachother can not reach an equilibrium. 
