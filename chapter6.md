@@ -610,7 +610,6 @@ Then if we suppose that Player 2 chooses a strategy "q":
 - commit to playing "H" with a probability "q"
 - playing "T" with a probability 1-q
 
-###### not sure if this chart is correct
 Here is a payoff chart for this new scenario:
 | Player 2 (q) | Player 1 (H) | Player 1 (T) |
 |-------------|--------------|--------------|
