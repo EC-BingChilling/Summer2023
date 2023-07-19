@@ -598,6 +598,10 @@ The original strategies of choosing H or T are still available, but they are cal
 
 ### Mixed Strategies Payoffs
 
+Payoffs are now random quantities, with players getting +1 or -1 with some probability.
+
+We use expected **value** to figure out which strategy is better for a player to compare random payoffs. We check how attractive a certain distribution of payoffs is to a player.
+
 In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
 - (-1)(q)+(1)(1-q) = 1-2q. 
 For the case that player 1 plays a full T strategy the payoff is: 
