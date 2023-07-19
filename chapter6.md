@@ -602,6 +602,49 @@ Payoffs are now random quantities, with players getting +1 or -1 with some proba
 
 We use expected **value** to figure out which strategy is better for a player to compare random payoffs. We check how attractive a certain distribution of payoffs is to a player.
 
+Player 1 _pure strategies_:
+- definitely playing "H" (heads)
+- definitely playing "T" (tails)
+
+Then if we suppose that Player 2 chooses a strategy "q":
+- commit to playing "H" with a probability "q"
+- playing "T" with a probability 1-q
+
+###### not sure if this chart is correct
+Here is a payoff chart for this new scenario:
+| Player 2 (q) | Player 1 (H) | Player 1 (T) |
+|-------------|--------------|--------------|
+| q           | 1 - 2q       | 2q - 1       |
+| 1 - q       | 1 - 2(1 - q) | 2(1 - q) - 1 |
+
+- _Player 2 (q)_ - represents the probability of Player 2 choosing q
+- _Player 1 (H)_ - represents the expected payoff for Player 1 if they choose strategy "H" (heads)
+
+- _Player 1 (T)_ - represents the expected payoff for Player 1 if they choose strategy "T" (tails)
+
+Examples  
+Player 2 chooses "q", Player 1 chooses "H":
+|   | Player 1 (H) |
+|---|--------------|
+| q | 1 - 2q       |
+
+Player 2 chooses "q", and Player 1 chooses "T":
+|   | Player 1 (T) |
+|---|--------------|
+| q | 2q - 1       |
+
+Player 2 chooses "1-q", and Player 1 chooses "H":
+|       | Player 1 (H) |
+|-------|--------------|
+| 1 - q | 1 - 2(1 - q) |
+
+Player 2 chooses "1-q" and Player 1 chooses "T":
+|       | Player 1 (T) |
+|-------|--------------|
+| 1 - q | 2(1 - q) - 1 |
+
+Therefore, we can conclude that the payoffs for Player 1 would still be random because of Player 2 choosing a probability.
+
 In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
 - (-1)(q)+(1)(1-q) = 1-2q. 
 For the case that player 1 plays a full T strategy the payoff is: 
