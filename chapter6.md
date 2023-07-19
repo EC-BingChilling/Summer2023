@@ -657,9 +657,8 @@ Strategies:
 - probabilities of picking H
 Payoffs: 
 - expectations of the payoffs from four outcomes (H,H),(H,T),(T,H),(T,T)
-### Equilibrium With Mixed Strategies
+### Equilibrium with Mixed Strategies
 
-- Games with probablilities that are not equal to eachother can not reach an equilibrium. 
 - To make the Matching Pennies game (1-2q = 2p-1) be equal you would need to have q = 1/2. 
 - Which is impossible for the game considering your only imputs are 1 or 0. Meaning matching pennies is not a Nash Equalilbrium 
 
