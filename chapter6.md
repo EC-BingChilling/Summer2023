@@ -648,6 +648,16 @@ Player 2 chooses "1-q" and Player 1 chooses "T":
 | 1 - q | 2(1 - q) - 1 |
 
 Therefore, we can conclude that the payoffs for Player 1 would still be random because of Player 2 choosing a probability. The payoffs depend on the probabilities assigned to each pure strategy.
+
+_expected payoff_ - each player wants to make choices that gives them the highest average payoff
+- average outcome they expect to get over multiple rounds of the game after choosing probabilities for each option.
+- make decisions to maximize their chances of getting the best result
+
+**Mixed Strategies Version of Matching Pennies game**
+Strategies:
+- probabilities of picking H
+Payoffs: 
+- expectations of the payoffs from four outcomes (H,H),(H,T),(T,H),(T,T)
 ### Equilibrium With Mixed Strategies
 
 - Games with probablilities that are not equal to eachother can not reach an equilibrium. 
