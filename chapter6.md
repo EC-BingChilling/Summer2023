@@ -659,8 +659,22 @@ Payoffs:
 - expectations of the payoffs from four outcomes (H,H),(H,T),(T,H),(T,T)
 ### Equilibrium with Mixed Strategies
 
-- To make the Matching Pennies game (1-2q = 2p-1) be equal you would need to have q = 1/2. 
-- Which is impossible for the game considering your only imputs are 1 or 0. Meaning matching pennies is not a Nash Equalilbrium 
+No _pure strategy_ can be chosen (choosing H or T with certainty) can be a part of a Nash Equilibrium in the Matching Pennies game since if one player uses a _pure strategy_ the other player can always exploit this by choosing the pure strategy as well so that the first player doesn't have as good of an outcome. 
+
+Player 1's best response to Player 2's strategy q (Probability which Player 2 chooses H):
+
+- Expected payoff to Player 1 for choosing pure strategy H: 1 - 2q
+- Expected payoff to Player 1 for choosing pure strategy T: 2q - 1
+
+ if 1 − 2q ≠ 2q − 1, then one of the pure strategies would be the best response for Player 1 to a play of q by Player 2 because one would be larger. 
+
+**Nash Equilibrium** in a Mixed Strategy scenario we must have (1-2q = 2p-1)
+
+Solving for it, we would get q = 1/2.
+
+Therefore, both players must use the mixed strategy with p = 1/2 and q = 1/2 to reach Nash Equilibrium. 
+
+Tldr; the only Nash Equilibrium is when both players randomly choose H and T with equal probabilities.
 
 ### Interpreting the Mixed strategy Equilibrium for Match Pennies
 
