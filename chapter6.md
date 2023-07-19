@@ -688,3 +688,52 @@ However, the choice of q = 1/2 by the second player makes the first player indif
 _Indifference_ - In two strategies where there are no equilibria involving pure strategies, each player should randomize their actions to make the other player indifferent between their alternatives so neither player's behavior can be exploited by a pure strategy
 
 In real world situations, this can come off as a tennis player randomly deciding th serve the ball to the center or the side or the court, or a card player deciding to bluff or not.
+
+## 6.8 Mixed Strategies: Examples and Empirical Analysis
+
+|         |      | Defense     |            |
+|---------|------|-------------|------------|
+|         |      | Defend Pass | Defend Run |
+| Offense | Pass | 0,0         | 10,-10     |
+|         | Run  | 5,-5        | 0,0        |
+
+Figure 6.15. Run-Pass game
+
+Reminder:  
+A mixed strategy equilibrium occurs when each player's randomized strategy makes their opponent indifferent between their own available strategies
+
+The Run-Pass Game illustrates a simplified version of the strategic decisions made by two american football teams during a football game. 
+- Payoffs represent the gains or losses in yards
+
+Find the mixed-strategy equilibrium by determine the probabilities at which each player should randomize their actions to make their opponent indifferent.
+
+_p_ : probability that offense chooses to pass
+_q_ : probability that the defense chooses to defend against the pass
+
+Ensure the expected payoffs for each player are equal to calculate the probabilities:
+
+**Offense:**
+- Payoff from passing: 0 * q + 10 * (1-q) = 10 - 10q
+- Payoff from running: 5 * q + 0 * (1-q) = 5q
+
+They should be indifferent between passing and running so set the 2 payoffs equal to each other and solve.
+10 - 10q = 5q  
+q = 2/3
+
+**Defense:**
+- Payoff from defending against the pass: 0 * p - 5 * (1-p) = 5p-5  
+- Expected payoff from defending against the run: -10 * p + 0 * (1-p) = -10p
+
+Defense should be indifferent between defensing against the pass and defending against the run, so we set the two expected payoffs equal to each other.
+5p - 5 = -10p
+p = 1/3
+
+In the mixed-strategy equilibrium, the offense should pass with a probability of 1/3, and the defense should defend against the pass with a probability of 2/3.
+
+Offense will run 2/3 of the time and pass 1/3 of the time.
+
+Defense will defend against the run 1/3 of the time and defend against the pass 2/3 of the time.
+
+Equilibrium payoffs:
+- Offense: 10/3
+- Defense: -10/3
