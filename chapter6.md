@@ -627,11 +627,13 @@ Player 2 chooses "q", Player 1 chooses "H":
 |   | Player 1 (H) |
 |---|--------------|
 | q | 1 - 2q       |
+- (−1)(q) + (1)(1 − q) = 1 − 2q
 
 Player 2 chooses "q", and Player 1 chooses "T":
 |   | Player 1 (T) |
 |---|--------------|
 | q | 2q - 1       |
+- (1)(q) + (−1)(1 − q) = 2q − 1.
 
 Player 2 chooses "1-q", and Player 1 chooses "H":
 |       | Player 1 (H) |
@@ -643,9 +645,9 @@ Player 2 chooses "1-q" and Player 1 chooses "T":
 |-------|--------------|
 | 1 - q | 2(1 - q) - 1 |
 
-Therefore, we can conclude that the payoffs for Player 1 would still be random because of Player 2 choosing a probability.
+Therefore, we can conclude that the payoffs for Player 1 would still be random because of Player 2 choosing a probability. The payoffs depend on the probabilities assigned to each pure strategy.
 
-In the mixed strategies there then becomes the effect of randomness which comes from the other player being able to pick two different options. (represented as q) When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
+ When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
 - (-1)(q)+(1)(1-q) = 1-2q. 
 For the case that player 1 plays a full T strategy the payoff is: 
 - (1)(q)+(-1)(1-q) = 2q-1 
