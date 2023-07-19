@@ -647,11 +647,10 @@ Player 2 chooses "1-q" and Player 1 chooses "T":
 
 Therefore, we can conclude that the payoffs for Player 1 would still be random because of Player 2 choosing a probability. The payoffs depend on the probabilities assigned to each pure strategy.
 
- When evaluating the probability and chances of winning from player 1 with a pure H strategy the payoff is: 
+ When evaluating the probability and chances of winning from player 1 with a pure H while player 2 chooses q strategy the payoff is: 
 - (-1)(q)+(1)(1-q) = 1-2q. 
-For the case that player 1 plays a full T strategy the payoff is: 
+For the case that player 1 plays a full T strategy when player 2 chooses q the payoff is: 
 - (1)(q)+(-1)(1-q) = 2q-1 
-The q stand for the choice of player 2 meaning it can be 1 or 0 (1 and 0 reffering to heads and tails). In the end -1 results in a lose and 1 resulting in a win. 
 
 ### Equilibrium With Mixed Strategies
 
