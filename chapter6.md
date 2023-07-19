@@ -676,7 +676,15 @@ Therefore, both players must use the mixed strategy with p = 1/2 and q = 1/2 to 
 
 Tldr; the only Nash Equilibrium is when both players randomly choose H and T with equal probabilities.
 
-### Interpreting the Mixed strategy Equilibrium for Match Pennies
+### Interpreting the Mixed-Strategy Equilibrium for Match Pennies
 
-- In a way all games can be turned into a form of a Mixed strategy game. Just because there is a way to have an equilibria does not mean all participants are working to reach that equalibria. 
-- More often than not when meeting a new person/ player they are going to play for them and not for equilibria 
+Two people playing the game of Matching Pennies.
+1. Each player commits to behaving randomly with probabilities p and q, respectively
+2. if one player believes the other will play Heads (H) strictly more than half the time, they should choose Tails (T). The same thing applies if they believe the other player will choose tails more than half the time
+3. In this case, there is _No_ Nash Equilibrium
+
+However, the choice of q = 1/2 by the second player makes the first player indifferent between H and T. q = 1/2 is non-exploitable by the first player, resulting in a Nash Equilibrium
+
+_Indifference_ - In two strategies where there are no equilibria involving pure strategies, each player should randomize their actions to make the other player indifferent between their alternatives so neither player's behavior can be exploited by a pure strategy
+
+In real world situations, this can come off as a tennis player randomly deciding th serve the ball to the center or the side or the court, or a card player deciding to bluff or not.
