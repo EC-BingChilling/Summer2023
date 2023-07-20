@@ -766,7 +766,8 @@ The mixed strategy equilibrium was once again found by using the principle of **
 
 - Payoffs represent the probability of scoring
 
-_q_: probability of goalie chosing L.
+_p_: probability of Kicker choosing to dive L  
+_q_: probability of goalie choosing L.
 
 (q is set to make the kicker indifferent between his two options.)
 (.58)(q)+(.95)(1-q)=(.93)(q)+(.70)(1-q)
