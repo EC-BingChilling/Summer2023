@@ -761,6 +761,9 @@ Penalty-kick game illustrates an analysis of roughly 1400 penalty kicks in profe
 
 Similar to matching pennies, if the **Goalie** guesses the correct direction in which the **kicker** aims, they have a good chance of blocking the shot and not having a higher negative number. If the guess is incorrect, the **Goalie** will lose more and the **kicker** will win more. 
 
+
+The mixed strategy equilibrium was once again found by using the principle of **indifference**, randomizing your choices to make the opponent indifferent between their available strategies.
+
 - Payoffs represent the probability of scoring
 
 _q_: probability of goalie chosing L.
