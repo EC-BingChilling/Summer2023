@@ -738,10 +738,12 @@ Equilibrium payoffs:
 - Offense: 10/3
 - Defense: -10/3
 
-**Strategic interpretation of the Run-Pass Game**
+### Strategic interpretation of the Run-Pass Game
 Passing would be the best option for the offense but should only be used 1/3 of the time.
 
-Reason: If offense placed any higher probability on passing then defending the pass would be the defenses best option making passing the worst choice.
+Reason: If offense placed any higher probability on passing then defending the pass would be the defenses best option making passing the worse choice.
+
+As a result, the offense's payoff would decrease to 5/2 which is less than the equilibrium payoff of 10/3 achieved with p = 1/3.
 
 The payoff for playing the pass 1/3 of the time has a higher payoff because using it only 1/3 of the time makes the defense indifferent between its two strategies.
 
