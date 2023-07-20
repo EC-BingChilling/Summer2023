@@ -769,7 +769,7 @@ The mixed strategy equilibrium was once again found by using the principle of **
 _p_: probability of Kicker choosing to dive L  
 _q_: probability of goalie choosing L.
 
-(q is set to make the kicker indifferent between his two options.)
+To find the equilibrium probabilities, q is set to make the kicker indifferent between his two options. Then we would solve for p make the goalie indifferent between diving left and right.  
 (.58)(q)+(.95)(1-q)=(.93)(q)+(.70)(1-q)
 
 - Solving for q we get q = .42 
