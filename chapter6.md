@@ -796,3 +796,9 @@ Then Keynote and Powerpoint will be indifferent.
 
 This mixed equilibrium comes with a positive probability that the two of you will miscoordinate.
 - Still and equilibrium because the probability for Powerpoint is 2/3 and keynote is 1/3 making you indifferent between the two.
+
+## Pareto Optimality and Social Optimality 
+
+Pareto optimal: A choice of strategies where no other choice of strategies in which all players recieve payoffs at least as high, and at least one player recieves a strictly high payoff.
+
+Social optimality: A choice of strategies that maximizes the sum of the players.
