@@ -747,8 +747,52 @@ The payoff for playing the pass 1/3 of the time has a higher payoff because usin
 
 **The Penalty Kick game**
 
-|         |      | Goalie     |            |
+|         |      | Goalie      |            |
 |---------|------|-------------|------------|
 |         |      | L           | R          |
 | Kicker  | L    | 0.58,-0.58  | 0.95,-0.95 |
 |         | R    | 0.93, -0.93 | 0.70, -0.70|
+
+Figure 6.16. Penalty-kick games
+
+Penalty-kick game illustrates an analysis of roughly 1400 penalty kicks in professional soccer.
+
+- Payoffs represent the probability of scoring
+
+q: probability of goalie chosing L.
+
+(q is set to make the kicker indifferent between his two options.)
+(.58)(q)+(.95)(1-q)=(.93)(q)+(.70)(1-q)
+
+- Solving for q we get q = .42 
+- Solving for p we get p = .39
+
+**Finding All Nash Equilibria**
+
+- Note that a game can have both pure-startegy and mixed strategy. 
+- This being so one should check for all four pure outcomes. 
+- Then next check for mixed equilibria while also looking for mixing probabilities p and q to get the best responses for each other.
+- If there is a mixed strategy equilibrium then it can be determined what player 2's strategy will be from what player 1 chooses and vice versa. 
+
+|     |           |Your partner |            |
+|-----|-----------|-------------|------------|
+|     |           | Powerpoint  | Keynote    |
+| You | Powerpoint| 1,1         | 0,0        |
+|     | Keynote   | 0,0         |2,2         |
+
+Figure 6.17. Unbalanced coordination game.
+
+Games can have both pure and mixed equilibria in them. The coordination game is an example of this having two pure equilibria also has a third equilibrium being the mixed strategy equilibrium. 
+
+Suppose:
+- You place a probability of p strictly between 0 and 1 on Powerpoint
+- Your partner places ptobability of q strictly between 0 and 1 on Powerpoint
+Then Keynote and Powerpoint will be indifferent.
+
+(equation of probability)
+(1)(q)+(0)(1-q) = (0)(q)+(2)(1-q)
+
+- q will then be equal to 2/3 and since the situation is symmetric p will also be 2/3
+
+This mixed equilibrium comes with a positive probability that the two of you will miscoordinate.
+- Still and equilibrium because the probability for Powerpoint is 2/3 and keynote is 1/3 making you indifferent between the two.
