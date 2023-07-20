@@ -772,19 +772,18 @@ _q_: probability of goalie choosing L.
 To find the equilibrium probabilities, q is set to make the kicker indifferent between his two options. Then we would solve for p make the goalie indifferent between diving left and right.  
 (.58)(q)+(.95)(1-q)=(.93)(q)+(.70)(1-q)
 - (.58)(q) - probability that the kicker aims left (.58) multiplied by the probability q that the goalie chooses to dive left
-- (.95)(1-q) - probability that kicker aims right (1-p=0.96) * probability that the goalie chooses to dive right (1-q)
+- (.95)(1-q) - probability that kicker aims right (1-p=0.95) * probability that the goalie chooses to dive right (1-q)
 - (.93)(q) - probability that the kicker aims right 1-p = 0.93 * probability q that goalie chooses to dive left
 - (.70)(1-q) - represents the probability that hte kicker aims left (p=.70) * probability that the goalie chooses to dive right (1-q)
 
 - Solving for q we get q = .42 
 - Solving for p we get p = .39
 
-**Finding All Nash Equilibria**
+### Finding All Nash Equilibria
 
-- Note that a game can have both pure-startegy and mixed strategy. 
-- This being so one should check for all four pure outcomes. 
-- Then next check for mixed equilibria while also looking for mixing probabilities p and q to get the best responses for each other.
-- If there is a mixed strategy equilibrium then it can be determined what player 2's strategy will be from what player 1 chooses and vice versa. 
+- Note that a game can have both pure-startegy and mixed strategy so one should check for all four pure outcomes (combination of pure strategies) to see if any form equilibria. 
+- Check for mixed equilibria by looking for mixing probabilities p and q to get the best responses to each other.
+- Player 1 randomizes when their pure strategies have equal payoffs which leads to solving for q, and similarly Player 2's strategy (p) can be determined from another equation.
 
 |     |           |Your partner |            |
 |-----|-----------|-------------|------------|
@@ -794,11 +793,17 @@ To find the equilibrium probabilities, q is set to make the kicker indifferent b
 
 Figure 6.17. Unbalanced coordination game.
 
-Games can have both pure and mixed equilibria in them. The coordination game is an example of this having two pure equilibria also has a third equilibrium being the mixed strategy equilibrium. 
+Games can have both pure and mixed equilibria in them. 
+
+The values of p and q should be strictly between 0 and 1 to be legit mixed strategies, and if this condition is met, a mixed-strategy equilibrium exists.
+
+Also, the mixed-strategy equilibrium occcurs when both players randomize their choices between the available pure strategies and neither has a dominant pure strategy.
+
+The coordination game is an example of this having two pure equilibria also has a third equilibrium being the mixed strategy equilibrium. 
 
 Suppose:
 - You place a probability of p strictly between 0 and 1 on Powerpoint
-- Your partner places ptobability of q strictly between 0 and 1 on Powerpoint
+- Your partner places probability of q strictly between 0 and 1 on Powerpoint
 Then Keynote and Powerpoint will be indifferent.
 
 (equation of probability)
