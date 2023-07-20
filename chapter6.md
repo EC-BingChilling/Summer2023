@@ -747,7 +747,7 @@ The payoff for playing the pass 1/3 of the time has a higher payoff because usin
 
 Offense is only using passing 1/3 of the time so the defense is forced to defend against it 2/3 of the time in the equilibrium. So the threat of passing is important for offense to gain an advantage when it passes rarely.
 
-**The Penalty Kick game**
+### The Penalty-Kick Game
 
 |         |      | Goalie      |            |
 |---------|------|-------------|------------|
@@ -759,9 +759,11 @@ Figure 6.16. Penalty-kick games
 
 Penalty-kick game illustrates an analysis of roughly 1400 penalty kicks in professional soccer.
 
+Similar to matching pennies, if the **Goalie** guesses the correct direction in which the **kicker** aims, they have a good chance of blocking the shot and not having a higher negative number. If the guess is incorrect, the **Goalie** will lose more and the **kicker** will win more. 
+
 - Payoffs represent the probability of scoring
 
-q: probability of goalie chosing L.
+_q_: probability of goalie chosing L.
 
 (q is set to make the kicker indifferent between his two options.)
 (.58)(q)+(.95)(1-q)=(.93)(q)+(.70)(1-q)
