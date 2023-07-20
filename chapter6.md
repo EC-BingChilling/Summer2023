@@ -771,6 +771,10 @@ _q_: probability of goalie choosing L.
 
 To find the equilibrium probabilities, q is set to make the kicker indifferent between his two options. Then we would solve for p make the goalie indifferent between diving left and right.  
 (.58)(q)+(.95)(1-q)=(.93)(q)+(.70)(1-q)
+- (.58)(q) - probability that the kicker aims left (.58) multiplied by the probability q that the goalie chooses to dive left
+- (.95)(1-q) - probability that kicker aims right (1-p=0.96) * probability that the goalie chooses to dive right (1-q)
+- (.93)(q) - probability that the kicker aims right 1-p = 0.93 * probability q that goalie chooses to dive left
+- (.70)(1-q) - represents the probability that hte kicker aims left (p=.70) * probability that the goalie chooses to dive right (1-q)
 
 - Solving for q we get q = .42 
 - Solving for p we get p = .39
