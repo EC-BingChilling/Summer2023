@@ -820,8 +820,18 @@ q will then be equal to 2/3 and since the situation is symmetric p will also be 
 This mixed equilibrium comes with a positive probability that the two of you will miscoordinate.
 - Still and equilibrium because the probability for Powerpoint is 2/3 and keynote is 1/3 making you indifferent between the two.
 
-## Pareto Optimality and Social Optimality 
+## 6.9 Pareto Optimality and Social Optimality 
+
+What about reaching an outcome that is good for both players or for society as a whole? We can classify what it means for an outcome to be good for society.
 
 Pareto optimal: A choice of strategies where no other choice of strategies in which all players recieve payoffs at least as high, and at least one player recieves a strictly high payoff.
 
 Social optimality: A choice of strategies that maximizes the sum of the players.
+
+Figure 6.18. Exam or presentation?
+
+|         |                | **Your Partner** |        |
+|---------|----------------|------------------|--------|
+|         |                | _Presentation_   | _Exam_ |
+| **You** | _Presentation_ | 90,90            | 86,92  |
+|         | _Exam_         | 92,86            | 88,88  |
