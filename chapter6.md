@@ -806,10 +806,16 @@ Suppose:
 - Your partner places probability of q strictly between 0 and 1 on Powerpoint
 Then Keynote and Powerpoint will be indifferent.
 
-(equation of probability)
+Equation for Player 1 to be indifferent between choosing PowerPoint and Keynote.  
 (1)(q)+(0)(1-q) = (0)(q)+(2)(1-q)
+- Left side is the expected payoff for player 1 if they choose powerpoint
+    - (1)(q) represents the payoff for Player 1 if they chose powerpoint and their partner also chooses powerpoint, with the _payoff of 1 happening with probability q_
+    - (0)(1-q) represents the payoff for Player 1 if they choose Powerpoint and their partner chooses Keynote with _payoff of 0 happening with probability 1-q_
+- right side is the expected payoff for player 1 if they choose keynote
+    - (0)(q) represents the payoff for player 1 if they choose Keynote and their partner chooses Powerpoint _payoff of 0 with probability q_  
+    - (2)(1-q) represents the payoff for Player 1 if they choose Keynote and their partner chooses keynote _payoff of 2 with probability 1-q_
 
-- q will then be equal to 2/3 and since the situation is symmetric p will also be 2/3
+q will then be equal to 2/3 and since the situation is symmetric p will also be 2/3
 
 This mixed equilibrium comes with a positive probability that the two of you will miscoordinate.
 - Still and equilibrium because the probability for Powerpoint is 2/3 and keynote is 1/3 making you indifferent between the two.
