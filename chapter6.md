@@ -824,8 +824,16 @@ This mixed equilibrium comes with a positive probability that the two of you wil
 
 What about reaching an outcome that is good for both players or for society as a whole? We can classify what it means for an outcome to be good for society.
 
+Figure 6.18. Exam or presentation?
+
+|         |                | **Your Partner** |        |
+|---------|----------------|------------------|--------|
+|         |                | _Presentation_   | _Exam_ |
+| **You** | _Presentation_ | 90,90            | 86,92  |
+|         | _Exam_         | 92,86            | 88,88  |
 ### Pareto optimal:   
 A choice of strategies where no other choice of strategies in which all players recieve payoffs at least as high, and at least one player recieves a strictly high payoff.
+
 
 ##### In layman's terms, it means that in a given situation, no one can be made better off without making someone worse off.
 
@@ -844,13 +852,18 @@ Not pareo optimal because preparing for the presentation would be better for bot
 
 In the Exam or Presentation game, if only one of you prepares for the exam and the other studies, it is pareo optimal even though it's not the most idea for one person.
 
-Social optimality: A choice of strategies that maximizes the sum of the players.
+### Social optimality: 
+A choice of strategies that maximizes the sum of the players.
+###### In layman's terms, it means to make choices that maximize the total benefits or payoffs forall players involved in a game.
+```mermaid
+graph LR;
+You --> prepare_for_presentation
+Your_partner --> prepare_for_presentation
+```
+Social Optimum: 90 + 90 = 180
 
-Figure 6.18. Exam or presentation?
+Socially optimal outcomes must also be Pareo optimal but a Pareo Optimal outcome doesn't need to be socially optimal.
 
-|         |                | **Your Partner** |        |
-|---------|----------------|------------------|--------|
-|         |                | _Presentation_   | _Exam_ |
-| **You** | _Presentation_ | 90,90            | 86,92  |
-|         | _Exam_         | 92,86            | 88,88  |
+Adding up the individual payoffs of different players doesn't always make sense so we need to be cautious about that.
 
+The Nash Equilibria are not always in conflict with the goal of soial optimality. Ex, when the exam is easier in the game the unique Nash Equilibrium can also be the unique social optimum.
