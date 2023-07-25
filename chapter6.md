@@ -824,7 +824,25 @@ This mixed equilibrium comes with a positive probability that the two of you wil
 
 What about reaching an outcome that is good for both players or for society as a whole? We can classify what it means for an outcome to be good for society.
 
-Pareto optimal: A choice of strategies where no other choice of strategies in which all players recieve payoffs at least as high, and at least one player recieves a strictly high payoff.
+### Pareto optimal:   
+A choice of strategies where no other choice of strategies in which all players recieve payoffs at least as high, and at least one player recieves a strictly high payoff.
+
+##### In layman's terms, it means that in a given situation, no one can be made better off without making someone worse off.
+
+If the current choice of strategies is not Pareto optimal, it means there should be another choice that is better for everyone and if you and your friend can agree on this choice then you would prefer it.
+
+For the better choice to work, both players need to stick to it. If it's not a Nash equilibrium then if they don't have a binding agreement at least one player would want to switch to a different strategy.
+
+In the exam or presentation game:
+```mermaid
+graph LR;
+    You --> Study_for_Exam
+    Your_Partner --> Study_for_Exam
+    Study_for_Exam --> Not_Pareo-optimal
+```
+Not pareo optimal because preparing for the presentation would be better for both, but without a binding agreement there's no way to maintain the better choice because one of you might decide to switch strategies.
+
+In the Exam or Presentation game, if only one of you prepares for the exam and the other studies, it is pareo optimal even though it's not the most idea for one person.
 
 Social optimality: A choice of strategies that maximizes the sum of the players.
 
@@ -835,3 +853,4 @@ Figure 6.18. Exam or presentation?
 |         |                | _Presentation_   | _Exam_ |
 | **You** | _Presentation_ | 90,90            | 86,92  |
 |         | _Exam_         | 92,86            | 88,88  |
+
