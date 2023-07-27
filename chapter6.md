@@ -895,3 +895,12 @@ _P<sub>i</sub>_ ( _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S<s
 - Right Side: Payoff Player _i_ gets when they switch their strategy to S'<sub>i</sub> 
 
 So if S<sub>i</sub> is the best strategy for Player _i_, then they stick to it and if every other player also uses the best strategy for themselves, we have a Nash Equilibrium and the game is balanced. 
+
+Table for Illustration:
+
+| **Player** | **Strategies**                 | **Payoff Function**             |
+|------------|-------------------------------|---------------------------------|
+| Player 1   | $S_1$                         | $P_1(S_1, S_2, ..., S_n)$       |
+| Player 2   | $S_2$                         | $P_2(S_1, S_2, ..., S_n)$       |
+| ...        | ...                           | ...                             |
+| Player n   | $S_n$                         | $P_n(S_1, S_2, ..., S_n)$       |
