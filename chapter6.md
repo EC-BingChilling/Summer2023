@@ -867,3 +867,31 @@ Socially optimal outcomes must also be Pareo optimal but a Pareo Optimal outcome
 Adding up the individual payoffs of different players doesn't always make sense so we need to be cautious about that.
 
 The Nash Equilibria are not always in conflict with the goal of soial optimality. Ex, when the exam is easier in the game the unique Nash Equilibrium can also be the unique social optimum.
+
+## 6.10 Advanced Material: Dominated Strategies and Dynamic Games
+
+### A. Multiplayer Games
+
+A multiplayer game consists of a set of players, a set of strategies for each player and a payoff to each player for each outcome.
+- _n_ players named 1,2,...,_n_.
+- Strategies to choose from
+- Outcome, the result after everyone picked their strategies
+- Payoff, the reward everyone gets based on the outcome of the game
+- Best response, the strategy with the highest payoff given the responses of the other players
+- Nash Equilibrium, when all players are making best responses to the other players' choices
+
+For the equations:
+- _n_ : number of players in the game
+  - each player is named with a number, such as Player 1, Player 2, and all the way up to Player _n_
+- _S<sub>i</sub>_ : represents the strategy chosen by Player _i_
+- _P<sub>i</sub>_ : Payoff function for Player _i_, a rule that tells us how many points or rewards Player _i_ gets for each combination of strategies chosen by all players
+
+The equation checks if a strategy _S<sub>i</sub>_ is the best response for Player _i_ to what all the other players are doing. 
+
+_P<sub>i</sub>_ ( _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S<sub>i</sub>_, _S<sub>i+1</sub>_, ..., _S<sub>n</sub>_ ) ≥  _P<sub>i</sub>_ ( _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S'<sub>i</sub>_, _S<sub>i+1</sub>_, ..., _S<sub>n</sub>_ )
+
+- Left side: Payoff Player _i_ gets when they choose strategy S<sub>i</sub> while the other players are using their strategies _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S<sub>i</sub>_, _S<sub>i+1</sub>_, ..., _S<sub>n</sub>_ 
+
+- Right Side: Payoff Player _i_ gets when they switch their strategy to S'<sub>i</sub> 
+
+So if S<sub>i</sub> is the best strategy for Player _i_, then they stick to it and if every other player also uses the best strategy for themselves, we have a Nash Equilibrium and the game is balanced. 
