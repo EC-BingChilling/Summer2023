@@ -907,12 +907,6 @@ Table for Illustration:
 
 ## B. Dominated Strategies and Their Role in Strategic Thinking
 
-Figure 6.19 In the Facility Location game on this six-node path, each player has strictly
-dominated strategies but no dominant strategy
-```mermaid
-flowchart LR;
-    id1((A)) --- id2((B)) --- id3((C)) --- id4((D)) --- id5((E)) --- id6((F));
-```
 Review:  
 - dominant strategy: a strategy that is the best choice no matter what the other players choose  
 - strictly dominated strategy: a strategy that always delivers the worse outcome than an alternate strategy regardless of what the opponent chooses _*opposite of a strictly dominant strategy_
@@ -928,3 +922,21 @@ _P<sub>i</sub>_ ( _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S'<
 Strictly Dominated: Player _i_ can always get a better outcome by choosing strategy _S'<sub>i</sub>_ instead of _S<sub>i</sub>_ regardless of what the other players do.
 
 If there exists at least one other strategy _S'<sub>i</sub>_ that always leads to a strictly higher payoff for Player _i_ , then the strategy S<sub>i</sub> is strictly dominated and not the best choice for Player _i_'s success in the game.
+
+Figure 6.19 In the Facility Location game on this six-node path, each player has strictly
+dominated strategies but no dominant strategy
+```mermaid
+flowchart LR;
+    id1((A)) --- id2((B)) --- id3((C)) --- id4((D)) --- id5((E)) --- id6((F));
+```
+
+### Example: The Facility Location Game
+|        |   |     | Firm 2 |     |
+|--------|---|-----|--------|-----|
+|        |   | B   | D      | F   |
+|        | A | 1,5 | 2,4    | 3,3 |
+| Firm 1 | C | 4,2 | 3,3    | 4,2 |
+|        | E | 3,3 | 2,4    | 5,1 |
+
+Figure 6.20 Facility Location Game
+
