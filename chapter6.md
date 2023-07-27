@@ -870,7 +870,7 @@ The Nash Equilibria are not always in conflict with the goal of soial optimality
 
 ## 6.10 Advanced Material: Dominated Strategies and Dynamic Games
 
-### A. Multiplayer Games
+## A. Multiplayer Games
 
 A multiplayer game consists of a set of players, a set of strategies for each player and a payoff to each player for each outcome.
 - _n_ players named 1,2,...,_n_.
@@ -904,3 +904,27 @@ Table for Illustration:
 | Player 2   | $S_2$                         | $P_2(S_1, S_2, ..., S_n)$       |
 | ...        | ...                           | ...                             |
 | Player n   | $S_n$                         | $P_n(S_1, S_2, ..., S_n)$       |
+
+## B. Dominated Strategies and Their Role in Strategic Thinking
+
+Figure 6.19 In the Facility Location game on this six-node path, each player has strictly
+dominated strategies but no dominant strategy
+```mermaid
+flowchart LR;
+    id1((A)) --- id2((B)) --- id3((C)) --- id4((D)) --- id5((E)) --- id6((F));
+```
+Review:  
+- dominant strategy: a strategy that is the best choice no matter what the other players choose  
+- strictly dominated strategy: a strategy that always delivers the worse outcome than an alternate strategy regardless of what the opponent chooses _*opposite of a strictly dominant strategy_
+
+_P<sub>i</sub>_ ( _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S'<sub>i</sub>_, _S<sub>i+1</sub>_, ..., _S<sub>n</sub>_ ) ≥  _P<sub>i</sub>_ ( _S_<sub>1</sub>, _S_<sub>2</sub>, ..., _S<sub>i-1</sub>_, _S<sub>i</sub>_, _S<sub>i+1</sub>_, ..., _S<sub>n</sub>_ )
+
+- $S_i$: Represents the strategy chosen by player $i$ (the player we are considering)  
+- $S_i^{\prime}$: Represents another strategy available to player $i$, which is being compared to the original strategy $S_i$.  
+- $P_i\left(S_1, S_2, \ldots, S_{i-1}, S_i^{\prime}, S_{i+1}, \ldots, S_n\right)$: Represents the payoff function for player $i$ when they choose strategy $S_i^{\prime}$ along with the strategies chosen by the other players.
+- $P_i\left(S_1, S_2, \ldots, S_{i-1}, S_i, S_{i+1}, \ldots, S_n\right)$: Represents the payoff function for player $i$ when they choose their original strategy $S_i$ along with the strategies chosen by the other players.
+- $\left(S_1, S_2, \ldots, S_{i-1}, S_{i+1}, \ldots, S_n\right)$: Represents all possible combinations of strategies chosen by the other players.
+
+Strictly Dominated: Player _i_ can always get a better outcome by choosing strategy _S'<sub>i</sub>_ instead of _S<sub>i</sub>_ regardless of what the other players do.
+
+If there exists at least one other strategy _S'<sub>i</sub>_ that always leads to a strictly higher payoff for Player _i_ , then the strategy S<sub>i</sub> is strictly dominated and not the best choice for Player _i_'s success in the game.
