@@ -940,3 +940,33 @@ flowchart LR;
 
 Figure 6.20 Facility Location Game
 
+Setup:
+- 2 Firms (Firm 1 and Firm 2) + 6 towns (A,B,C,D,E,F) located along a highway, connected in a linear fashion forming a six-node graph as shown above
+    - Firm 1 can open store in towns A,C,E
+    - Firm 2 can open store in towns B,D,F
+- Decisions of the Firms are made simultaneously
+- Once stores are open, customers will go to the store that is closer to them.
+
+**Example:**
+
+```mermaid
+graph LR;
+    Firm_1 --> town_C --> attract
+    attract --> C
+    attract --> D
+    attract --> E
+    attract --> F
+
+    Firm_2 --> town_B --> attract.
+    attract. --> A
+    attract. --> B
+```
+
+Firm 1 payoff: 4
+Firm 2 payoff: 2
+
+Neither player has a dominant strategy
+Ex:
+- Firm 1 goes to node A, strict best response of Firm 2 is B
+- Firm 1 goes to node E, strict best response of Firm 2 is D
+Symmetric situation if we reverse the roles of the Firms.
