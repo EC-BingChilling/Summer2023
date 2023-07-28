@@ -1005,14 +1005,6 @@ The steps we have used to lead to this reduced game is called the **iterated del
 
 ### Iterated Deletion of Dominated Strategies: The General Principle
 
-|          |           | Hunter 2  |           |
-|----------|-----------|-----------|-----------|
-|          |           | Hunt Stag | Hunt Hare |
-| Hunter 1 | Hunt Stag | 3,3       | 0,3       |
-|          | Hunt Hare | 3,0       | 3,3       |
-
-Figure 6.23. Stag Hunt: a version with a weakly dominated strategy.
-
 _Iterated deletion of strictly dominanted strategies process:_
 1. For any _n_ player game, find all the strictly dominanted strategies and delete them.
 2. Consider the reduced game, which may be strategies that are now strictly dominated in this new scenario, find them and delete them
@@ -1035,3 +1027,24 @@ To see:
     - means that Nash equilibrium cannot hold in the original game, contradicting our assumption
     - If we have a nash equilibrium in the reduced game and remove a strictly dominated strategy (aka bad choice) then the original Nash Equilibrium cannot work anymore since everyone would change their strategies since there's a better choice available, like taking away a move in rock, paper scissors and the players want to change what they pick which changes the Nash Equilibrium in the new game. The new Nash Equilibrium is still the same Nash equilibrium as the previous one that they agreed upon in the original game.
     - Eliminating strictly dominated strategies in any order results in the same set of surviving strategies.
+
+    ### Weakly Dominated Strategies
+
+A strategy is **weakly dominated** if there is another strategy that does at least as well no matter what the other players do, and does strictly better against some joint strategy of the other players. 
+
+- Weakly Dominated Strategy Definition: For player _i_, a strategy _S<sub>i</sub>_ is weakly dominated if there is another strategy _S'<sub>i</sub>_ such that:
+    - _P<sub>i</sub>(S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>i-1</sub>, S'<sub>i</sub>, S<sub>i+1</sub>, ..., S<sub>n</sub>) $\geq$ P<sub>i</sub>(S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>i-1</sub>, S<sub>i</sub>, S<sub>i+1</sub>, ..., S<sub>n</sub>)_ for all choices of strategies by the other players.
+
+   - _P<sub>i</sub>(S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>i-1</sub>, S'<sub>i</sub>, S<sub>i+1</sub>, ..., S<sub>n</sub>) > P<sub>i</sub>(S<sub>1</sub>, S<sub>2</sub>, ..., S<sub>i-1</sub>, S<sub>i</sub>, S<sub>i+1</sub>, ..., S<sub>n</sub>)_ for at least one choice of strategies by the other players.
+
+- More subtle than strictly dominated strategies (where it was obvious to delete them) cus weak ones can still be the best responses to some joint strategies by other players
+
+|          |           | Hunter 2  |           |
+|----------|-----------|-----------|-----------|
+|          |           | Hunt Stag | Hunt Hare |
+| Hunter 1 | Hunt Stag | 3,3       | 0,3       |
+|          | Hunt Hare | 3,0       | 3,3       |
+
+Figure 6.23. Stag Hunt: a version with a weakly dominated strategy.
+
+###### left off on hunt stag example
