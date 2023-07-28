@@ -1002,3 +1002,36 @@ The steps we have used to lead to this reduced game is called the **iterated del
 - can be carried out for a large number of steps
 - real life scenarios include competing stores or political candidates seeking voters in an election
 - keep removing nodes until you reach the unique nash equilibrium
+
+### Iterated Deletion of Dominated Strategies: The General Principle
+
+|          |           | Hunter 2  |           |
+|----------|-----------|-----------|-----------|
+|          |           | Hunt Stag | Hunt Hare |
+| Hunter 1 | Hunt Stag | 3,3       | 0,3       |
+|          | Hunt Hare | 3,0       | 3,3       |
+
+Figure 6.23. Stag Hunt: a version with a weakly dominated strategy.
+
+_Iterated deletion of strictly dominanted strategies process:_
+1. For any _n_ player game, find all the strictly dominanted strategies and delete them.
+2. Consider the reduced game, which may be strategies that are now strictly dominated in this new scenario, find them and delete them
+3. continue repeatedly until no strictly dominated strategies can be found
+
+During the entire process of deletion, the Nash Equilibria remains unchanged throughout the entire process. The Nash Equilibria at the beginning is the same as the end. 
+
+To prove: 
+1. Any Nash Equilibrium of the original game is also a Nash Equilibrium of the reduced game
+2. Any Nash Equilibrium of the reduced game is also a Nash Equilibrium of the original game
+
+To see:
+1. If a strategy _S_ is strictly dominated (by some other strategy _S'_) and removed, it can't be part of any Nash equilibrium since it's not the best response to other players' strategies
+2. reduced game Nash Equilibrium = original game Nash Equilibrium
+    - Nash Equilibrium in the reduced game
+    - A strategy was removed in the original game (_S'<sub>i</sub>)
+    - If Nash Equilibrium still holds in the original, player _i_ shouldn't switch from their strategy _S<sub>i</sub>_ to the removed strategy _S'<sub>i</sub>_
+    - _S'<sub>i</sub>_ was removed because there's always a better strategy _S"<sub>i</sub>_ for player _i_
+    - player _i_ would prefer S"<sub>i</sub> > _S<sub>i</sub>_ in the original game since _S"<sub>i</sub>_ is still available in the reduced game and wasn't removed.
+    - means that Nash equilibrium cannot hold in the original game, contradicting our assumption
+    - If we have a nash equilibrium in the reduced game and remove a strictly dominated strategy (aka bad choice) then the original Nash Equilibrium cannot work anymore since everyone would change their strategies since there's a better choice available, like taking away a move in rock, paper scissors and the players want to change what they pick which changes the Nash Equilibrium in the new game. The new Nash Equilibrium is still the same Nash equilibrium as the previous one that they agreed upon in the original game.
+    - Eliminating strictly dominated strategies in any order results in the same set of surviving strategies.
