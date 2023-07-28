@@ -962,11 +962,43 @@ graph LR;
     attract. --> B
 ```
 
-Firm 1 payoff: 4
+Firm 1 payoff: 4  
 Firm 2 payoff: 2
 
-Neither player has a dominant strategy
+Neither player has a dominant strategy  
 Ex:
 - Firm 1 goes to node A, strict best response of Firm 2 is B
 - Firm 1 goes to node E, strict best response of Firm 2 is D
 Symmetric situation if we reverse the roles of the Firms.
+
+### Dominated Strategies in the Facility Location Game
+
+Reminder: A dominated strategy is a strategy that always leads to a lower payoff than another available strategy, regardless of the opponent's choice.
+
+Firm 1: Strategy A is strictly dominated by strategy C  
+Firm 2: Strategy F is strictly dominated by strategy D  
+Therefore, they shouldn't use thse dominated strategies, A and F are eliminated from the game.
+
+|        |   | Firm 2 |     |
+|--------|---|--------|-----|
+|        |   | B      | D   |
+| Firm 1 | C | 4,2    | 3,3 |
+|        | E | 3,3    | 2,4 |
+
+Figure 6.21 smaller facility location game
+
+Strategies B and E are now strictly dominated after A and F are eliminated and both players know they won't be used so we will eliminate them.
+
+|        |   | Firm 2 |
+|--------|---|--------|
+|        |   | D      |
+| Firm 1 | C | 3,3    |
+
+Figure 6.22 even smaller facility location game
+
+Unique Nash Equilibrium: (C,D)
+
+The steps we have used to lead to this reduced game is called the **iterated deletion of strictly dominated strategies**.
+- can be carried out for a large number of steps
+- real life scenarios include competing stores or political candidates seeking voters in an election
+- keep removing nodes until you reach the unique nash equilibrium
