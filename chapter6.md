@@ -1080,3 +1080,18 @@ Figure 6.25 Conversion to normal form
 |        |   | AA, AB | AA, BB | BA, AB | BA, BB |
 | Firm 1 | A | 8,4    | 8,4    | 12,6   | 12,6   |
 |        | B | 6,12   | 4,2    | 6,12   | 4,2    |
+
+Figure 6.26 Extensive-form representation of the Market Entry game
+```mermaid
+graph TD;
+    Root(("Player 1")) -- Stay Out --- A(("Player 2"))
+    Root(("Player 1")) -- Enter --- B(("Player 2"))
+    A(("Player 2")) ~~~ 0((0))
+    0((0)) ~~~ 2((2))
+    B(("Player 2")) -- Retaliate --- L(( ))
+    L(( )) ~~~ 1(("-1"))
+    1(("-1")) ~~~ 11(("-1"))
+    B(("Player 2")) -- Cooperate --- R(( ))
+    R(( )) ~~~ 111((1))
+    111((1)) ~~~ 1111((1))
+```
