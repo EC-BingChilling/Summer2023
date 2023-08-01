@@ -1047,4 +1047,10 @@ A strategy is **weakly dominated** if there is another strategy that does at lea
 
 Figure 6.23. Stag Hunt: a version with a weakly dominated strategy.
 
-###### left off on hunt stag example
+Hunt Stag is weakly dominated since "Hunt Hare" is always at least as good or strictly better. 
+
+Nash Equilibrium can involve weakly dominated strategies.
+- Deleting "Hunt Stag" isn't a safe thing to do considering the outcome in which both players choose it is also a Nash equilibrium 
+- Nash equilibrium doesn't consider uncertainty about other players' behavior, so it might not rule out outcomes involving weakly dominated strategies.
+
+
