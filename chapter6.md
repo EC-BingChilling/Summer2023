@@ -1053,4 +1053,23 @@ Nash Equilibrium can involve weakly dominated strategies.
 - Deleting "Hunt Stag" isn't a safe thing to do considering the outcome in which both players choose it is also a Nash equilibrium 
 - Nash equilibrium doesn't consider uncertainty about other players' behavior, so it might not rule out outcomes involving weakly dominated strategies.
 
+## C. Dynamic Games
 
+Figure 6.24 A simple game in extensive form
+```mermaid
+graph TD;
+    Root(("Player 1")) -- A --- A(("Player 2"))
+    Root(("Player 1")) -- B --- B(("Player 2"))
+    A(("Player 2")) -- A --- A1(( ))
+    A(("Player 2")) -- B --- B1(( ))
+    B(("Player 2")) -- A --- A2(( ))
+    B(("Player 2")) -- B --- B2(( ))
+    A1(( )) ~~~ 8((8))
+    8((8)) ~~~ 4((4))
+    B1(( )) ~~~ 12((12))
+    12((12)) ~~~ 6((6))
+    A2(( )) ~~~ 6_1((6))
+    6_1((6)) ~~~ 121((12))
+    B2(( )) ~~~ 41((4))
+    41((4)) ~~~ 2((2))
+```
