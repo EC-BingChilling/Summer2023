@@ -1085,12 +1085,34 @@ graph TD;
 Firm 1 chooses first, A or B then Firm 2 responds.  
 If Firm 2 chooses the same region, the payoff will be lower because of Firm 1's "first mover advantage"(Profit: Firm 1 2/3 Firm 2 1/3) but if Firm 2 moves into the other region, each firm will get the profit in their respective region.
 
+### Reasoning about Behavior in a Dynamic Game
+
+Approach One: Reason using the Game Tree  
+1. Start from the last nodes, where the last player has complete control over payoffs we predict the actions of the last player in all cases
+2. Move a level up the tree, using the predictions to reason about the next player's actions until reaching the top node
+3. We have made predictions for all players' moves
+
+Approach Two: Connecting normal form and extensive form
+- A complete plan is formed for playing the entire game specifying how they will respond to all possible events
+- The plans form the players' strategies which means we can convert the extensive form to normal form by representing each strategy as a complete plan
+
 Figure 6.25 Conversion to **normal form**
 |        |   |        | Firm 2 |        |        |
 |--------|---|--------|--------|--------|--------|
 |        |   | AA, AB | AA, BB | BA, AB | BA, BB |
 | Firm 1 | A | 8,4    | 8,4    | 12,6   | 12,6   |
 |        | B | 6,12   | 4,2    | 6,12   | 4,2    |
+
+Firm 2's strategy in this scenario is
+(A if A, A if B), (A if A, B if B), (B if A, A if B), and (B if A, B if B)   
+abbreviated as   
+(AA, AB), (AA, BB), (BA, AB), and (BA, BB)
+
+Translation from extensive to normal may not preserve the full structure of the game
+- the extensive-form game may have fewer terminal nodes and paths than the normal-form payoff matrix cells because different strategy pairs can lead to the same outcome in the actual play
+
+It is useful for analysis though 
+- a simple example involving two firms deciding on advertising in different regions, the translation from extensive to normal form works perfectly, and the predicted actions of the firms using normal-form and game tree analysis are consistent
 
 Figure 6.26 **Extensive-form** representation of the Market Entry game
 ```mermaid
