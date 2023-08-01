@@ -1055,7 +1055,15 @@ Nash Equilibrium can involve weakly dominated strategies.
 
 ## C. Dynamic Games
 
-Figure 6.24 A simple game in extensive form
+**Dynamic Games**: games played over time where players make decisions sequentially instead of at the same time
+
+### Normal and Extensive Forms of a Game
+
+**"normal-form representation"** is used for games where the players move simultaneously
+
+**"extensive-form representation"** is used to represent dynamic games and includes the order of moves, player knowledge at decision points, available actions for each player and the payofs at the end of the game
+
+Figure 6.24 A simple game in **extensive form**
 ```mermaid
 graph TD;
     Root(("Player 1")) -- A --- A(("Player 2"))
@@ -1066,22 +1074,25 @@ graph TD;
     B(("Player 2")) -- B --- B2(( ))
     A1(( )) ~~~ 8((8))
     8((8)) ~~~ 4((4))
-    B1(( )) ~~~ 12((12))
-    12((12)) ~~~ 6((6))
+    B1(( )) ~~~ 12(12)
+    12(12) ~~~ 6(6)
     A2(( )) ~~~ 6_1((6))
     6_1((6)) ~~~ 121((12))
     B2(( )) ~~~ 41((4))
     41((4)) ~~~ 2((2))
 ```
 
-Figure 6.25 Conversion to normal form
+Firm 1 chooses first, A or B then Firm 2 responds.  
+If Firm 2 chooses the same region, the payoff will be lower because of Firm 1's "first mover advantage"(Profit: Firm 1 2/3 Firm 2 1/3) but if Firm 2 moves into the other region, each firm will get the profit in their respective region.
+
+Figure 6.25 Conversion to **normal form**
 |        |   |        | Firm 2 |        |        |
 |--------|---|--------|--------|--------|--------|
 |        |   | AA, AB | AA, BB | BA, AB | BA, BB |
 | Firm 1 | A | 8,4    | 8,4    | 12,6   | 12,6   |
 |        | B | 6,12   | 4,2    | 6,12   | 4,2    |
 
-Figure 6.26 Extensive-form representation of the Market Entry game
+Figure 6.26 **Extensive-form** representation of the Market Entry game
 ```mermaid
 graph TD;
     Root(("Player 1")) -- Stay Out --- A(("Player 2"))
@@ -1096,7 +1107,7 @@ graph TD;
     111((1)) ~~~ 1111((1))
 ```
 
-Figure 6.27 Normal form of the Market Entry game
+Figure 6.27 **Normal form** of the Market Entry game
 |        |   | Firm 2 |     |
 |--------|---|--------|-----|
 |        |   | R      | C   |
