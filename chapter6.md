@@ -1146,9 +1146,37 @@ Strategies and Outcomes
     - Cooperating: Each firm gets a payoff corresponding to half of the market
     - Relatiating: Each firm gets a negative payoff
 
+### Subtle Distinctions Between Extensive- and Normal-Form Representations
+
+Firm 1's choices:
+- Stay out (S)
+- Enter (E)
+
+Firm 2's choices:
+- Retaliate (R)
+- Cooperate (C)
+
+**Extensive Form Analysis:**
+
+Firm 1 will enter the market and Firm 2 will cooperate because of the bigger payoff. (E,C)
+1. Firm 1 gets a payoff of 0 by staying out and 1 by entering
+2. Firm 2 will get -1 if they retaliate and 1 if they cooperate
+
 Figure 6.27 **Normal form** of the Market Entry game
 |        |   | Firm 2 |     |
 |--------|---|--------|-----|
 |        |   | R      | C   |
 | Firm 1 | S | 0,2    | 0,2 |
 |        | E | -1,-1  | 1,1 |
+
+In the normal form of the game, we see that there are two distinct pure strategy Nash Equilibria (E,C) and (S,R)
+
+(S,R) is an equilibrium where Firm 2 automatically retaliates the moment that Firm 1 enters the market and Firm 1 is committing to staying out of the market. Neither has an incentive to change strategy. 
+
+Even though (S,R) is an equilibrium in the normal game, it isn't an equilibrium in the dynamic game because of how taking turns affects payoffs versus playing at the same time.
+
+The payoffs are different depending on whether the game is sequential or simultaneous play. 
+
+(S,R) equilibrium assumes precommitment and it isn't valid in the dynamic setup. 
+
+This shows that an equilibria may not hold form when changing forms.
