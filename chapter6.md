@@ -1129,6 +1129,23 @@ graph TD;
     111((1)) ~~~ 1111((1))
 ```
 
+### A More Complex Example: The Market Entry Game
+There are subtleties that obscures some of the structure implicit in the dynamic game when extensive form is converted to normal form, as shown in the Figure 6.26.
+
+Setup:
+- Firm 1 and 2 are playing the Market Entry game
+- Firm 2 is the sole participant in the market
+- Firm 1 can deicde whether to stay out of the market or to enter it
+
+Strategies and Outcomes
+- Firm 1 stays out of the market
+  - Payoff: Firm 1 gets 0 and Firm 2 keeps the entire market's payoff
+- Firm 1 enters the market
+  - Game continues to Firm 2's next move
+  - Firm 2 has to choose between:
+    - Cooperating: Each firm gets a payoff corresponding to half of the market
+    - Relatiating: Each firm gets a negative payoff
+
 Figure 6.27 **Normal form** of the Market Entry game
 |        |   | Firm 2 |     |
 |--------|---|--------|-----|
