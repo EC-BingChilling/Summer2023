@@ -1180,3 +1180,14 @@ The payoffs are different depending on whether the game is sequential or simulta
 (S,R) equilibrium assumes precommitment and it isn't valid in the dynamic setup. 
 
 This shows that an equilibria may not hold form when changing forms.
+
+### Relationship to Weakly Dominated Strategies
+In the normal form representation Firm 2's strategy R is weakly dominated 
+- R has the same payoff when Firm 1 chooses S
+- R yields a lower payoff when Firm 1 chooses E  
+
+Translation from dynamic extensive-form games to normal form can lead to a loss of information and cause the removal of equilibria.
+
+The iteration of strictly dominated strategies can be done in any order but that isn't true for weakly dominated strategies
+
+The order of elimination affects the final set of equilibria. 
