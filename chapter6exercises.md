@@ -20,3 +20,18 @@ out all the details of the game, provided you make it clear what you are referri
 to), together with a brief (one- to three-sentence) explanation.
 
 **Answer:** False, an example is the prisoner's dilema game where both people could get the higher payoff but the nash equilibrium is one with a lower payoff than the result both players actually want.
+
+3. Find all pure-strategy Nash equilibria in the game that follows. In the payoff matrix of
+Figure 6.28, the rows correspond to player A’s strategies and the columns correspond
+to player B’s strategies. The first entry in each box is player A’s payoff and the second
+entry is player B’s payoff.
+
+|          |   | Player B |     |
+|----------|---|----------|-----|
+|          |   | L        | R   |
+| Player A | U | 1,**2**      | **3**,**2** |
+|          | D | **2**,**4**      | 0,2 |
+
+Figure 6.28. A two-player game for Exercise 3.
+
+**Answer:** As we can see, there are two pure strategy nash equilibria here which is D,L and U,R. 
