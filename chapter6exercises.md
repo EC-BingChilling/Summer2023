@@ -35,3 +35,26 @@ entry is player B’s payoff.
 Figure 6.28. A two-player game for Exercise 3.
 
 **Answer:** As we can see, there are two pure strategy nash equilibria here which is D,L and U,R. 
+
+4. Consider the two-player game with players, strategies, and payoffs described in the
+game matrix of Figure 6.29.
+
+|          |   |     | Player B |     |
+|----------|---|-----|----------|-----|
+|          |   | L   | M        | R   |
+|          | t | 0,**3** | **6**,2      | 1,1 |
+| Player A | m | 2,**3** | 0,1      | **7**,0 |
+|          | b | **5**,**3** | 4,2      | 3,1 |
+
+Figure 6.29. A two player game for Exercise 4.
+
+Best strategies are bolded. 
+
+(a) Does either player have a dominant strategy? Explain briefly (one to three
+sentences).  
+
+**Answer:** Yes, it is always better for player B to choose L.
+
+(b) Find all pure-strategy Nash equilibria for this game.
+
+**Answer:** 5,3 (L,b)
