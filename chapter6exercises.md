@@ -73,3 +73,47 @@ Figure 6.30. A two-player game for Exercise 5.
 Find all the pure strategy Nash equilibria for this game.
 
 **Answer:** 5,5 (M,M)
+
+6. In this question we consider several two-player games. In each payoff matrix that
+follows, the rows correspond to player A’s strategies and the columns correspond to
+player B’s strategies. The first entry in each box is player A’s payoff and the second
+entry is player B’s payoff.
+
+(a) Find all pure-strategy (nonrandomized) Nash equilibria for the game described in the payoff matrix of Figure 6.31:
+
+|          |   | Player B |      |
+|----------|---|----------|------|
+|          |   | L        | R    |
+| Player A | U | 2,15     | 4,**20** |
+|          | D | **6**,6      | **10**,**8** |
+
+Figure 6.31. A two-player game for Exercise 6(a).
+
+**Answer:** (D,R) 10,8
+
+(b) Find all pure-strategy Nash equilibria for the game described in the payoff
+matrix of Figure 6.32:
+
+|          |   | Player B |     |
+|----------|---|----------|-----|
+|          |   | L        | R   |
+| Player A | U | **3**,**5**      | **4**,3 |
+|          | D | 2,1      | 1,**6** |
+
+Figure 6.32. A two player game for Exercise 6(b).
+
+**Answer:** (U,L) 3,5
+
+(c) Find all Nash equilibria for the game described in the payoff matrix of
+Figure 6.33:
+
+|          |     |   | Player B |     |
+|----------|-----|---|----------|-----|
+|          |     |   | q        | 1-q |
+|          |     |   | L        | R   |
+| Player A | p   | U | 1,1      | 4,2 |
+|          | 1-p | D | 3,3      | 2,2 |
+
+Figure 6.33. A two player game for Exercise 6(c).
+
+**Answer:** p = 1/2, q = 1/2
