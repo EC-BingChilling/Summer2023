@@ -58,3 +58,18 @@ sentences).
 (b) Find all pure-strategy Nash equilibria for this game.
 
 **Answer:** 5,3 (L,b)
+
+5. Consider the two-player game in Figure 6.30 in which each player has three strategies.
+
+|          |   |      | Player B |     |
+|----------|---|------|----------|-----|
+|          |   | L    | M        | R   |
+|          | U | 1,1  | 2,3      | 1,**6** |
+| Player A | M | **3**,4  | **5**,**5**      | **2**,2 |
+|          | D | 1,**10** | 4,7      | 0,4 |
+
+Figure 6.30. A two-player game for Exercise 5. 
+
+Find all the pure strategy Nash equilibria for this game.
+
+**Answer:** 5,5 (M,M)
