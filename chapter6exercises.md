@@ -117,3 +117,37 @@ Figure 6.33:
 Figure 6.33. A two player game for Exercise 6(c).
 
 **Answer:** p = 1/2, q = 1/2
+
+Explanation: 
+
+Player 1's choice of p is to make player 2 indifferent between left and right. 
+
+Payoff to player 2 of going right:
+
+p1 goes right or left  * player 2 payoff if player 1 goes right or left
+
+p*1 + (1-p)(3) = p + 3 - 3p = 3-2p
+
+Payoff to player 2 going left:
+
+p*2 + (1-p)(2) = 2p + 2 - 2p
+
+player 2 is indifferent when:  
+3-2p = 2
+p = 1/2
+
+Player 2's choice of q: make player 1 indifferent between r or L
+
+Player 2 R or L * p1 payoff if p2 r or L
+
+Payoff p1 left:
+q(3) + (1-q)(2) = 3q + 2 - 2q = 2+q
+
+Payoff of p1 right:
+q(1) + (1-q)(4) = 1 + 4 - 4q = 4-3q
+
+P1 is indifferent when:
+2+q = 4-3q
+2 + 4q = 4
+4q = 2
+q = 1/2
