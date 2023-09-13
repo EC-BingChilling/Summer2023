@@ -151,3 +151,86 @@ P1 is indifferent when:
 2 + 4q = 4
 4q = 2
 q = 1/2
+
+7. In this question e consider several two-player games. In eachpayoff marix, the rows correspond to player A's stratigies and the colums correspond to player B's strategies. The first entry in each box is player A's payoff and the second entry is player B's payoff.
+
+(a) find all Nash equilibria for the game described in the payoff matrix of figure 6.34: 
+
+|          |   |      | Player B| 
+|----------|---|------|---------|
+|          |   | L    | R       |
+| Player A | U | 1,1  | 3,2     |
+|          | D | 0,3  | 4,4     |
+
+**Answer:** (D,R) 4,4
+
+(b) Find all Nash equilibrium for the game described in the payoff matrix of figure 6.35 (include an explanation for your answer):
+
+|          |     |   | Player B |     |
+|----------|-----|---|----------|-----|
+|          |     |   | q        | 1-q |
+|          |     |   | L        | R   |
+| Player A | p   | U | 5,6      | 0,10|
+|          | 1-p | D | 4,4      | 2,2 |
+
+**Answer:**q=2/3, p=1/3
+
+Explanation: 
+
+first off there is not a Dominate play style for this game. When player B strictly plays L player A is going to play U. When player B strictly plays R  player A is going to play D. When player A strictly plays U player B is going to play R, and when player A strictly plays D player B is going to play L.
+
+player A is going to play the game against player B playing with the probability of q the payoffs of player A with player B playing the probability of q are as follows: 
+5q+0(1-q) = 4q+2(1-q)
+
+5q=2q+2
+
+3q=2
+
+q=2/3
+
+
+player B is going to play the game against player A playing with the probability of P the payoffs of player B with player A playing the probability of p are as follows:
+6p+4(1-p) = 10p+2(1-p)
+
+2p+4 = 8p+2
+
+2=6p
+
+p=1/3
+
+
+9. For each of the following two player games,find all Nash equilibria. In each of the payoff matrices of Figure 6.37 and 6.38, the rows correspond to player A's strategies and the colums correspond to player B's strategies. The first entry in each box is player A's payoff and the second is player B's payoff
+
+|          |   |      | Player B| 
+|----------|---|------|---------|
+|          |   | L    | R       |
+| Player A | U | 8,4  | 5,5     |
+|          | D | 3,3  | 4,8     |
+
+**Answer:**The Nash equilibria is 4,8
+
+|          |   |      | Player B| 
+|----------|---|------|---------|
+|          |   | L    | R       |
+| Player A | U | 0,0  | -1,1    |
+|          | D |-1,1  |2,-2     |
+
+**Answer:** There is no Nash equilibrium for the matrix
+
+11. 
+|          |   |      | Player B| 
+|----------|---|------|---------|
+|          |   | L    | R       |
+| Player A | U | 1,1  | 3,2     |
+|          | D | 0,4  | 4,4     |
+
+This game has a Nash equlibrium but it is not a srictly dominated one becuase player B can switch to L and still recieve the same payoff as staying R.
+
+13. 
+|          |   |        | Player B  | 
+|----------|---|--------|-----------|
+|          |   | L      | R         |
+| Player A | U | 2,0,0  | 1,1,1     |
+|          | D | 1,1,1  | 2,2,2     |
+
+There are multiple Nash equlilbria. One being player A plays D and Player B and C play R. This would mean theyd all have a payout of 2. But if player A belives that Player B or C wants to have one pint player A could play U.
