@@ -52,3 +52,23 @@ Strategy is an Evolutionarily Stable Strategy if there exists a small positive n
 - When strategy T invades S at any level x < y, organisms using S have strictly greater fitness than those using T.
 
 ### Evolutionarily Stable Strategies in the First Example.
+
+Population where (1-x) Small strategy, and x uses the Large strategy. 
+
+For a small beetle in this population:
+- With a chance of (1-x), it meets another beetle and gains a payoff of 5.
+- With a chance of x, it meets a Large beetle and gains a payoff of 1.
+
+Small beetle expected payoff:   
+6(1-x) + 1x = 5 - 4x
+
+For the Large strategy:   
+In a population, (1-x) uses the Large strategy and x uses the smal strategy.
+
+For large beetle:
+- With probability (1-x), it meets another Large beetle and gains a payoff of 3
+- With probability x, it meets a Small beetle, and gains a payoff of 8
+
+Large beetle expected payoff:   
+3(1-x) + 8x = 3 + 5x
+
