@@ -25,3 +25,30 @@ Outcomes:
 Figure 7.1. The body-size game. 
 
 We need to think about strategies that operative over longer time scales and shifting over populations because the sizes aren't strategies but instead they're hardwired to one of these stratgies in their lifetime. 
+
+## 7.2 Evolutionarily Stable Strategies
+
+Revisiting Nash Equilibrium
+- Nash equilibrium in two-player games implies no incentive to deviate from current stratgies. 
+- Represents a stable choice of stratgies that tend to persist.
+
+Evolutionarily Stable Strategy Example
+- Evolutionarily stable strategy is genetically determined, persistent strategy in populations. 
+- Beetles are in food competitions and assuming that there is a large population and no significant repeated interactions. 
+- Beetle fitness depends on average fitness in pairwise interactions. 
+- Fitness determines reproductive success (offstring with the same strategy).
+
+Defining Evolutionarily Stable Strategy
+- A strategy is evolutionarily stable if when the entire population uses it, small groups with different strategies will die off over egenerations.
+- Invaders: Migrants or mutants with new behaviors.
+- Key: Invaders should have strictly lower fitness than the majority strategy users
+- Lower fitness leads to subpopulation shrinkage and eventual exxtinction over generations.
+
+Fitness: Expected payoff from interactions with random popualtion members   
+Strategy T invades strategy S at level x if:   
+- x fraction uses T and (1-x) fraction uses S   
+
+Strategy is an Evolutionarily Stable Strategy if there exists a small positive number y such that 
+- When strategy T invades S at any level x < y, organisms using S have strictly greater fitness than those using T.
+
+### Evolutionarily Stable Strategies in the First Example.
