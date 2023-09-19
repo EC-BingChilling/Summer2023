@@ -95,3 +95,47 @@ Natural selection usually increases fitness in a fixed environment, but in this 
 The presence of more large beetles can be seen as a change in the environment that becomes more hostile for everyone, contributing to a decline in individual fitness. 
 
 It seems that counterintuitive outcomes can arise due to the interactiono f different strategies and their long term effects. 
+
+### Empirical Evidence for Evolutionary Arms Races
+
+Evolutionary games in  nature often resemble Prisoner's Dilema. 
+
+Trees can also show prisoner's dilema payoffs.
+- Short trees share sunlight equally when neighbor trees are also short. 
+- Tall trees share sunlight equally but invest more resources.
+- One tall tree and one short, tall tree gets more sunlight.
+- Trees have strategies short and tall. 
+
+There is a certain point where payoffs only apply within a certain range because of diminishing returns as trees get taller. 
+
+Root Systems of plants:
+
+- Two soybean plants intermingle roots when grown together, sharing resources equally but it needs a higher root investment.
+
+- Placing a wall with partitioned soil leads to higher reproducive success because they're not depleting energy making longer and more complex roots. 
+
+Conserve strategy is better for everyone, but Explore is evolutionary stable. 
+
+Virus Populations:
+
+$\Phi \mathrm{H} 2$ benefits from $\Phi 6$ chemical products, creating a Prisoner's Dilemma scenario.
+Evolutionary strategies: $\Phi 6$ and $\Phi \mathrm{H} 2$.
+Conclusion: Only $\Phi \mathrm{H} 2$ is evolutionarily stable.
+
+This resembles the exam or presentation scenario. Selfishness driven by payoffs in shared responsibilities. Evolution makes certain organisms shrink responsibilities. 
+
+|         |       | Virus 2   |            |
+|---------|-------|-----------|------------|
+|         |       | $\Phi 6$  | $\Phi \mathrm{H} 2$      |
+| Virus 1 |$\Phi 6$| 1.00,1.00 | 0.65,1.99  |
+|         | $\Phi \mathrm{H} 2$ | 1.99,0.65 | 0.83, 0.83 |
+
+Figure 7.2. The virus game.
+
+|            |   | Organism 2 |     |
+|------------|---|------------|-----|
+|            |   | S          | T   |
+| Organism 1 | S | a,a        | b,c |
+|            | T | c,b        | d,d |
+
+Figure 7.3. General symmetric game.
