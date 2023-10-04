@@ -155,6 +155,7 @@ Payoff for S: a(1-x)+bx where
 |          |   | S        | T   |
 | Hunter 1 | S | 4,4      | 0,3 |
 |          | T | 3,0      | 3,3 |
+Figure 7.4. Stag Hunt game
 
 For "S" to be considered evolutionarily stable, it must meet a condition, which is expressed as an inequality: "a(1-x) + bx > c(1-x) + dx," where a, b, c, and d are values from the payoff matrix, and x represents the fraction of the population using strategy "T."
 
@@ -189,3 +190,25 @@ We can express the condition that S is evolutionarily stable in a two player two
 2. a = c and b > d
 
 The set of Nash equilibria is bigger than the set of evolutionarily stable strategies. 
+
+Some notes from
+[Lecture 47: Evolutionary Stable Strategy (ESS) - Beetles’ World Example and Analysis](https://youtu.be/wDCagl37nb8?si=YnJBXZtG3_dUDkJ0) for clarity.
+
+Strategy T invades a strategy S at level x (for small x) if:
+- x fraction of population uses T (Large)
+- 1-x fraction of population uses S (Small)
+
+Strategy S is evolutionarily stable if there is some number y such that:
+- When any other strategy T invades S at any level x < y, the fitness of an organism playing S is strictly greater than the fitness of an organism playing T
+
+|          |       | Beetle 2 |       |
+|----------|-------|----------|-------|
+|          |       | Small    | Large |
+| Beetle 1 | Small | 6,6      | 1,10   |
+|          | Large | 10,1      | 4,4   |
+
+Modified beetle game
+
+Is Small an evolutionarily stable strategy?
+- Suppose for some small number x, a 1-x fraction of the population uses Small and x uses Large
+- In other words, a small population of Large beetles (x) invades the population of small beetles. 
