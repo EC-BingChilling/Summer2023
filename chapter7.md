@@ -144,10 +144,6 @@ Figure 7.3. General symmetric game.
 There is a game with two players, where each player can choose between strategies "S" and "T" which represent different behaviors. 
 - Same roles
 
-Find out what strategy "S" or "T" is the most stable and likely to persist in a population over time. 
-
-To figure out payoffs, we look at how much an organism (player) would expect to gain on average if it plays strategy "S" in a population where some use "S" and some use "T". We also calculate the expected gain for strategy "T".
-
 Payoff for S: a(1-x)+bx where 
 - 1-x = Probability of meeting another player of S
 - recieving a payoff of a
@@ -172,3 +168,24 @@ How can a strategy be evolutionarily stable? (satisfy one of these conditions)
 
 It's less likely to die out or be replaced by another strategy in a population over time. 
 
+tldr;
+
+Playing S:  
+a(1-x)+bx
+
+Playing T:  
+e(1-x)+dx
+
+
+S is evolutionarily stable if for all sufficient small values of x>0, the inequality   
+a(1-x) + bx > c(1-x)+dx holds
+
+As x goes to 0, the left hand side becomes a and the right hand side becomes c if a>c then the left hand is larger once x is sufficiently small
+
+if a = c then the left hand side is larger when b>d
+
+We can express the condition that S is evolutionarily stable in a two player two strategy game 
+1. a > c
+2. a = c and b > d
+
+The set of Nash equilibria is bigger than the set of evolutionarily stable strategies. 
