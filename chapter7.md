@@ -154,6 +154,11 @@ Payoff for S: a(1-x)+bx where
 - x = probability it meets a player of T
 - recieving a payoff of b
 
+|          |   | Hunter 2 |     |
+|----------|---|----------|-----|
+|          |   | S        | T   |
+| Hunter 1 | S | 4,4      | 0,3 |
+|          | T | 3,0      | 3,3 |
 
 For "S" to be considered evolutionarily stable, it must meet a condition, which is expressed as an inequality: "a(1-x) + bx > c(1-x) + dx," where a, b, c, and d are values from the payoff matrix, and x represents the fraction of the population using strategy "T."
 
@@ -166,3 +171,4 @@ How can a strategy be evolutionarily stable? (satisfy one of these conditions)
 - does equally well against its own kind but better against the alternative strategy
 
 It's less likely to die out or be replaced by another strategy in a population over time. 
+
