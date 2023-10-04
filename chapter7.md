@@ -212,3 +212,8 @@ Modified beetle game
 Is Small an evolutionarily stable strategy?
 - Suppose for some small number x, a 1-x fraction of the population uses Small and x uses Large
 - In other words, a small population of Large beetles (x) invades the population of small beetles. 
+
+What is the expected payoff to a Small beetle in a random interaction?
+- With probability 1-x, meet another Small beetle for a payoff of 6
+- With probability x, meet a Large beetle for a payoff of 1
+- Expected payoff: 6(1-x) + 1x = 6-5x
