@@ -217,3 +217,23 @@ What is the expected payoff to a Small beetle in a random interaction?
 - With probability 1-x, meet another Small beetle for a payoff of 6
 - With probability x, meet a Large beetle for a payoff of 1
 - Expected payoff: 6(1-x) + 1x = 6-5x
+
+What is the expected payoff to a Large beetle in a random interaction?
+- With probabilit 1-x, meets a Small beetle for a payoff of 10
+- with probability x meet another large beetle for a payoff of 4
+- Expected payoff: 10(1-x)+4x=10-6x
+
+Expected fitness of a large beetle is 10-6x   
+Expected fitness of a small beetle is 6-5x
+
+In case of invasion by small beetles
+- Expected fitness of a large beetle: 4+6x
+- Expected fitness of a small beetle: 1+5x
+
+Large is evolutionarily stable
+
+If a few large beetles get introduced into a population of small beetles
+- they do very well as they rarely meet each other and will get most of the food in competitions
+
+If a few small beetles get introduced in a population of large beetles, they will do badly
+- The population of large beetles resists the invasion of small beetles
