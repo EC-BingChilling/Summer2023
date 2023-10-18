@@ -153,6 +153,7 @@ This resembles the exam or presentation scenario. Selfishness driven by payoffs 
 
 Figure 7.2. The virus game.
 
+## 7.3 A General Description of Evolutionarily Stable Strategies
 |            |   | Organism 2 |     |
 |------------|---|------------|-----|
 |            |   | S          | T   |
@@ -160,4 +161,3 @@ Figure 7.2. The virus game.
 |            | T | c,b        | d,d |
 
 Figure 7.3. General symmetric game.
->>>>>>> 13533a5e161b792d772f340bef471140979bb4cd
