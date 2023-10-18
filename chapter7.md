@@ -161,3 +161,29 @@ Figure 7.2. The virus game.
 |            | T | c,b        | d,d |
 
 Figure 7.3. General symmetric game.
+
+There is a game with two players, where each player can choose between strategies "S" and "T" which represent different behaviors. 
+- Same roles
+
+Find out what strategy "S" or "T" is the most stable and likely to persist in a population over time. 
+
+To figure out payoffs, we look at how much an organism (player) would expect to gain on average if it plays strategy "S" in a population where some use "S" and some use "T". We also calculate the expected gain for strategy "T".
+
+Payoff for S: a(1-x)+bx where 
+- 1-x = Probability of meeting another player of S
+- recieving a payoff of a
+- x = probability it meets a player of T
+- recieving a payoff of b
+
+
+For "S" to be considered evolutionarily stable, it must meet a condition, which is expressed as an inequality: "a(1-x) + bx > c(1-x) + dx," where a, b, c, and d are values from the payoff matrix, and x represents the fraction of the population using strategy "T."
+
+The payoff for using strategy "S" against others of "S" is greater than the payoff for using "T" against others of "S", which means "S" is stable. It makes sense because if "S" does better when interacting with other "S" players, it is less likely to be replaced with strategy "T". 
+
+Payoffs for "S" vs "S" and "T" vs "S" are equal (a=c) but the payoff for "S" vs "T" is better than "T" vs "T" (b>d) then "S" can also be stable. "S" does better against "T" players than "T" players against each other. 
+
+How can a strategy be evolutionarily stable? (satisfy one of these conditions)
+- does better against it's own kind than the alternate strategy
+- does equally well against its own kind but better against the alternative strategy
+
+It's less likely to die out or be replaced by another strategy in a population over time. 
