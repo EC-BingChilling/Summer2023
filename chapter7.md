@@ -238,3 +238,32 @@ If a few large beetles get introduced into a population of small beetles
 If a few small beetles get introduced in a population of large beetles, they will do badly
 - The population of large beetles resists the invasion of small beetles
 
+-------------------------
+
+Important stuff:
+
+|          |       | Organism 2 |       |
+|----------|-------|----------|-------|
+|          |       | S    | T |
+| Organism 1 | S | a,a      | b,c   |
+|          | T | c,b      | d,d   |
+
+Figure 7.3. General symmertric game.
+
+a(1-x) + bx   
+Playing S:
+- a is the payoff
+- 1-x is the probability it meets another player of S
+- probability x it meets a player T to recieve payoff of b
+
+Playing T:   
+c(1-x) + dx
+- 1-x is the probability it meets a player of S
+- c is the payoff recieved
+- x the probability it meets another player T
+- d is payoff recieved
+
+S is evolutionarily stable if, for all sufficient small values of x > 0, the inequality   
+a(1-x) + bx > c(1-x) + dx   
+holds. 
+
