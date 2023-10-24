@@ -26,27 +26,6 @@ Figure 7.1. The body-size game.
 
 We need to think about strategies that operative over longer time scales and shifting over populations because the sizes aren't strategies but instead they're hardwired to one of these stratgies in their lifetime. 
 
-<<<<<<< HEAD
-As before we start with a(1-x) being used for the population that uses S and x being the population that uses T.
-**The expected payoff of playing S with with a random interaction in this population**
-- With the probability of 1-x it meets another player of S it gets a payoff of a
-- with the probability of x meeting anopther player of T it gets a payoff of b
-the expected payoff is: a(1-x)+bx
-
-**The expected payoff of playing T with with a random interaction in this population**
-- With the probability of 1-x it meets another player of S it gets a payoff of c
-- with the probability of x meeting anopther player of T it gets a payoff of d
-the expected payoff is: c(1-x)+dx
-
-S is evolutionarily stable if and only if a>c or a=c and b>d for the inequality a(1-x)+bx>C(1-x)+dx.
-- When a > c the left hand side is larger when x is sufficently small. 
-- When a = c the left hand side is only larger if b > d
-- When a < c the left hand side will be smaller when x is suffeciently small.
-
-Two things need to be true in order for S to be evolutionarily stable and they are:  
-- The payoff of using S against S must be at least as large as the payoff of S against T becuase T would have a higher fitness and then will grow over time.
-- If S and T are equally good responses to S then for S to be evolutionarily stable S players must do better in their interaction with T.
-=======
 ## 7.2 Evolutionarily Stable Strategies
 
 Revisiting Nash Equilibrium
@@ -165,16 +144,18 @@ Figure 7.3. General symmetric game.
 There is a game with two players, where each player can choose between strategies "S" and "T" which represent different behaviors. 
 - Same roles
 
-Find out what strategy "S" or "T" is the most stable and likely to persist in a population over time. 
-
-To figure out payoffs, we look at how much an organism (player) would expect to gain on average if it plays strategy "S" in a population where some use "S" and some use "T". We also calculate the expected gain for strategy "T".
-
 Payoff for S: a(1-x)+bx where 
 - 1-x = Probability of meeting another player of S
 - recieving a payoff of a
 - x = probability it meets a player of T
 - recieving a payoff of b
 
+|          |   | Hunter 2 |     |
+|----------|---|----------|-----|
+|          |   | S        | T   |
+| Hunter 1 | S | 4,4      | 0,3 |
+|          | T | 3,0      | 3,3 |
+Figure 7.4. Stag Hunt game
 
 For "S" to be considered evolutionarily stable, it must meet a condition, which is expressed as an inequality: "a(1-x) + bx > c(1-x) + dx," where a, b, c, and d are values from the payoff matrix, and x represents the fraction of the population using strategy "T."
 
@@ -187,3 +168,73 @@ How can a strategy be evolutionarily stable? (satisfy one of these conditions)
 - does equally well against its own kind but better against the alternative strategy
 
 It's less likely to die out or be replaced by another strategy in a population over time. 
+
+tldr;
+
+Playing S:  
+a(1-x)+bx
+
+Playing T:  
+e(1-x)+dx
+
+
+S is evolutionarily stable if for all sufficient small values of x>0, the inequality   
+a(1-x) + bx > c(1-x)+dx holds
+
+As x goes to 0, the left hand side becomes a and the right hand side becomes c if a>c then the left hand is larger once x is sufficiently small
+
+if a = c then the left hand side is larger when b>d
+
+We can express the condition that S is evolutionarily stable in a two player two strategy game 
+1. a > c
+2. a = c and b > d
+
+The set of Nash equilibria is bigger than the set of evolutionarily stable strategies. 
+
+Some notes from
+[Lecture 47: Evolutionary Stable Strategy (ESS) - Beetles’ World Example and Analysis](https://youtu.be/wDCagl37nb8?si=YnJBXZtG3_dUDkJ0) for clarity.
+
+Strategy T invades a strategy S at level x (for small x) if:
+- x fraction of population uses T (Large)
+- 1-x fraction of population uses S (Small)
+
+Strategy S is evolutionarily stable if there is some number y such that:
+- When any other strategy T invades S at any level x < y, the fitness of an organism playing S is strictly greater than the fitness of an organism playing T
+
+|          |       | Beetle 2 |       |
+|----------|-------|----------|-------|
+|          |       | Small    | Large |
+| Beetle 1 | Small | 6,6      | 1,10   |
+|          | Large | 10,1      | 4,4   |
+
+Modified beetle game
+
+Is Small an evolutionarily stable strategy?
+- Suppose for some small number x, a 1-x fraction of the population uses Small and x uses Large
+- In other words, a small population of Large beetles (x) invades the population of small beetles. 
+
+What is the expected payoff to a Small beetle in a random interaction?
+- With probability 1-x, meet another Small beetle for a payoff of 6
+- With probability x, meet a Large beetle for a payoff of 1
+- Expected payoff: 6(1-x) + 1x = 6-5x
+
+What is the expected payoff to a Large beetle in a random interaction?
+- With probabilit 1-x, meets a Small beetle for a payoff of 10
+- with probability x meet another large beetle for a payoff of 4
+- Expected payoff: 10(1-x)+4x=10-6x
+
+Expected fitness of a large beetle is 10-6x   
+Expected fitness of a small beetle is 6-5x
+
+In case of invasion by small beetles
+- Expected fitness of a large beetle: 4+6x
+- Expected fitness of a small beetle: 1+5x
+
+Large is evolutionarily stable
+
+If a few large beetles get introduced into a population of small beetles
+- they do very well as they rarely meet each other and will get most of the food in competitions
+
+If a few small beetles get introduced in a population of large beetles, they will do badly
+- The population of large beetles resists the invasion of small beetles
+
