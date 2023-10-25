@@ -267,3 +267,26 @@ S is evolutionarily stable if, for all sufficient small values of x > 0, the ine
 a(1-x) + bx > c(1-x) + dx   
 holds. 
 
+## 7.4 Relationship between Evolutionary and Nash Equilibria 
+
+The relationship of Nash Equilibria and Evolutionary stability can be shown using the Stag Hunt game. 
+
+|          |   | Hunter 2 |     |
+|----------|---|----------|-----|
+|          |   | S        | T   |
+| Hunter 1 | S | 4,4      | 0,4 |
+|          | T | 4,0      | 3,3 |
+Figure 7.5 Stag Hunt with added benefit for hunting hare alone
+
+The way to find if there is an Evolutionarily stable stratigy first: 
+- Check to see if your a value is greater than your c value which they are equal.
+- Check your b and d values to see whcih is greater. 
+
+In order for a choice to be both a Nash Equilibria and Evolutionarily stable the choice would have to be a Strict Nash Equilibrium. 
+
+Strict Nash Equilibrium - If each player is using the unique best response to what the other player is doing. 
+
+For this game the condition that (S,S) is a strict Nash equilibrium is that a > c. 
+
+If (S,S) is a strict Nash equilibrium then S is also evolutionarily stable.
+
