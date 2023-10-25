@@ -276,6 +276,7 @@ The relationship of Nash Equilibria and Evolutionary stability can be shown usin
 |          |   | S        | T   |
 | Hunter 1 | S | 4,4      | 0,4 |
 |          | T | 4,0      | 3,3 |
+
 Figure 7.5 Stag Hunt with added benefit for hunting hare alone
 
 The way to find if there is an Evolutionarily stable stratigy first: 
