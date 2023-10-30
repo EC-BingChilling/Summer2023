@@ -24,10 +24,23 @@ Cooperation can emerge from people who are self interested.
 - Group selection
 - Reciprocal altruism
 
-Public Goods Game:
-1. Each player starts with $20 and can choose to put some or all of their money in a common pool
+Using Public Goods Game to encourage cooperation:
+1. There are 8 players and each player starts with $20 and can choose to put some or all of their money in a common pool
 2. Total in pool is tripled and then divided equally among all players, regardless of individual contribution
-- It's tempting for players to contribute nothing and let others do the work, but if everyone does that, they all lose out
 
 Even though there is a temptation not to contribute, people often put money in the pool.  
 It is observed in the real world where people tend to invest around $10 or more in the first round even though it may seem more rational not to contribute. 
+
+Three types of players in this game:
+- "Loners" who choose not to participate and prefer a small fixed payout of $P_1$. 
+    - Recives: $P_l = σc$, where σ is a number between 0 and (r-1)
+    - Better off than "defectors" but worse off than "cooperators" in a group where everyone cooperates
+- "Cooperators" who are willing to join the group and contribute
+- "Defectors" who join the group but don't contribute to the common pool
+
+Assuming that people form groups randomly, the payoff for the different strategies depend on how many people follow each strategy.
+- $P_c$ payoff for cooperators
+- $P_d$ payoff for defectors
+- $P_1$ payoff for loners
+
+The payoffs are determined by relative frequencies $x$,$y$,and $z$ of these three types of players in the population. 
