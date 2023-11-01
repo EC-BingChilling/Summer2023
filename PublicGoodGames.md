@@ -44,3 +44,23 @@ Assuming that people form groups randomly, the payoff for the different strategi
 - $P_1$ payoff for loners
 
 The payoffs are determined by relative frequencies $x$,$y$,and $z$ of these three types of players in the population. 
+
+## The Model
+There is a large population of players who play a game together. 
+
+A random subset of players (group members) are chosen. They can make one of thse choices:
+- Cooperate: contribute a fixed amount $c$ to a shared pool
+- Defect: don't contribute anything
+- Lone player (Loner): don't participate in group game and get a small but fixed payoff of $P_l = σc$.
+
+Payoffs:
+- Cooperators: $P_c = -c + rc \frac{n_c}{N}$
+- Defectors: $P_d = rc \frac{n_c}{N}$
+- Loners: $P_l = σc$ (fixed)
+
+$r$ : interest rate of shared pool
+
+Constraint: $1 < r < N$ 
+- If everyone cooperates, they are btter off than if everyone defects, individual is better off defecting than cooperating
+
+The payoffs $P_c, P_d, and P_l$ are calculated based on the relative frequencies $x$, $y$, and $z$ of people choosing from these three strategies.
