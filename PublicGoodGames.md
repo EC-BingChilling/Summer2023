@@ -64,3 +64,12 @@ Constraint: $1 < r < N$
 - If everyone cooperates, they are btter off than if everyone defects, individual is better off defecting than cooperating
 
 The payoffs $P_c, P_d, and P_l$ are calculated based on the relative frequencies $x$, $y$, and $z$ of people choosing from these three strategies.
+
+Questions:
+- What is $0<\sigma<r-1$ ?
+    - Says that $\sigma$ must be a positive number and less than r-1
+    - $\sigma$ is a positive fraction
+    - ex: if $\sigma = 0.5$, it means that loners receive half of the cooperative contribution ($c$) as their fixed payoff
+    - $\sigma$ is limited by the value of $r$ ( the interest rate on the common pool)
+    - By limiting $\sigma$ to be less than $r-1$, the condition ensures that the fixed payoff for loners ($P_l = \sigma c$) is less than the total return from cooperation (represented with $rc$)
+    - Helps loners to recieve a fixed but relatively smaller payoff compared to what cooperators can potentially get through cooperation.
