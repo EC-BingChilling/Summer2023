@@ -63,7 +63,9 @@ Payoffs:
 - Defectors: $P_d = rc \frac{n_c}{N}$
     - $rc \frac{n_c}{N}$ means they get the same benefit as cooperators
     - they don't incur initial cost of c
-- Loners: $P_l = σc$ (fixed)
+- Loners: $P_l = σc$ (fixed)-
+    - $σc$, where $σ$ is a parameter representing a positive function constrained by $0$ < $σ$ < $r-1$
+    - recieves a fixed payoff that is a multiple of fixed contribution c
 
 $r$ : interest rate of shared pool
 
