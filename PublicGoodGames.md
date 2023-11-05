@@ -61,6 +61,8 @@ Payoffs:
         - $n_c$ is number of cooperators in the group
         - $N$ is total number of players in the group
 - Defectors: $P_d = rc \frac{n_c}{N}$
+    - $rc \frac{n_c}{N}$ means they get the same benefit as cooperators
+    - they don't incur initial cost of c
 - Loners: $P_l = σc$ (fixed)
 
 $r$ : interest rate of shared pool
