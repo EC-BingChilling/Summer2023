@@ -55,6 +55,11 @@ A random subset of players (group members) are chosen. They can make one of thse
 
 Payoffs:
 - Cooperators: $P_c = -c + rc \frac{n_c}{N}$
+    - $-c$ represents the cost incurred by a cooperator for contributing a fixed amount $c$ to the shared pool
+    - $rc \frac{n_c}{N}$ is the benefit earned by a cooperator
+        - $r$ is the interest rate on the common pool, determines the return on the shared resources
+        - $n_c$ is number of cooperators in the group
+        - $N$ is total number of players in the group
 - Defectors: $P_d = rc \frac{n_c}{N}$
 - Loners: $P_l = σc$ (fixed)
 
