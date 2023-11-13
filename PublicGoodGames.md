@@ -82,3 +82,21 @@ Questions:
     - $\sigma$ is limited by the value of $r$ ( the interest rate on the common pool)
     - By limiting $\sigma$ to be less than $r-1$, the condition ensures that the fixed payoff for loners ($P_l = \sigma c$) is less than the total return from cooperation (represented with $rc$)
     - Helps loners to recieve a fixed but relatively smaller payoff compared to what cooperators can potentially get through cooperation.
+
+    ## The Equations of Motion
+    Payoff determines strategy growth rate in the evolutionary game theory. Players compare payoffs occassionally, adopting strategies based on positive differences.
+
+    Continuous time model for strategy frequency evolution: $\dot{x}_{i}=\sum_{j} x_{i} x_{j}\left(P_{i}-P_{j}\right)$  
+    Reduces to replicator equation: $\dot{x}_{i}=x_{i}\left(P_{i}-\bar{P}\right)$, where $\bar{P}=\sum x_{j} P_{j}$
+
+    Cost of cooperation (c) set to 1.   
+    Payoffs: $P_{l}=\sigma$, $P_{c}$ and $P_{d}$ derived based on cooperation and defection probabilities.
+
+    Advantage over cooperators depends on loner fraction (z).
+    Sign of $P_{d}-P_{c}$ determines cooperation vs. defection switch
+
+    $F(z)=P_{d}-P_{c}$ used to find roots   
+    For $r \leqslant 2$, no root; for $r > 2$, one root $\hat{z}$ in $(0,1)$
+
+    Average payoff ($\bar{P}$) expressed using loner frequency ($z$)
+    Equation: $\bar{P}=\sigma-[(1-z) \sigma-(r-1) x]\left(1-z^{N-1}\right)$
