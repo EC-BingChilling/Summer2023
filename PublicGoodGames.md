@@ -83,20 +83,27 @@ Questions:
     - By limiting $\sigma$ to be less than $r-1$, the condition ensures that the fixed payoff for loners ($P_l = \sigma c$) is less than the total return from cooperation (represented with $rc$)
     - Helps loners to recieve a fixed but relatively smaller payoff compared to what cooperators can potentially get through cooperation.
 
-    ## The Equations of Motion
-    Payoff determines strategy growth rate in the evolutionary game theory. Players compare payoffs occassionally, adopting strategies based on positive differences.
+## The Equations of Motion
+Payoff determines strategy growth rate in the evolutionary game theory. Players compare payoffs occassionally, adopting strategies based on positive differences.
 
-    Continuous time model for strategy frequency evolution: $\dot{x}_{i}=\sum_{j} x_{i} x_{j}\left(P_{i}-P_{j}\right)$  
-    Reduces to replicator equation: $\dot{x}_{i}=x_{i}\left(P_{i}-\bar{P}\right)$, where $\bar{P}=\sum x_{j} P_{j}$
+Continuous time model for strategy frequency evolution: $\dot{x}_{i}=\sum_{j} x_{i} x_{j}\left(P_{i}-P_{j}\right)$  
 
-    Cost of cooperation (c) set to 1.   
-    Payoffs: $P_{l}=\sigma$, $P_{c}$ and $P_{d}$ derived based on cooperation and defection probabilities.
+- **$\dot{x}_{i}$** is rate of change of the frequency of strategy $i$ with respect to time
+- **$\sum_{j}$** sum over all possible strategies, where $j$ represents each of the strategies in the population
+- **$x_{i}$ and $x_{j}$** frequencies of strategies $i$ and $j$ in the population and denote the proportions of individuals using each strategy
+- **$\left(P_{i}-P_{j}\right)$** strategy $i$ and strategy $j$ difference, represents how well $i$ is doing compared to $j$ in terms of payoffs
+- Therefore, the equation is saying that the rate of change of the frequency and strategy $i$ is proportional to the sum of the products of the frequecy $i$ and the frequency of each other strategy $j$ multiplied by a difference in payoffs between $i$ and $i$.
 
-    Advantage over cooperators depends on loner fraction (z).
-    Sign of $P_{d}-P_{c}$ determines cooperation vs. defection switch
+Reduces to replicator equation: $\dot{x}_{i}=x_{i}\left(P_{i}-\bar{P}\right)$, where $\bar{P}=\sum x_{j} P_{j}$
 
-    $F(z)=P_{d}-P_{c}$ used to find roots   
-    For $r \leqslant 2$, no root; for $r > 2$, one root $\hat{z}$ in $(0,1)$
+Cost of cooperation (c) set to 1.   
+Payoffs: $P_{l}=\sigma$, $P_{c}$ and $P_{d}$ derived based on cooperation and defection probabilities.
 
-    Average payoff ($\bar{P}$) expressed using loner frequency ($z$)
-    Equation: $\bar{P}=\sigma-[(1-z) \sigma-(r-1) x]\left(1-z^{N-1}\right)$
+Advantage over cooperators depends on loner fraction (z).
+Sign of $P_{d}-P_{c}$ determines cooperation vs. defection switch
+
+$F(z)=P_{d}-P_{c}$ used to find roots   
+For $r \leqslant 2$, no root; for $r > 2$, one root $\hat{z}$ in $(0,1)$
+
+Average payoff ($\bar{P}$) expressed using loner frequency ($z$)
+Equation: $\bar{P}=\sigma-[(1-z) \sigma-(r-1) x]\left(1-z^{N-1}\right)$
