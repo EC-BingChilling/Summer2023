@@ -95,6 +95,11 @@ Continuous time model for strategy frequency evolution: $\dot{x}_{i}=\sum_{j} x_
 - Therefore, the equation is saying that the rate of change of the frequency and strategy $i$ is proportional to the sum of the products of the frequecy $i$ and the frequency of each other strategy $j$ multiplied by a difference in payoffs between $i$ and $i$.
 
 Reduces to replicator equation: $\dot{x}_{i}=x_{i}\left(P_{i}-\bar{P}\right)$, where $\bar{P}=\sum x_{j} P_{j}$
+- $\dot{x}_{i}$ is the rate of change the frequncy of strategy $i$ changes time, aka how fast the proportions of individuals using strategy $i$ is changing
+- $x_{i}$ is the current proportion of individuals using strategy $i$ in the population, representing the fraction of the population employing strategy $i$ at a given moment
+- $\left(P_{i}-\bar{P}\right)$ represents the difference between the payoff strategy $i$ ($P_{i}$) and the average payoff of the entire population ($\bar{P}$)
+
+The replicator equation captures how the frequency of a strategy changes over time based on the difference in payoffs.
 
 Cost of cooperation (c) set to 1.   
 Payoffs: $P_{l}=\sigma$, $P_{c}$ and $P_{d}$ derived based on cooperation and defection probabilities.
