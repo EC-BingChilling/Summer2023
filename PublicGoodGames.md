@@ -103,6 +103,8 @@ The replicator equation captures how the frequency of a strategy changes over ti
 
 Cost of cooperation (c) set to 1.   
 Payoffs: $P_{l}=\sigma$, $P_{c}$ and $P_{d}$ derived based on cooperation and defection probabilities.
+- loner payoff $P_{l}$ , given by  $\sigma$
+- Defector $P_{d}$ payoff equation:
 
 Advantage over cooperators depends on loner fraction (z).
 Sign of $P_{d}-P_{c}$ determines cooperation vs. defection switch
