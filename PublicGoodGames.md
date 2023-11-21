@@ -107,10 +107,12 @@ Payoffs: $P_{l}=\sigma$, $P_{c}$ and $P_{d}$ derived based on cooperation and de
 - Defector $P_{d}$ payoff equation:
 
 Advantage over cooperators depends on loner fraction (z).
-Sign of $P_{d}-P_{c}$ determines cooperation vs. defection switch
+Sign of $P_{d}-P_{c}$ determines cooperation vs. defection switch, which one is more advantagous
 
 $F(z)=P_{d}-P_{c}$ used to find roots   
-For $r \leqslant 2$, no root; for $r > 2$, one root $\hat{z}$ in $(0,1)$
+- finding its roots (values of $z$ where $F(z)=0$) is essential for understanding equilibrium conditions
+
+For $r \leqslant 2$, no root; for $r > 2$, one root $\hat{z}$ in $(0,1)$ that represents a specific loner fraction at which cooperators and defectors are in equilibrium
 
 Average payoff ($\bar{P}$) expressed using loner frequency ($z$)
 Equation: $\bar{P}=\sigma-[(1-z) \sigma-(r-1) x]\left(1-z^{N-1}\right)$
