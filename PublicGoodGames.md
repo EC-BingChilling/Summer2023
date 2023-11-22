@@ -116,3 +116,16 @@ For $r \leqslant 2$, no root; for $r > 2$, one root $\hat{z}$ in $(0,1)$ that re
 
 Average payoff ($\bar{P}$) expressed using loner frequency ($z$)
 Equation: $\bar{P}=\sigma-[(1-z) \sigma-(r-1) x]\left(1-z^{N-1}\right)$
+
+## The Dynamics
+
+![Figure 1 Simplex](TheDynamicsSimplex1.jpg)
+
+Figure 1:
+- Simplex $S_{3}$ represents strategies defined by proportions of cooperators ($x$), defectors ($y$), and loners ($z$), subject to the constraint $x + y + z = 1$. 
+- The function $F(z)$ represents the difference between the payoffs of cooperators ($P_c$) and defectors ($P_d$)
+- horizontal axis represents the fraction of loners $(z)$ and the vertical axis represents the payoff difference $(F(z))$.
+- when nearly everyone participates ($z \rightarrow 0$), $F(z) > 0$, indicates an incentive to defect
+- for interest rates $r > 2$, as the proportion of loners ($z$) increases, $F(z) < 0$, signaling an advantage for cooperation and a resolution of the dilema
+
+Figure 1 : the relationship between the fraction of loners, the payoff difference between cooperators and defectors, and how these dynamics impact the strategies in a public goods game
