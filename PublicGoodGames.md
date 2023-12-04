@@ -129,3 +129,7 @@ Figure 1:
 - for interest rates $r > 2$, as the proportion of loners ($z$) increases, $F(z) < 0$, signaling an advantage for cooperation and a resolution of the dilema
 
 Figure 1 : the relationship between the fraction of loners, the payoff difference between cooperators and defectors, and how these dynamics impact the strategies in a public goods game
+
+Figure 2
+Seems to illustrate a rock-paper-scissors type cycle.
+It seems like there is an absense of stable cooperation
