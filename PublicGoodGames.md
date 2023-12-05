@@ -130,6 +130,8 @@ Figure 1:
 
 Figure 1 : the relationship between the fraction of loners, the payoff difference between cooperators and defectors, and how these dynamics impact the strategies in a public goods game
 
+![Figure 2 Simplex](TheDynamicsSimplex2.jpg)
+
 Figure 2
 Seems to illustrate a rock-paper-scissors type cycle.
 It seems like there is an absense of stable cooperation
