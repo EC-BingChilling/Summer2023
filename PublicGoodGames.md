@@ -145,3 +145,7 @@ It seems like there is an absense of stable cooperation since there is no fixed 
 ![Figure 3 Simplex](TheDynamicsSimplex3.jpg)
 
 Figure 3 uses the concept of Hamiltonian system to analyze the game's dynamics. Identify a point $\mathbf{Q}$ that is the center showing that it is neutrally stable. The orbiting paths inside the system are closed loops and shows how things change in the triangle with certain conditions. 
+
+![Figure 4 Simplex](TheDynamicsSimplex4.jpg)
+
+The figure shows how $\mathbf{Q}$ moves inside the triangle based on different factors, showing that changing the number of players, interest rates, and other factors can shift this central point and influence the game dynamics. 
