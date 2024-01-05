@@ -138,4 +138,6 @@ It seems like there is an absense of stable cooperation since there is no fixed 
 - $\mathbf{e}{c}$ is the fixed point on $S{3}$ where everyone cooperates
 - $\mathbf{e}{d}$ is the fixed point on $S{3}$ where everyone defects
 - $\mathbf{e}{l}$ is the fixed point on $S{3}$ where everyone decides to be loners and not participate in the group game
+
 , contributing to intermittent bursts of cooperation without establishing a stable cooperative equilibrium.
+- cooperation, non-cooperation and non-participation each takes turns in being more successful, forming a cyclic pattern
