@@ -153,3 +153,24 @@ The figure shows how $\mathbf{Q}$ moves inside the triangle based on different f
 ![Figure 5 Simplex](TheDynamicsSimplex5.jpg)
 
 Figure 5 shows a case where cooperation becomes more stable, there is a line of points where cooperation is stable and the system tends to stay cooperative. The random changes and the appearance of a strategy where people don't participate occasionally leads the system to cooperate more often. 
+
+## Discussion
+When does cooperation happen?
+- Public goods games don't always lead to a social dilema
+- If a small group decides to cooperate, it becomes more advantageous for others to join in
+- The choice of avoiding the game breaks the social dilema but can lead to fluctuations between the breakdowns of each choice\
+
+The model
+- its a rare model since it's one of teh few models where we can fully analyze a complex system using math
+- the dynamics change over time for small and large interest rates
+
+Impact of Interest rate
+- Higher interest rates is better for people to not cooperate, and reduces the number of people who cooperate vs those who don't
+- To make cooperation more likely it's better to increase rewards for people who don't join or decrease the group size
+
+Impact of Group Size
+- Smaller groups tend to have more cooperation, which is what we see in real life situations
+
+Choice of being able to Opt out
+- Being able to avoid the game helps prevent situations where everyone loses
+- Success in the game needs to offer something significant for people to participate
