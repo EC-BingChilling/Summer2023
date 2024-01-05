@@ -134,4 +134,8 @@ Figure 1 : the relationship between the fraction of loners, the payoff differenc
 
 Figure 2
 Seems to illustrate a rock-paper-scissors type cycle.
-It seems like there is an absense of stable cooperation
+It seems like there is an absense of stable cooperation since there is no fixed point inside of $S_{3}$ The corners $\mathbf{e}{c}$, $\mathbf{e}{d}$, and $\mathbf{e}_{l}$ are:
+- $\mathbf{e}{c}$ is the fixed point on $S{3}$ where everyone cooperates
+- $\mathbf{e}{d}$ is the fixed point on $S{3}$ where everyone defects
+- $\mathbf{e}{l}$ is the fixed point on $S{3}$ where everyone decides to be loners and not participate in the group game
+, contributing to intermittent bursts of cooperation without establishing a stable cooperative equilibrium.
