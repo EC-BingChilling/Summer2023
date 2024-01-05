@@ -149,3 +149,7 @@ Figure 3 uses the concept of Hamiltonian system to analyze the game's dynamics. 
 ![Figure 4 Simplex](TheDynamicsSimplex4.jpg)
 
 The figure shows how $\mathbf{Q}$ moves inside the triangle based on different factors, showing that changing the number of players, interest rates, and other factors can shift this central point and influence the game dynamics. 
+
+![Figure 5 Simplex](TheDynamicsSimplex5.jpg)
+
+Figure 5 shows a case where cooperation becomes more stable, there is a line of points where cooperation is stable and the system tends to stay cooperative. The random changes and the appearance of a strategy where people don't participate occasionally leads the system to cooperate more often. 
