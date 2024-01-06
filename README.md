@@ -5,5 +5,7 @@
 
 [Public Good Games](PublicGoodGames.md)
 
+[Public Goods Game Extra](PublicGood.md)
+
 ### Exercises
 ##### [Chapter 6 Exercises](chapter6exercises.md)  
