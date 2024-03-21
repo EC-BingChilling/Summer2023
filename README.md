@@ -1,5 +1,6 @@
 # Table of Contents
 [Chapter 6 Games](chapter6.md)  
+test
 
 [Chapter 7 Evolutionary Game Theory](chapter7.md)
 
