@@ -10,14 +10,6 @@ import matplotlib.pyplot as plt
 N = 5
 SIGMA = 0.5
 
-<<<<<<< HEAD
-"""
-# Function to calculate replicator dynamics
-def replicator_dynamics(x, pi, avg_payoff):
-    return x * (pi - avg_payoff)
-"""
-    
-=======
 # Function to calculate replicator dynamics
 def replicator_dynamics(x, pi, avg_payoff):
     """
@@ -25,7 +17,6 @@ def replicator_dynamics(x, pi, avg_payoff):
     """
     return x * (pi - avg_payoff)
 
->>>>>>> 1278931fa19e5e06f03784170ad193a577b530d4
 def f(z, r):
     """Returns the difference P_d - P_c
 
