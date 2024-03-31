@@ -134,4 +134,43 @@ Figure 1 : the relationship between the fraction of loners, the payoff differenc
 
 Figure 2
 Seems to illustrate a rock-paper-scissors type cycle.
-It seems like there is an absense of stable cooperation
+It seems like there is an absense of stable cooperation since there is no fixed point inside of $S_{3}$ The corners $\mathbf{e}{c}$, $\mathbf{e}{d}$, and $\mathbf{e}_{l}$ are:
+- $\mathbf{e}{c}$ is the fixed point on $S{3}$ where everyone cooperates
+- $\mathbf{e}{d}$ is the fixed point on $S{3}$ where everyone defects
+- $\mathbf{e}{l}$ is the fixed point on $S{3}$ where everyone decides to be loners and not participate in the group game
+
+, contributing to intermittent bursts of cooperation without establishing a stable cooperative equilibrium.
+- cooperation, non-cooperation and non-participation each takes turns in being more successful, forming a cyclic pattern
+
+![Figure 3 Simplex](TheDynamicsSimplex3.jpg)
+
+Figure 3 uses the concept of Hamiltonian system to analyze the game's dynamics. Identify a point $\mathbf{Q}$ that is the center showing that it is neutrally stable. The orbiting paths inside the system are closed loops and shows how things change in the triangle with certain conditions. 
+
+![Figure 4 Simplex](TheDynamicsSimplex4.jpg)
+
+The figure shows how $\mathbf{Q}$ moves inside the triangle based on different factors, showing that changing the number of players, interest rates, and other factors can shift this central point and influence the game dynamics. 
+
+![Figure 5 Simplex](TheDynamicsSimplex5.jpg)
+
+Figure 5 shows a case where cooperation becomes more stable, there is a line of points where cooperation is stable and the system tends to stay cooperative. The random changes and the appearance of a strategy where people don't participate occasionally leads the system to cooperate more often. 
+
+## Discussion
+When does cooperation happen?
+- Public goods games don't always lead to a social dilema
+- If a small group decides to cooperate, it becomes more advantageous for others to join in
+- The choice of avoiding the game breaks the social dilema but can lead to fluctuations between the breakdowns of each choice\
+
+The model
+- its a rare model since it's one of teh few models where we can fully analyze a complex system using math
+- the dynamics change over time for small and large interest rates
+
+Impact of Interest rate
+- Higher interest rates is better for people to not cooperate, and reduces the number of people who cooperate vs those who don't
+- To make cooperation more likely it's better to increase rewards for people who don't join or decrease the group size
+
+Impact of Group Size
+- Smaller groups tend to have more cooperation, which is what we see in real life situations
+
+Choice of being able to Opt out
+- Being able to avoid the game helps prevent situations where everyone loses
+- Success in the game needs to offer something significant for people to participate

@@ -147,13 +147,21 @@ def z_dot(x, y, z, n, r, sigma) -> float:
 
 
 # Initialize values
+<<<<<<< HEAD
 x = 1 / 2
+=======
+x = 1 / 4
+>>>>>>> 1278931fa19e5e06f03784170ad193a577b530d4
 y = 1 / 4
 z = 1 - (x + y)
 delta_t = 0.001
 
 # Perform iterations to simulate dynamics
+<<<<<<< HEAD
 iterations = 200000
+=======
+iterations = 10000
+>>>>>>> 1278931fa19e5e06f03784170ad193a577b530d4
 x_values = [x]
 y_values = [y]
 z_values = [z]
@@ -164,7 +172,11 @@ for _ in range(iterations):
     z += z_dot_val * delta_t
     new_f = f(x, y) + f_dot_val * delta_t
     x = new_f * (1 - z)
+<<<<<<< HEAD
     y = 1 - (x + z)
+=======
+    y = 1 - (y + z)
+>>>>>>> 1278931fa19e5e06f03784170ad193a577b530d4
 
     x_values.append(x)
     y_values.append(y)
