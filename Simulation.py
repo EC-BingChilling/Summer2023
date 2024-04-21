@@ -21,6 +21,25 @@ if __name__ == "__main__":
     initial_population = 1000
     players = []
 
+    #cooperator
     for i in range(int(initial_population*.5)):
         temp = Player()
-        players.append(temp.Cooperator())
+        temp.Cooperator()
+        players.append(temp)
+
+    #defectors
+    for i in range(int(initial_population*.25)):
+        temp = Player()
+        temp.Defector()
+        players.append(temp)
+    
+    #loners
+    for i in range(int(initial_population*.25)):
+        temp = Player()
+        temp.Loner()
+        players.append(temp)
+
+    for _ in players:
+        print(_.type)
+
+    
