@@ -1,4 +1,15 @@
+import random
+import testing
+
+R = 1.8 #rate
+C = 1 #contribution for cooperators
+SIGMA = 0.3 #payoff for loners
+KAPPA = 0.1
+
+
 class Player:
+    #1 is for coop, 2 for def, 3 for loner, use numbers to easily compare type and change in future 
+
     def __init__(self):
         pass
 
@@ -15,31 +26,57 @@ class Player:
         self.payoff = 0
 
 
+def sim(rounds, players, n): 
+    total_payoff = 0
+    for i in range(rounds):
+        for _ in players:
+            if _.type == 1:     #if contributer they contriubte 1
+                total_payoff += C
+                _.payoff += (R * ((n*C) / (n))-1)  #formular for payoff
+
+            if _.type == 2:
+                _.payoff += (R * ((n*C) / n))
+        
+            if _.type == 3:
+                _.payoff += SIGMA
+
+def compare(player1, player2):
+    #1/(1+np.e**(lmbda*KAPPA))  if that over a threshhold change type
+    pass
+
+
 if __name__ == "__main__":
 
     #determine how many in study
-    initial_population = 1000
+    population = 1000
     players = []
 
     #cooperator
-    for i in range(int(initial_population*.5)):
+    for i in range(int(population*.5)):
         temp = Player()
         temp.Cooperator()
         players.append(temp)
 
     #defectors
-    for i in range(int(initial_population*.25)):
+    for i in range(int(population*.25)):
         temp = Player()
         temp.Defector()
         players.append(temp)
     
     #loners
-    for i in range(int(initial_population*.25)):
+    for i in range(int(population*.25)):
         temp = Player()
         temp.Loner()
         players.append(temp)
 
     for _ in players:
         print(_.type)
+
+    #playing num roundsto alter payoffs
+    rounds = 100
+    sim(rounds, players, population)
+
+    #shuffle list of players
+    random.shuffle(players)
 
     
