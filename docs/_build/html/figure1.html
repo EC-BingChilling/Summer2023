@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" data-content_root="./">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>figure1 module &mdash; Game Theory 1.0.0 documentation</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=80d5e7a1" />
+      <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=19f00094" />
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script src="_static/documentation_options.js?v=8d563738"></script>
+        <script src="_static/doctools.js?v=9a2dae69"></script>
+        <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="figure2 module" href="figure2.html" />
+    <link rel="prev" title="Simulation module" href="Simulation.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Game Theory
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">Summer2023</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Simulation.html">Simulation module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">figure1 module</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#figure1.average_payoff"><code class="docutils literal notranslate"><span class="pre">average_payoff()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#figure1.f"><code class="docutils literal notranslate"><span class="pre">f()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#figure1.replicator_dynamics"><code class="docutils literal notranslate"><span class="pre">replicator_dynamics()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="figure2.html">figure2 module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="history.html">history module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tempCodeRunnerFile.html">tempCodeRunnerFile module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="testing.html">testing module</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Game Theory</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="modules.html">Summer2023</a></li>
+      <li class="breadcrumb-item active">figure1 module</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/figure1.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="module-figure1">
+<span id="figure1-module"></span><h1>figure1 module<a class="headerlink" href="#module-figure1" title="Link to this heading"></a></h1>
+<p>Graphs based on Replicator Dynamics paper</p>
+<p>N is the number of players</p>
+<dl class="py function">
+<dt class="sig sig-object py" id="figure1.average_payoff">
+<span class="sig-prename descclassname"><span class="pre">figure1.</span></span><span class="sig-name descname"><span class="pre">average_payoff</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">z</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sigma</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/figure1.html#average_payoff"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#figure1.average_payoff" title="Link to this definition"></a></dt>
+<dd><p>Computes the expected payoff for the population</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>z (Numpy array): fraction of loners
+r (float): rate of interest between 1 and N
+sigma (float): fixed payoff for loners</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="figure1.f">
+<span class="sig-prename descclassname"><span class="pre">figure1.</span></span><span class="sig-name descname"><span class="pre">f</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">z</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">r</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/figure1.html#f"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#figure1.f" title="Link to this definition"></a></dt>
+<dd><p>Returns the difference P_d - P_c</p>
+<p>P_d = payoff for defector
+P_c = payoff for cooperator</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>z (Numpy array): fraction of loners
+r (float): rate of interest between 1 and N</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="figure1.replicator_dynamics">
+<span class="sig-prename descclassname"><span class="pre">figure1.</span></span><span class="sig-name descname"><span class="pre">replicator_dynamics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">x</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">pi</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">avg_payoff</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/figure1.html#replicator_dynamics"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#figure1.replicator_dynamics" title="Link to this definition"></a></dt>
+<dd></dd></dl>
+
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="Simulation.html" class="btn btn-neutral float-left" title="Simulation module" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="figure2.html" class="btn btn-neutral float-right" title="figure2 module" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2024, Owen Ryan and Eva Chen.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
