@@ -1,5 +1,5 @@
 import random
-import testing
+#import testing
 
 R = 1.8 #rate
 C = 1 #contribution for cooperators
@@ -26,7 +26,14 @@ class Player:
         self.payoff = 0
 
 
-def sim(rounds, players, n): 
+def sim(rounds, players, n):
+    """runs a simulation of the game and updates payoffs for each players
+
+    Args:
+        rounds (int): number of times to run simulation
+        players (array): list of contributer, loners, defectors aka players in game
+        n (int): total num of players in game 
+    """
     total_payoff = 0
     for i in range(rounds):
         for _ in players:
@@ -38,9 +45,10 @@ def sim(rounds, players, n):
                 _.payoff += (R * ((n*C) / n))
         
             if _.type == 3:
-                _.payoff += SIGMA
+                _.payoff += SIGMA   #set payoff given
 
 def compare(player1, player2):
+    #confused how to involve this formula below
     #1/(1+np.e**(lmbda*KAPPA))  if that over a threshhold change type
     pass
 
@@ -72,9 +80,8 @@ if __name__ == "__main__":
     for _ in players:
         print(_.type)
 
-    #playing num roundsto alter payoffs
-    rounds = 100
-    sim(rounds, players, population)
+    #playing num rounds to alter payoffs
+    sim(100, players, population)
 
     #shuffle list of players
     random.shuffle(players)
