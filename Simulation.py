@@ -1,11 +1,10 @@
 import random
-#import testing
+import testing as logi 
 
 R = 1.8 #rate
 C = 1 #contribution for cooperators
 SIGMA = 0.3 #payoff for loners
-KAPPA = 0.1
-
+KAPPA = 0.1 #changes the curvature in logistic funtion 
 
 class Player:
     #1 is for coop, 2 for def, 3 for loner, use numbers to easily compare type and change in future 
@@ -24,7 +23,6 @@ class Player:
     def Loner(self):
         self.type = 3
         self.payoff = 0
-
 
 def sim(rounds, players, n):
     """runs a simulation of the game and updates payoffs for each players
@@ -48,10 +46,42 @@ def sim(rounds, players, n):
                 _.payoff += SIGMA   #set payoff given
 
 def compare(player1, player2):
-    #confused how to involve this formula below
-    #1/(1+np.e**(lmbda*KAPPA))  if that over a threshhold change type
-    pass
+    """find difference in payoff, then find the percentage they change based on logistic func
 
+    Args:
+        player1 (Player): player of the class structure Player
+        player2 (Player): player of the class structure Player
+    """
+    temp = player1.payoff - player2.payoff 
+    percent_of_change =  logi.logistic(temp)
+
+    if percent_of_change <= random.random():
+        player1.type = player2.type
+
+def count(players):
+    """shows the total number of players of each type (cooperator, defector, loner)
+
+    Args:
+        players (list): list of players from Player class
+
+    Returns:
+        int: returns count of each type 
+    """
+    #set baselines for each type
+    count1 = 0
+    count2 = 0
+    count3 = 0
+
+    #alter baselines based on each player type
+    for player in players:
+        if player.type == 1:
+            count1 += 1
+        elif player.type == 2:
+            count2 += 1
+        else:
+            count3 += 1
+
+    return (count1, count2, count3)
 
 if __name__ == "__main__":
 
@@ -77,13 +107,16 @@ if __name__ == "__main__":
         temp.Loner()
         players.append(temp)
 
-    for _ in players:
-        print(_.type)
-
     #playing num rounds to alter payoffs
     sim(100, players, population)
 
-    #shuffle list of players
-    random.shuffle(players)
+    #show nums of each type
+    print(count(players))
 
-    
+    #shuffle list of players and compare players to change type
+    random.shuffle(players)
+    for i in range(1,10,2):
+        compare(players[i], players[i+1])
+
+    #show change
+    print(count(players))
