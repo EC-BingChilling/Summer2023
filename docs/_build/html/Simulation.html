@@ -55,6 +55,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#Simulation.compare"><code class="docutils literal notranslate"><span class="pre">compare()</span></code></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#Simulation.count"><code class="docutils literal notranslate"><span class="pre">count()</span></code></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#Simulation.sim"><code class="docutils literal notranslate"><span class="pre">sim()</span></code></a></li>
 </ul>
 </li>
@@ -118,7 +119,25 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="Simulation.compare">
 <span class="sig-prename descclassname"><span class="pre">Simulation.</span></span><span class="sig-name descname"><span class="pre">compare</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">player1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">player2</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Simulation.html#compare"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#Simulation.compare" title="Link to this definition"></a></dt>
-<dd></dd></dl>
+<dd><p>find difference in payoff, then find the percentage they change based on logistic func</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>player1 (Player): player of the class structure Player
+player2 (Player): player of the class structure Player</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="Simulation.count">
+<span class="sig-prename descclassname"><span class="pre">Simulation.</span></span><span class="sig-name descname"><span class="pre">count</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">players</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/Simulation.html#count"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#Simulation.count" title="Link to this definition"></a></dt>
+<dd><p>shows the total number of players of each type (cooperator, defector, loner)</p>
+<dl class="simple">
+<dt>Args:</dt><dd><p>players (list): list of players from Player class</p>
+</dd>
+<dt>Returns:</dt><dd><p>int: returns count of each type</p>
+</dd>
+</dl>
+</dd></dl>
 
 <dl class="py function">
 <dt class="sig sig-object py" id="Simulation.sim">

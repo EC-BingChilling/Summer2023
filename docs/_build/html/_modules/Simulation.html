@@ -72,13 +72,12 @@
              
   <h1>Source code for Simulation</h1><div class="highlight"><pre>
 <span></span><span class="kn">import</span> <span class="nn">random</span>
-<span class="c1">#import testing</span>
+<span class="kn">import</span> <span class="nn">testing</span> <span class="k">as</span> <span class="nn">logi</span> 
 
 <span class="n">R</span> <span class="o">=</span> <span class="mf">1.8</span> <span class="c1">#rate</span>
 <span class="n">C</span> <span class="o">=</span> <span class="mi">1</span> <span class="c1">#contribution for cooperators</span>
 <span class="n">SIGMA</span> <span class="o">=</span> <span class="mf">0.3</span> <span class="c1">#payoff for loners</span>
-<span class="n">KAPPA</span> <span class="o">=</span> <span class="mf">0.1</span>
-
+<span class="n">KAPPA</span> <span class="o">=</span> <span class="mf">0.1</span> <span class="c1">#changes the curvature in logistic funtion </span>
 
 <div class="viewcode-block" id="Player">
 <a class="viewcode-back" href="../Simulation.html#Simulation.Player">[docs]</a>
@@ -110,7 +109,6 @@
 </div>
 
 
-
 <div class="viewcode-block" id="sim">
 <a class="viewcode-back" href="../Simulation.html#Simulation.sim">[docs]</a>
 <span class="k">def</span> <span class="nf">sim</span><span class="p">(</span><span class="n">rounds</span><span class="p">,</span> <span class="n">players</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
@@ -138,10 +136,45 @@
 <div class="viewcode-block" id="compare">
 <a class="viewcode-back" href="../Simulation.html#Simulation.compare">[docs]</a>
 <span class="k">def</span> <span class="nf">compare</span><span class="p">(</span><span class="n">player1</span><span class="p">,</span> <span class="n">player2</span><span class="p">):</span>
-    <span class="c1">#confused how to involve this formula below</span>
-    <span class="c1">#1/(1+np.e**(lmbda*KAPPA))  if that over a threshhold change type</span>
-    <span class="k">pass</span></div>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;find difference in payoff, then find the percentage they change based on logistic func</span>
 
+<span class="sd">    Args:</span>
+<span class="sd">        player1 (Player): player of the class structure Player</span>
+<span class="sd">        player2 (Player): player of the class structure Player</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">temp</span> <span class="o">=</span> <span class="n">player1</span><span class="o">.</span><span class="n">payoff</span> <span class="o">-</span> <span class="n">player2</span><span class="o">.</span><span class="n">payoff</span> 
+    <span class="n">percent_of_change</span> <span class="o">=</span>  <span class="n">logi</span><span class="o">.</span><span class="n">logistic</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">percent_of_change</span> <span class="o">&lt;=</span> <span class="n">random</span><span class="o">.</span><span class="n">random</span><span class="p">():</span>
+        <span class="n">player1</span><span class="o">.</span><span class="n">type</span> <span class="o">=</span> <span class="n">player2</span><span class="o">.</span><span class="n">type</span></div>
+
+
+<div class="viewcode-block" id="count">
+<a class="viewcode-back" href="../Simulation.html#Simulation.count">[docs]</a>
+<span class="k">def</span> <span class="nf">count</span><span class="p">(</span><span class="n">players</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;shows the total number of players of each type (cooperator, defector, loner)</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        players (list): list of players from Player class</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        int: returns count of each type </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="c1">#set baselines for each type</span>
+    <span class="n">count1</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">count2</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">count3</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="c1">#alter baselines based on each player type</span>
+    <span class="k">for</span> <span class="n">player</span> <span class="ow">in</span> <span class="n">players</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">player</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">count1</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">player</span><span class="o">.</span><span class="n">type</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">count2</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">count3</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="k">return</span> <span class="p">(</span><span class="n">count1</span><span class="p">,</span> <span class="n">count2</span><span class="p">,</span> <span class="n">count3</span><span class="p">)</span></div>
 
 
 <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s2">&quot;__main__&quot;</span><span class="p">:</span>
@@ -168,16 +201,19 @@
         <span class="n">temp</span><span class="o">.</span><span class="n">Loner</span><span class="p">()</span>
         <span class="n">players</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">temp</span><span class="p">)</span>
 
-    <span class="k">for</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">players</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="n">_</span><span class="o">.</span><span class="n">type</span><span class="p">)</span>
-
     <span class="c1">#playing num rounds to alter payoffs</span>
     <span class="n">sim</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="n">players</span><span class="p">,</span> <span class="n">population</span><span class="p">)</span>
 
-    <span class="c1">#shuffle list of players</span>
-    <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">players</span><span class="p">)</span>
+    <span class="c1">#show nums of each type</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">count</span><span class="p">(</span><span class="n">players</span><span class="p">))</span>
 
-    
+    <span class="c1">#shuffle list of players and compare players to change type</span>
+    <span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">players</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">):</span>
+        <span class="n">compare</span><span class="p">(</span><span class="n">players</span><span class="p">[</span><span class="n">i</span><span class="p">],</span> <span class="n">players</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+
+    <span class="c1">#show change</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">count</span><span class="p">(</span><span class="n">players</span><span class="p">))</span>
 </pre></div>
 
            </div>
