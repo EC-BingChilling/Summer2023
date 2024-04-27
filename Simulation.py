@@ -108,8 +108,7 @@ if __name__ == "__main__":
         temp.Loner()
         players.append(temp)
 
-
-    """for i in range(100):
+    """for i in range(30):
 
         #show nums of each type
         print(count(players))
@@ -120,9 +119,10 @@ if __name__ == "__main__":
         #shuffle list of players and compare players to change type
         random.shuffle(players)
         for i in range(1,10,2):
-            compare(players[i], players[i+1])"""
+            compare(players[i], players[i+1])
    
-    # Define the vertices of the triangle
+    # Define the vertices of the triangle"""
+
     vertices = np.array([[0, 0], [1, 0], [0.5, np.sqrt(3)/2], [0, 0]])
 
 
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
 
     points = []
-    for i in range(35):
+    for i in range(1000):
         sim(100, players, population)
 
 
@@ -149,11 +149,10 @@ if __name__ == "__main__":
 
         counts = count(players)
 
-
         percentages = [counts[0]/population, counts[1]/population, counts[2]/population]
 
 
-        point_position = vertices[0] * percentages[0] + vertices[1] * percentages[1] + vertices[2] * percentages[2]
+        point_position = vertices[0] * percentages[0] + vertices[1] * percentages[2] + vertices[2] * percentages[1]
         points.append(point_position)
 
 
