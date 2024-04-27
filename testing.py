@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 KAPPA = 0.1
 
 def logistic(lmbda):
-    return 1/(1+np.e**(lmbda*KAPPA))
+    return 1 / (1 + np.exp(lmbda * KAPPA)) #trying this to resolve too large error 
+    #return 1/(1+np.e**(lmbda*KAPPA))
 
 def main():
     x = np.arange(-100, 100, 0.5)

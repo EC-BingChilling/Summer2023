@@ -1,10 +1,11 @@
 import random
-import testing as logi 
+import matplotlib.pyplot as plt
+import numpy as np
+import testing as logi
 
 R = 1.8 #rate
 C = 1 #contribution for cooperators
 SIGMA = 0.3 #payoff for loners
-KAPPA = 0.1 #changes the curvature in logistic funtion 
 
 class Player:
     #1 is for coop, 2 for def, 3 for loner, use numbers to easily compare type and change in future 
@@ -65,7 +66,7 @@ def count(players):
         players (list): list of players from Player class
 
     Returns:
-        int: returns count of each type 
+        list: each count of type of player [c,d,l]
     """
     #set baselines for each type
     count1 = 0
@@ -80,8 +81,8 @@ def count(players):
             count2 += 1
         else:
             count3 += 1
-
-    return (count1, count2, count3)
+    list = [count1, count2, count3]
+    return list
 
 if __name__ == "__main__":
 
@@ -107,16 +108,59 @@ if __name__ == "__main__":
         temp.Loner()
         players.append(temp)
 
-    #playing num rounds to alter payoffs
-    sim(100, players, population)
 
-    #show nums of each type
-    print(count(players))
+    """for i in range(100):
 
-    #shuffle list of players and compare players to change type
-    random.shuffle(players)
-    for i in range(1,10,2):
-        compare(players[i], players[i+1])
+        #show nums of each type
+        print(count(players))
 
-    #show change
-    print(count(players))
+        #playing num rounds to alter payoffs
+        sim(100, players, population)
+
+        #shuffle list of players and compare players to change type
+        random.shuffle(players)
+        for i in range(1,10,2):
+            compare(players[i], players[i+1])"""
+   
+    # Define the vertices of the triangle
+    vertices = np.array([[0, 0], [1, 0], [0.5, np.sqrt(3)/2], [0, 0]])
+
+
+    # Plot the triangle
+    plt.figure(figsize=(8, 6))
+    plt.plot([0, 1, 0.5, 0], [0, 0, np.sqrt(3)/2, 0], 'k-')  # Plot lines connecting the vertices
+
+
+    #labbeling the corners
+    plt.text(0, 0, r'Cooperators', fontsize=12, verticalalignment='top')
+    plt.text(1, 0, r'Loners', fontsize=12, verticalalignment='top')
+    plt.text(0.5, np.sqrt(3)/2, r'Defectors', fontsize=12, verticalalignment='bottom')
+
+
+    points = []
+    for i in range(35):
+        sim(100, players, population)
+
+
+        random.shuffle(players)
+        for i in range(1,10,2):
+            compare(players[i], players[i+1])
+
+
+        counts = count(players)
+
+
+        percentages = [counts[0]/population, counts[1]/population, counts[2]/population]
+
+
+        point_position = vertices[0] * percentages[0] + vertices[1] * percentages[1] + vertices[2] * percentages[2]
+        points.append(point_position)
+
+
+    points = np.array(points)
+    plt.plot(points[:,0], points[:,1], 'r-', linewidth=2)
+
+
+    plt.title('Simulation')
+    plt.grid(True)
+    plt.show()
