@@ -1,69 +1,56 @@
+"""
+Graphs based on Replicator Dynamics paper
+
+N is the number of players
+
+"""
 import numpy as np
 import matplotlib.pyplot as plt
-import math
-from figure1 import f_dot
-f_dot_val = f_dot(contributor.probability, defector.probability, loner.probability, N, R)
-
-
-class Contributor:
-    def __init__(self, initial_probability):
-        self.probability = initial_probability
-    
-    def update_probability(self, f_dot, z_dot, n, r, sigma, delta_t):
-        f = self.probability / (1 - sigma + self.probability * (r - 1))
-        f_new = f + f_dot * delta_t
-        self.probability = f_new * (1 - self.probability - z_dot * delta_t)
-        
-
-class Loner:
-    def __init__(self, initial_probability):
-        self.probability = initial_probability
-    
-    def update_probability(self, z_dot, delta_t):
-        self.probability += z_dot * delta_t
-
-class Defector:
-    def __init__(self, initial_probability):
-        self.probability = initial_probability
-    
-    def update_probability(self, f_dot, delta_t):
-        f = self.probability / (1 - self.probability)
-        f_new = f + f_dot * delta_t
-        self.probability = f_new / (1 + f_new)
 
 N = 5
 SIGMA = 0.5
-R = 1.8
-delta_t = 0.001
-iterations = 200000
 
-contributor = Contributor(0.5)
-loner = Loner(0.25)
-defector = Defector(0.25)
-
-contributor_probs = [contributor.probability]
-loner_probs = [loner.probability]
-defector_probs = [defector.probability]
-
-for _ in range(iterations):
-    f_dot_val = f_dot(contributor.probability, defector.probability, loner.probability, N, R)
-    z_dot_val = z_dot(contributor.probability, defector.probability, loner.probability, N, R, SIGMA)
+# Function to calculate replicator dynamics
+def replicator_dynamics(x, pi, avg_payoff):
+    """
     
-    contributor.update_probability(f_dot_val, z_dot_val, N, R, SIGMA, delta_t)
-    loner.update_probability(z_dot_val, delta_t)
-    defector.update_probability(f_dot_val, delta_t)
-    
-    contributor_probs.append(contributor.probability)
-    loner_probs.append(loner.probability)
-    defector_probs.append(defector.probability)
+    """
+    return x * (pi - avg_payoff)
 
-time_steps = np.arange(iterations + 1)
-plt.plot(time_steps, contributor_probs, label='Contributors')
-plt.plot(time_steps, defector_probs, label='Defectors')
-plt.plot(time_steps, loner_probs, label='Loners')
-plt.title('Replicator Dynamics Simulation')
-plt.xlabel('Time Steps')
-plt.ylabel('Probability')
+def f(z, r):
+    """Returns the difference P_d - P_c
+
+    P_d = payoff for defector
+    P_c = payoff for cooperator
+
+    Args:
+        z (Numpy array): fraction of loners
+        r (float): rate of interest between 1 and N
+    """
+    temp = (1-z**N)/(1-z)
+    return 1 + (r - 1)*z**(N-1) - r*temp/N
+
+def average_payoff(z, r, sigma):
+    """
+    Computes the expected payoff for the population
+
+    Args:
+        z (Numpy array): fraction of loners
+        r (float): rate of interest between 1 and N
+        sigma (float): fixed payoff for loners
+    """
+    return sigma - ((1 - z) * sigma - (r - 1) * z) * (1 - z**(N - 1))
+
+# Plotting
+plt.figure(figsize=(8, 6))
+z_values = np.linspace(0, 1, 200)
+
+plt.plot(z_values, f(z_values, r=2.5), label="r > 2")
+plt.plot(z_values, f(z_values, r=2.0), label="r = 2")
+plt.plot(z_values, f(z_values, r=1.5), label="r < 2")
+
+plt.xlabel('z')
+plt.ylabel('F(z)')
+plt.title('Variation of P_d - P_c with z')
 plt.legend()
-plt.grid(True)
 plt.show()
